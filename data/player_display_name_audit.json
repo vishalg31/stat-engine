@@ -1,0 +1,5399 @@
+[
+  {
+    "playerId": "1c2a64cd",
+    "displayName": "A Ashish Reddy",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "A Ashish Reddy"
+  },
+  {
+    "playerId": "872b03f7",
+    "displayName": "A Badoni",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "A Badoni"
+  },
+  {
+    "playerId": "99b202b3",
+    "displayName": "A Chandila",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "A Chandila"
+  },
+  {
+    "playerId": "e249fdaa",
+    "displayName": "A Chopra",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "A Chopra"
+  },
+  {
+    "playerId": "18e6906e",
+    "displayName": "A Choudhary",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "A Choudhary"
+  },
+  {
+    "playerId": "5b16a806",
+    "displayName": "A Dananjaya",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "A Dananjaya"
+  },
+  {
+    "playerId": "ddc0828d",
+    "displayName": "A Flintoff",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "A Flintoff"
+  },
+  {
+    "playerId": "fcc21ace",
+    "displayName": "A Kamboj",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "A Kamboj"
+  },
+  {
+    "playerId": "0c2730df",
+    "displayName": "A Kumble",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "A Kumble"
+  },
+  {
+    "playerId": "0890552f",
+    "displayName": "A Manohar",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "A Manohar"
+  },
+  {
+    "playerId": "66cf56a5",
+    "displayName": "A Mithun",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "A Mithun"
+  },
+  {
+    "playerId": "6165bca6",
+    "displayName": "A Mukund",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "A Mukund"
+  },
+  {
+    "playerId": "96fd40ae",
+    "displayName": "A Nehra",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "A Nehra"
+  },
+  {
+    "playerId": "2503e881",
+    "displayName": "A Nel",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "A Nel"
+  },
+  {
+    "playerId": "d7017798",
+    "displayName": "A Raghuvanshi",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "A Raghuvanshi"
+  },
+  {
+    "playerId": "5b040b81",
+    "displayName": "A Singh",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "A Singh"
+  },
+  {
+    "playerId": "bd77eb62",
+    "displayName": "A Symonds",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "A Symonds"
+  },
+  {
+    "playerId": "aa5d8c9e",
+    "displayName": "A Tomar",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "A Tomar"
+  },
+  {
+    "playerId": "fdcb08c2",
+    "displayName": "A Uniyal",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "A Uniyal"
+  },
+  {
+    "playerId": "14f96089",
+    "displayName": "A Zampa",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "A Zampa"
+  },
+  {
+    "playerId": "bff458c6",
+    "displayName": "AA Bilakhia",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AA Bilakhia"
+  },
+  {
+    "playerId": "29d72eb2",
+    "displayName": "AA Chavan",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AA Chavan"
+  },
+  {
+    "playerId": "2815fe50",
+    "displayName": "AA Jhunjhunwala",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AA Jhunjhunwala"
+  },
+  {
+    "playerId": "16605a1b",
+    "displayName": "AA Kazi",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AA Kazi"
+  },
+  {
+    "playerId": "2d140b79",
+    "displayName": "AA Kulkarni",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AA Kulkarni"
+  },
+  {
+    "playerId": "b69e69ed",
+    "displayName": "AA Noffke",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AA Noffke"
+  },
+  {
+    "playerId": "fa463154",
+    "displayName": "AB Agarkar",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AB Agarkar"
+  },
+  {
+    "playerId": "d3a3e82d",
+    "displayName": "AB Barath",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AB Barath"
+  },
+  {
+    "playerId": "c4487b84",
+    "displayName": "AB de Villiers",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AB de Villiers"
+  },
+  {
+    "playerId": "66b30f71",
+    "displayName": "AB Dinda",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AB Dinda"
+  },
+  {
+    "playerId": "16043342",
+    "displayName": "AB McDonald",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AB McDonald"
+  },
+  {
+    "playerId": "1efb8a28",
+    "displayName": "AC Blizzard",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AC Blizzard"
+  },
+  {
+    "playerId": "2b6e6dec",
+    "displayName": "AC Gilchrist",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AC Gilchrist"
+  },
+  {
+    "playerId": "b552a935",
+    "displayName": "AC Thomas",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AC Thomas"
+  },
+  {
+    "playerId": "864c199e",
+    "displayName": "AC Voges",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AC Voges"
+  },
+  {
+    "playerId": "92aeac25",
+    "displayName": "AD Hales",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AD Hales"
+  },
+  {
+    "playerId": "3edb58fc",
+    "displayName": "AD Mascarenhas",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AD Mascarenhas"
+  },
+  {
+    "playerId": "896d78ad",
+    "displayName": "AD Mathews",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AD Mathews"
+  },
+  {
+    "playerId": "f10e94c4",
+    "displayName": "AD Nath",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AD Nath"
+  },
+  {
+    "playerId": "350bb1b1",
+    "displayName": "AF Milne",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AF Milne"
+  },
+  {
+    "playerId": "ef5da05c",
+    "displayName": "AG Murtaza",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AG Murtaza"
+  },
+  {
+    "playerId": "3a02626a",
+    "displayName": "AG Paunikar",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AG Paunikar"
+  },
+  {
+    "playerId": "b8d490fd",
+    "displayName": "AJ Finch",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AJ Finch"
+  },
+  {
+    "playerId": "4d7f517e",
+    "displayName": "AJ Hosein",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AJ Hosein"
+  },
+  {
+    "playerId": "ff1e12a0",
+    "displayName": "AJ Turner",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AJ Turner"
+  },
+  {
+    "playerId": "6a26221c",
+    "displayName": "AK Markram",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AK Markram"
+  },
+  {
+    "playerId": "8291f939",
+    "displayName": "AL Menaria",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AL Menaria"
+  },
+  {
+    "playerId": "a45a5e8d",
+    "displayName": "AM Nayar",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AM Nayar"
+  },
+  {
+    "playerId": "29e95537",
+    "displayName": "AM Rahane",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AM Rahane"
+  },
+  {
+    "playerId": "260fd380",
+    "displayName": "AM Salvi",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AM Salvi"
+  },
+  {
+    "playerId": "2af1b6d2",
+    "displayName": "AN Ahmed",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AN Ahmed"
+  },
+  {
+    "playerId": "7023d182",
+    "displayName": "AN Ghosh",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AN Ghosh"
+  },
+  {
+    "playerId": "dbc50253",
+    "displayName": "AP Dole",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AP Dole"
+  },
+  {
+    "playerId": "f4cb4f53",
+    "displayName": "AP Majumdar",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AP Majumdar"
+  },
+  {
+    "playerId": "855a210c",
+    "displayName": "AP Tare",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AP Tare"
+  },
+  {
+    "playerId": "afe3355a",
+    "displayName": "AR Bawne",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AR Bawne"
+  },
+  {
+    "playerId": "2e171977",
+    "displayName": "AR Patel",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AR Patel"
+  },
+  {
+    "playerId": "b0946605",
+    "displayName": "AS Joseph",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AS Joseph"
+  },
+  {
+    "playerId": "db31895a",
+    "displayName": "AS Rajpoot",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AS Rajpoot"
+  },
+  {
+    "playerId": "c69a7b5c",
+    "displayName": "AS Raut",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AS Raut"
+  },
+  {
+    "playerId": "e4cdf230",
+    "displayName": "AS Roy",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AS Roy"
+  },
+  {
+    "playerId": "b9be6507",
+    "displayName": "AS Yadav",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AS Yadav"
+  },
+  {
+    "playerId": "69d03465",
+    "displayName": "AT Carey",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AT Carey"
+  },
+  {
+    "playerId": "70d205c9",
+    "displayName": "AT Rayudu",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AT Rayudu"
+  },
+  {
+    "playerId": "249d60c9",
+    "displayName": "AU Rashid",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AU Rashid"
+  },
+  {
+    "playerId": "3ae3f034",
+    "displayName": "AUK Pathan",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "AUK Pathan"
+  },
+  {
+    "playerId": "af7dadf7",
+    "displayName": "B Akhil",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "B Akhil"
+  },
+  {
+    "playerId": "5451a2c1",
+    "displayName": "B Chipli",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "B Chipli"
+  },
+  {
+    "playerId": "50758325",
+    "displayName": "B Geeves",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "B Geeves"
+  },
+  {
+    "playerId": "ff1e68fa",
+    "displayName": "B Indrajith",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "B Indrajith"
+  },
+  {
+    "playerId": "b2a79f17",
+    "displayName": "B Laughlin",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "B Laughlin"
+  },
+  {
+    "playerId": "dd09ff8e",
+    "displayName": "B Lee",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "B Lee"
+  },
+  {
+    "playerId": "d5130a30",
+    "displayName": "B Sai Sudharsan",
+    "overrideValue": "B Sai Sudharsan",
+    "looksAbbreviated": "yes",
+    "knownNames": "B Sai Sudharsan"
+  },
+  {
+    "playerId": "6834d1f2",
+    "displayName": "B Stanlake",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "B Stanlake"
+  },
+  {
+    "playerId": "f4f0fafd",
+    "displayName": "B Sumanth",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "B Sumanth"
+  },
+  {
+    "playerId": "dc4686e6",
+    "displayName": "BA Bhatt",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "BA Bhatt"
+  },
+  {
+    "playerId": "e087956b",
+    "displayName": "BA Stokes",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "BA Stokes"
+  },
+  {
+    "playerId": "ea0cdc12",
+    "displayName": "BAW Mendis",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "BAW Mendis"
+  },
+  {
+    "playerId": "b8a55852",
+    "displayName": "BB McCullum",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "BB McCullum"
+  },
+  {
+    "playerId": "53f27a35",
+    "displayName": "BB Samantray",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "BB Samantray"
+  },
+  {
+    "playerId": "d8b2f218",
+    "displayName": "BB Sran",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "BB Sran"
+  },
+  {
+    "playerId": "2e11c706",
+    "displayName": "BCJ Cutting",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "BCJ Cutting"
+  },
+  {
+    "playerId": "b56dc5f7",
+    "displayName": "BE Hendricks",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "BE Hendricks"
+  },
+  {
+    "playerId": "b0c772ee",
+    "displayName": "BJ Haddin",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "BJ Haddin"
+  },
+  {
+    "playerId": "b57f8a9a",
+    "displayName": "BJ Hodge",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "BJ Hodge"
+  },
+  {
+    "playerId": "27af6414",
+    "displayName": "BJ Rohrer",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "BJ Rohrer"
+  },
+  {
+    "playerId": "5d1e7582",
+    "displayName": "BKG Mendis",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "BKG Mendis"
+  },
+  {
+    "playerId": "9868bc75",
+    "displayName": "BMAJ Mendis",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "BMAJ Mendis"
+  },
+  {
+    "playerId": "272d796e",
+    "displayName": "BR Dunk",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "BR Dunk"
+  },
+  {
+    "playerId": "c2dd89ea",
+    "displayName": "BR Sharath",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "BR Sharath"
+  },
+  {
+    "playerId": "f3171936",
+    "displayName": "BW Hilfenhaus",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "BW Hilfenhaus"
+  },
+  {
+    "playerId": "172dff15",
+    "displayName": "C Bosch",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "C Bosch"
+  },
+  {
+    "playerId": "94d7f855",
+    "displayName": "C de Grandhomme",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "C de Grandhomme"
+  },
+  {
+    "playerId": "798934ea",
+    "displayName": "C Ganapathy",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "C Ganapathy"
+  },
+  {
+    "playerId": "2eeb4370",
+    "displayName": "C Madan",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "C Madan"
+  },
+  {
+    "playerId": "af2c687b",
+    "displayName": "C Munro",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "C Munro"
+  },
+  {
+    "playerId": "f24ca2ba",
+    "displayName": "C Nanda",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "C Nanda"
+  },
+  {
+    "playerId": "2cdce1be",
+    "displayName": "C Sakariya",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "C Sakariya"
+  },
+  {
+    "playerId": "c995d726",
+    "displayName": "CA Ingram",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "CA Ingram"
+  },
+  {
+    "playerId": "45eda7c8",
+    "displayName": "CA Lynn",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "CA Lynn"
+  },
+  {
+    "playerId": "d4f9dbd4",
+    "displayName": "CA Pujara",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "CA Pujara"
+  },
+  {
+    "playerId": "db584dad",
+    "displayName": "CH Gayle",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "CH Gayle"
+  },
+  {
+    "playerId": "8abdf100",
+    "displayName": "CJ Anderson",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "CJ Anderson"
+  },
+  {
+    "playerId": "1cb14aa4",
+    "displayName": "CJ Dala",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "CJ Dala"
+  },
+  {
+    "playerId": "9b4935c8",
+    "displayName": "CJ Ferguson",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "CJ Ferguson"
+  },
+  {
+    "playerId": "19b9f399",
+    "displayName": "CJ Green",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "CJ Green"
+  },
+  {
+    "playerId": "ffe699c0",
+    "displayName": "CJ Jordan",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "CJ Jordan"
+  },
+  {
+    "playerId": "94eac556",
+    "displayName": "CJ McKay",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "CJ McKay"
+  },
+  {
+    "playerId": "cfad138c",
+    "displayName": "CK Kapugedera",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "CK Kapugedera"
+  },
+  {
+    "playerId": "d1c94b25",
+    "displayName": "CK Langeveldt",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "CK Langeveldt"
+  },
+  {
+    "playerId": "d0513f63",
+    "displayName": "CL White",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "CL White"
+  },
+  {
+    "playerId": "30a2649b",
+    "displayName": "CM Gautam",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "CM Gautam"
+  },
+  {
+    "playerId": "e342e5fb",
+    "displayName": "CR Brathwaite",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "CR Brathwaite"
+  },
+  {
+    "playerId": "4c5d73db",
+    "displayName": "CR Woakes",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "CR Woakes"
+  },
+  {
+    "playerId": "342d8ade",
+    "displayName": "CRD Fernando",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "CRD Fernando"
+  },
+  {
+    "playerId": "d7a57f75",
+    "displayName": "D du Preez",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "D du Preez"
+  },
+  {
+    "playerId": "f0af99a7",
+    "displayName": "D Ferreira",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "D Ferreira"
+  },
+  {
+    "playerId": "8dc152d1",
+    "displayName": "D Jansen",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "D Jansen"
+  },
+  {
+    "playerId": "94bc776b",
+    "displayName": "D Kalyankrishna",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "D Kalyankrishna"
+  },
+  {
+    "playerId": "2c25d4f5",
+    "displayName": "D Padikkal",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "D Padikkal"
+  },
+  {
+    "playerId": "11614d87",
+    "displayName": "D Pretorius",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "D Pretorius"
+  },
+  {
+    "playerId": "0264c10e",
+    "displayName": "D Salunkhe",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "D Salunkhe"
+  },
+  {
+    "playerId": "aa8d28ae",
+    "displayName": "D Wiese",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "D Wiese"
+  },
+  {
+    "playerId": "d67d5f00",
+    "displayName": "DA Miller",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DA Miller"
+  },
+  {
+    "playerId": "dcce6f09",
+    "displayName": "DA Warner",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DA Warner"
+  },
+  {
+    "playerId": "2e9fdf9b",
+    "displayName": "DAJ Bracewell",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DAJ Bracewell"
+  },
+  {
+    "playerId": "7050a1e7",
+    "displayName": "DB Das",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DB Das"
+  },
+  {
+    "playerId": "b720a5d6",
+    "displayName": "DB Ravi Teja",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DB Ravi Teja"
+  },
+  {
+    "playerId": "45c2196c",
+    "displayName": "DE Bollinger",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DE Bollinger"
+  },
+  {
+    "playerId": "cd8d2859",
+    "displayName": "DG Nalkande",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DG Nalkande"
+  },
+  {
+    "playerId": "063b3673",
+    "displayName": "DH Yagnik",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DH Yagnik"
+  },
+  {
+    "playerId": "87e562a9",
+    "displayName": "DJ Bravo",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DJ Bravo"
+  },
+  {
+    "playerId": "39f82db3",
+    "displayName": "DJ Harris",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DJ Harris"
+  },
+  {
+    "playerId": "73ad96ed",
+    "displayName": "DJ Hooda",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DJ Hooda"
+  },
+  {
+    "playerId": "fd835ab3",
+    "displayName": "DJ Hussey",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DJ Hussey"
+  },
+  {
+    "playerId": "a84468fe",
+    "displayName": "DJ Jacobs",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DJ Jacobs"
+  },
+  {
+    "playerId": "ad9c32a2",
+    "displayName": "DJ Malan",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DJ Malan"
+  },
+  {
+    "playerId": "eade4650",
+    "displayName": "DJ Mitchell",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DJ Mitchell"
+  },
+  {
+    "playerId": "2c76b512",
+    "displayName": "DJ Muthuswami",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DJ Muthuswami"
+  },
+  {
+    "playerId": "7d3937ed",
+    "displayName": "DJ Thornely",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DJ Thornely"
+  },
+  {
+    "playerId": "7f048519",
+    "displayName": "DJ Willey",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DJ Willey"
+  },
+  {
+    "playerId": "c03c6200",
+    "displayName": "DJG Sammy",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DJG Sammy"
+  },
+  {
+    "playerId": "1a156c88",
+    "displayName": "DJM Short",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DJM Short"
+  },
+  {
+    "playerId": "d7c6af50",
+    "displayName": "DL Vettori",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DL Vettori"
+  },
+  {
+    "playerId": "14b14cd8",
+    "displayName": "DM Bravo",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DM Bravo"
+  },
+  {
+    "playerId": "e0351c86",
+    "displayName": "DNT Zoysa",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DNT Zoysa"
+  },
+  {
+    "playerId": "c404f58a",
+    "displayName": "DP Nannes",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DP Nannes"
+  },
+  {
+    "playerId": "acd4f5dc",
+    "displayName": "DP Vijaykumar",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DP Vijaykumar"
+  },
+  {
+    "playerId": "d18f9182",
+    "displayName": "DPMD Jayawardene",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DPMD Jayawardene"
+  },
+  {
+    "playerId": "69762509",
+    "displayName": "DR Martyn",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DR Martyn"
+  },
+  {
+    "playerId": "caf69bf7",
+    "displayName": "DR Sams",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DR Sams"
+  },
+  {
+    "playerId": "faa7365d",
+    "displayName": "DR Shorey",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DR Shorey"
+  },
+  {
+    "playerId": "35205dfc",
+    "displayName": "DR Smith",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DR Smith"
+  },
+  {
+    "playerId": "d2a989fc",
+    "displayName": "DS Kulkarni",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DS Kulkarni"
+  },
+  {
+    "playerId": "53fe6ee4",
+    "displayName": "DS Lehmann",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DS Lehmann"
+  },
+  {
+    "playerId": "13fc5c6d",
+    "displayName": "DS Rathi",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DS Rathi"
+  },
+  {
+    "playerId": "2a2e6343",
+    "displayName": "DT Christian",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DT Christian"
+  },
+  {
+    "playerId": "f48cf4da",
+    "displayName": "DT Patil",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DT Patil"
+  },
+  {
+    "playerId": "8fd1a8f5",
+    "displayName": "DW Steyn",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "DW Steyn"
+  },
+  {
+    "playerId": "0ebfb1ad",
+    "displayName": "E Lewis",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "E Lewis"
+  },
+  {
+    "playerId": "5750bcb4",
+    "displayName": "E Malinga",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "E Malinga"
+  },
+  {
+    "playerId": "d2a6c0e6",
+    "displayName": "EJG Morgan",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "EJG Morgan"
+  },
+  {
+    "playerId": "b274dbbd",
+    "displayName": "ER Dwivedi",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "ER Dwivedi"
+  },
+  {
+    "playerId": "dce2019b",
+    "displayName": "F Behardien",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "F Behardien"
+  },
+  {
+    "playerId": "b52ffbbd",
+    "displayName": "FA Allen",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "FA Allen"
+  },
+  {
+    "playerId": "a7c226e1",
+    "displayName": "FH Edwards",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "FH Edwards"
+  },
+  {
+    "playerId": "c15e2193",
+    "displayName": "FY Fazal",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "FY Fazal"
+  },
+  {
+    "playerId": "3204c99f",
+    "displayName": "G Coetzee",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "G Coetzee"
+  },
+  {
+    "playerId": "bb345e0b",
+    "displayName": "G Gambhir",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "G Gambhir"
+  },
+  {
+    "playerId": "f708a0bc",
+    "displayName": "GB Hogg",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "GB Hogg"
+  },
+  {
+    "playerId": "72861603",
+    "displayName": "GC Smith",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "GC Smith"
+  },
+  {
+    "playerId": "a316d663",
+    "displayName": "GC Viljoen",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "GC Viljoen"
+  },
+  {
+    "playerId": "ee7d0c82",
+    "displayName": "GD McGrath",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "GD McGrath"
+  },
+  {
+    "playerId": "9a46c4e5",
+    "displayName": "GD Phillips",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "GD Phillips"
+  },
+  {
+    "playerId": "94253925",
+    "displayName": "GH Vihari",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "GH Vihari"
+  },
+  {
+    "playerId": "be869ccf",
+    "displayName": "GHS Garton",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "GHS Garton"
+  },
+  {
+    "playerId": "5056011d",
+    "displayName": "GJ Bailey",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "GJ Bailey"
+  },
+  {
+    "playerId": "611926bc",
+    "displayName": "GR Napier",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "GR Napier"
+  },
+  {
+    "playerId": "1558d83b",
+    "displayName": "GS Sandhu",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "GS Sandhu"
+  },
+  {
+    "playerId": "0ed0cdbf",
+    "displayName": "H Das",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "H Das"
+  },
+  {
+    "playerId": "52294a79",
+    "displayName": "H Sharma",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "H Sharma"
+  },
+  {
+    "playerId": "4ae1755b",
+    "displayName": "HC Brook",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "HC Brook"
+  },
+  {
+    "playerId": "9948e262",
+    "displayName": "HE van der Dussen",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "HE van der Dussen"
+  },
+  {
+    "playerId": "e412cb64",
+    "displayName": "HF Gurney",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "HF Gurney"
+  },
+  {
+    "playerId": "e1d1b294",
+    "displayName": "HH Gibbs",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "HH Gibbs"
+  },
+  {
+    "playerId": "dbe50b21",
+    "displayName": "HH Pandya",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "HH Pandya"
+  },
+  {
+    "playerId": "e798611a",
+    "displayName": "HM Amla",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "HM Amla"
+  },
+  {
+    "playerId": "0c9652b0",
+    "displayName": "HR Shokeen",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "HR Shokeen"
+  },
+  {
+    "playerId": "943fd425",
+    "displayName": "I Malhotra",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "I Malhotra"
+  },
+  {
+    "playerId": "5bb1a1c4",
+    "displayName": "I Sharma",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "I Sharma"
+  },
+  {
+    "playerId": "ac5ae4af",
+    "displayName": "I Udana",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "I Udana"
+  },
+  {
+    "playerId": "e0407c01",
+    "displayName": "IC Pandey",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "IC Pandey"
+  },
+  {
+    "playerId": "fdf7491e",
+    "displayName": "IC Porel",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "IC Porel"
+  },
+  {
+    "playerId": "5fa06777",
+    "displayName": "IK Pathan",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "IK Pathan"
+  },
+  {
+    "playerId": "dded65e7",
+    "displayName": "IR Jaggi",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "IR Jaggi"
+  },
+  {
+    "playerId": "641ac5ff",
+    "displayName": "IS Sodhi",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "IS Sodhi"
+  },
+  {
+    "playerId": "f663ef00",
+    "displayName": "J Arunkumar",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "J Arunkumar"
+  },
+  {
+    "playerId": "7c503806",
+    "displayName": "J Botha",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "J Botha"
+  },
+  {
+    "playerId": "9061a703",
+    "displayName": "J Little",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "J Little"
+  },
+  {
+    "playerId": "59559bc2",
+    "displayName": "J Overton",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "J Overton"
+  },
+  {
+    "playerId": "4125d931",
+    "displayName": "J Suchith",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "J Suchith"
+  },
+  {
+    "playerId": "c64c2443",
+    "displayName": "J Syed Mohammad",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "J Syed Mohammad"
+  },
+  {
+    "playerId": "dec8e038",
+    "displayName": "J Theron",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "J Theron"
+  },
+  {
+    "playerId": "81049310",
+    "displayName": "J Yadav",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "J Yadav"
+  },
+  {
+    "playerId": "c3d35165",
+    "displayName": "JA Morkel",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "JA Morkel"
+  },
+  {
+    "playerId": "1ee08e9a",
+    "displayName": "JA Richardson",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "JA Richardson"
+  },
+  {
+    "playerId": "249abedf",
+    "displayName": "Jalaj S Saxena",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "Jalaj S Saxena"
+  },
+  {
+    "playerId": "91ffa6c6",
+    "displayName": "JD Ryder",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "JD Ryder"
+  },
+  {
+    "playerId": "1e66c162",
+    "displayName": "JD Unadkat",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "JD Unadkat"
+  },
+  {
+    "playerId": "3eac9d95",
+    "displayName": "JDP Oram",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "JDP Oram"
+  },
+  {
+    "playerId": "9219eff0",
+    "displayName": "JDS Neesham",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "JDS Neesham"
+  },
+  {
+    "playerId": "a343262c",
+    "displayName": "JE Root",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "JE Root"
+  },
+  {
+    "playerId": "4180d897",
+    "displayName": "JE Taylor",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "JE Taylor"
+  },
+  {
+    "playerId": "cf73ad76",
+    "displayName": "JEC Franklin",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "JEC Franklin"
+  },
+  {
+    "playerId": "3c55c703",
+    "displayName": "JG Bethell",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "JG Bethell"
+  },
+  {
+    "playerId": "86dc8f2e",
+    "displayName": "JH Kallis",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "JH Kallis"
+  },
+  {
+    "playerId": "d1c36f5c",
+    "displayName": "JJ Roy",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "JJ Roy"
+  },
+  {
+    "playerId": "6821ac10",
+    "displayName": "JJ van der Wath",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "JJ van der Wath"
+  },
+  {
+    "playerId": "bdadf7da",
+    "displayName": "JL Denly",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "JL Denly"
+  },
+  {
+    "playerId": "f752db61",
+    "displayName": "JL Pattinson",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "JL Pattinson"
+  },
+  {
+    "playerId": "6581d753",
+    "displayName": "JM Kemp",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "JM Kemp"
+  },
+  {
+    "playerId": "4933f499",
+    "displayName": "JP Behrendorff",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "JP Behrendorff"
+  },
+  {
+    "playerId": "2e8994e7",
+    "displayName": "JP Duminy",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "JP Duminy"
+  },
+  {
+    "playerId": "808f425a",
+    "displayName": "JP Faulkner",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "JP Faulkner"
+  },
+  {
+    "playerId": "99ed60f8",
+    "displayName": "JPR Scantlebury-Searles",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "JPR Scantlebury-Searles"
+  },
+  {
+    "playerId": "2498e163",
+    "displayName": "JR Hopes",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "JR Hopes"
+  },
+  {
+    "playerId": "39086549",
+    "displayName": "JR Philippe",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "JR Philippe"
+  },
+  {
+    "playerId": "012829ff",
+    "displayName": "JW Hastings",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "JW Hastings"
+  },
+  {
+    "playerId": "a1f1829d",
+    "displayName": "K Goel",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "K Goel"
+  },
+  {
+    "playerId": "90de905a",
+    "displayName": "K Gowtham",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "K Gowtham"
+  },
+  {
+    "playerId": "f6d8a7ab",
+    "displayName": "K Kartikeya",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "K Kartikeya"
+  },
+  {
+    "playerId": "fa2f1dde",
+    "displayName": "K Khejroliya",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "K Khejroliya"
+  },
+  {
+    "playerId": "531f0278",
+    "displayName": "K Santokie",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "K Santokie"
+  },
+  {
+    "playerId": "27e71d47",
+    "displayName": "K Upadhyay",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "K Upadhyay"
+  },
+  {
+    "playerId": "030f3089",
+    "displayName": "K Yadav",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "K Yadav"
+  },
+  {
+    "playerId": "68c56d09",
+    "displayName": "KA Jamieson",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "KA Jamieson"
+  },
+  {
+    "playerId": "0b60eb09",
+    "displayName": "KA Maharaj",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "KA Maharaj"
+  },
+  {
+    "playerId": "a757b0d8",
+    "displayName": "KA Pollard",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "KA Pollard"
+  },
+  {
+    "playerId": "78eb4223",
+    "displayName": "KAJ Roach",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "KAJ Roach"
+  },
+  {
+    "playerId": "7daedf2f",
+    "displayName": "KB Arun Karthik",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "KB Arun Karthik"
+  },
+  {
+    "playerId": "edb3d4f8",
+    "displayName": "KC Cariappa",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "KC Cariappa"
+  },
+  {
+    "playerId": "6b71e6cf",
+    "displayName": "KC Sangakkara",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "KC Sangakkara"
+  },
+  {
+    "playerId": "62e07f92",
+    "displayName": "KH Devdhar",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "KH Devdhar"
+  },
+  {
+    "playerId": "a9da7784",
+    "displayName": "KJ Abbott",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "KJ Abbott"
+  },
+  {
+    "playerId": "557153ca",
+    "displayName": "KK Cooper",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "KK Cooper"
+  },
+  {
+    "playerId": "b4f5c2d9",
+    "displayName": "KL Nagarkoti",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "KL Nagarkoti"
+  },
+  {
+    "playerId": "b17e2f24",
+    "displayName": "KL Rahul",
+    "overrideValue": "KL Rahul",
+    "looksAbbreviated": "yes",
+    "knownNames": "KL Rahul"
+  },
+  {
+    "playerId": "798cc28e",
+    "displayName": "KM Asif",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "KM Asif"
+  },
+  {
+    "playerId": "99d63244",
+    "displayName": "KM Jadhav",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "KM Jadhav"
+  },
+  {
+    "playerId": "75224f22",
+    "displayName": "KMA Paul",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "KMA Paul"
+  },
+  {
+    "playerId": "469ea22b",
+    "displayName": "KMDN Kulasekara",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "KMDN Kulasekara"
+  },
+  {
+    "playerId": "d92e42f5",
+    "displayName": "KP Appanna",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "KP Appanna"
+  },
+  {
+    "playerId": "39f01cdb",
+    "displayName": "KP Pietersen",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "KP Pietersen"
+  },
+  {
+    "playerId": "73c18486",
+    "displayName": "KR Mayers",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "KR Mayers"
+  },
+  {
+    "playerId": "2e78f685",
+    "displayName": "KR Sen",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "KR Sen"
+  },
+  {
+    "playerId": "44a89551",
+    "displayName": "KS Bharat",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "KS Bharat"
+  },
+  {
+    "playerId": "e3851766",
+    "displayName": "KS Rathore",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "KS Rathore"
+  },
+  {
+    "playerId": "39ed0d2f",
+    "displayName": "KS Sharma",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "KS Sharma"
+  },
+  {
+    "playerId": "d027ba9f",
+    "displayName": "KS Williamson",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "KS Williamson"
+  },
+  {
+    "playerId": "107c26fb",
+    "displayName": "KT Maphaka",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "KT Maphaka"
+  },
+  {
+    "playerId": "119678fd",
+    "displayName": "KV Sharma",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "KV Sharma"
+  },
+  {
+    "playerId": "dfc4d8b5",
+    "displayName": "KW Richardson",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "KW Richardson"
+  },
+  {
+    "playerId": "8b9704ae",
+    "displayName": "L Ablish",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "L Ablish"
+  },
+  {
+    "playerId": "b2b50355",
+    "displayName": "L Balaji",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "L Balaji"
+  },
+  {
+    "playerId": "f834dcfc",
+    "displayName": "L Ngidi",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "L Ngidi"
+  },
+  {
+    "playerId": "0fa5042b",
+    "displayName": "L Ronchi",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "L Ronchi"
+  },
+  {
+    "playerId": "65b6943c",
+    "displayName": "L Wood",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "L Wood"
+  },
+  {
+    "playerId": "d872f52a",
+    "displayName": "LA Carseldine",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "LA Carseldine"
+  },
+  {
+    "playerId": "b63ab531",
+    "displayName": "LA Pomersbach",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "LA Pomersbach"
+  },
+  {
+    "playerId": "a1d95bd8",
+    "displayName": "LB Williams",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "LB Williams"
+  },
+  {
+    "playerId": "9a963804",
+    "displayName": "LE Plunkett",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "LE Plunkett"
+  },
+  {
+    "playerId": "d3611425",
+    "displayName": "LI Meriwala",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "LI Meriwala"
+  },
+  {
+    "playerId": "cca50cd6",
+    "displayName": "LJ Wright",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "LJ Wright"
+  },
+  {
+    "playerId": "89f64c19",
+    "displayName": "LMP Simmons",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "LMP Simmons"
+  },
+  {
+    "playerId": "1be70c88",
+    "displayName": "LPC Silva",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "LPC Silva"
+  },
+  {
+    "playerId": "b1451597",
+    "displayName": "LR Shukla",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "LR Shukla"
+  },
+  {
+    "playerId": "b61a3e1a",
+    "displayName": "LRPL Taylor",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "LRPL Taylor"
+  },
+  {
+    "playerId": "e2db2409",
+    "displayName": "M Ashwin",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "M Ashwin"
+  },
+  {
+    "playerId": "d4eef961",
+    "displayName": "M de Lange",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "M de Lange"
+  },
+  {
+    "playerId": "81c36ee9",
+    "displayName": "M Jansen",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "M Jansen"
+  },
+  {
+    "playerId": "d84378a4",
+    "displayName": "M Kaif",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "M Kaif"
+  },
+  {
+    "playerId": "abfeb126",
+    "displayName": "M Kartik",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "M Kartik"
+  },
+  {
+    "playerId": "b970a03f",
+    "displayName": "M Klinger",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "M Klinger"
+  },
+  {
+    "playerId": "c42aaf71",
+    "displayName": "M Manhas",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "M Manhas"
+  },
+  {
+    "playerId": "a9fd84fb",
+    "displayName": "M Markande",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "M Markande"
+  },
+  {
+    "playerId": "5bb5a915",
+    "displayName": "M Morkel",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "M Morkel"
+  },
+  {
+    "playerId": "4ba44e19",
+    "displayName": "M Muralitharan",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "M Muralitharan"
+  },
+  {
+    "playerId": "20a941bb",
+    "displayName": "M Ntini",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "M Ntini"
+  },
+  {
+    "playerId": "de8d3876",
+    "displayName": "M Rawat",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "M Rawat"
+  },
+  {
+    "playerId": "cf0ccafa",
+    "displayName": "M Siddharth",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "M Siddharth"
+  },
+  {
+    "playerId": "f24c6701",
+    "displayName": "M Theekshana",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "M Theekshana"
+  },
+  {
+    "playerId": "fb5f69e4",
+    "displayName": "M Tiwari",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "M Tiwari"
+  },
+  {
+    "playerId": "4b57e452",
+    "displayName": "M Vijay",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "M Vijay"
+  },
+  {
+    "playerId": "c03e2850",
+    "displayName": "M Vohra",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "M Vohra"
+  },
+  {
+    "playerId": "00ea847a",
+    "displayName": "MA Agarwal",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MA Agarwal"
+  },
+  {
+    "playerId": "0d232ffd",
+    "displayName": "MA Khote",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MA Khote"
+  },
+  {
+    "playerId": "3fb19989",
+    "displayName": "MA Starc",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MA Starc"
+  },
+  {
+    "playerId": "8d92a2c3",
+    "displayName": "MA Wood",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MA Wood"
+  },
+  {
+    "playerId": "86ae8ef2",
+    "displayName": "MB Parmar",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MB Parmar"
+  },
+  {
+    "playerId": "32198ae0",
+    "displayName": "MC Henriques",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MC Henriques"
+  },
+  {
+    "playerId": "605b7efa",
+    "displayName": "MC Juneja",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MC Juneja"
+  },
+  {
+    "playerId": "6afb26d6",
+    "displayName": "MD Mishra",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MD Mishra"
+  },
+  {
+    "playerId": "3ff033bb",
+    "displayName": "MD Shanaka",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MD Shanaka"
+  },
+  {
+    "playerId": "f21043a5",
+    "displayName": "MDKJ Perera",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MDKJ Perera"
+  },
+  {
+    "playerId": "48fd7349",
+    "displayName": "MEK Hussey",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MEK Hussey"
+  },
+  {
+    "playerId": "ab89348d",
+    "displayName": "MF Maharoof",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MF Maharoof"
+  },
+  {
+    "playerId": "e38bce7a",
+    "displayName": "MG Bracewell",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MG Bracewell"
+  },
+  {
+    "playerId": "f5180fe6",
+    "displayName": "MG Johnson",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MG Johnson"
+  },
+  {
+    "playerId": "0164b064",
+    "displayName": "MG Neser",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MG Neser"
+  },
+  {
+    "playerId": "f842c2cf",
+    "displayName": "MJ Clarke",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MJ Clarke"
+  },
+  {
+    "playerId": "2be41edb",
+    "displayName": "MJ Guptill",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MJ Guptill"
+  },
+  {
+    "playerId": "e84ac20c",
+    "displayName": "MJ Henry",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MJ Henry"
+  },
+  {
+    "playerId": "11df3dc8",
+    "displayName": "MJ Lumb",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MJ Lumb"
+  },
+  {
+    "playerId": "f2c936d7",
+    "displayName": "MJ Owen",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MJ Owen"
+  },
+  {
+    "playerId": "025c4400",
+    "displayName": "MJ Suthar",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MJ Suthar"
+  },
+  {
+    "playerId": "da934ee8",
+    "displayName": "MK Lomror",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MK Lomror"
+  },
+  {
+    "playerId": "93b4fc78",
+    "displayName": "MK Pandey",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MK Pandey"
+  },
+  {
+    "playerId": "26e5cabf",
+    "displayName": "MK Tiwary",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MK Tiwary"
+  },
+  {
+    "playerId": "d8699ab7",
+    "displayName": "ML Hayden",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "ML Hayden"
+  },
+  {
+    "playerId": "f0f628c7",
+    "displayName": "MM Patel",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MM Patel"
+  },
+  {
+    "playerId": "759ac88f",
+    "displayName": "MM Sharma",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MM Sharma"
+  },
+  {
+    "playerId": "f846de6a",
+    "displayName": "MN Samuels",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MN Samuels"
+  },
+  {
+    "playerId": "710dd98c",
+    "displayName": "MN van Wyk",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MN van Wyk"
+  },
+  {
+    "playerId": "35f173a0",
+    "displayName": "MP Breetzke",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MP Breetzke"
+  },
+  {
+    "playerId": "b1ad996b",
+    "displayName": "MP Yadav",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MP Yadav"
+  },
+  {
+    "playerId": "e96801ea",
+    "displayName": "MS Bhandage",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MS Bhandage"
+  },
+  {
+    "playerId": "5afd4539",
+    "displayName": "MS Bisla",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MS Bisla"
+  },
+  {
+    "playerId": "4a8a2e3b",
+    "displayName": "MS Dhoni",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MS Dhoni"
+  },
+  {
+    "playerId": "ae78bc32",
+    "displayName": "MS Gony",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MS Gony"
+  },
+  {
+    "playerId": "afa7e784",
+    "displayName": "MS Wade",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MS Wade"
+  },
+  {
+    "playerId": "f3cb53a1",
+    "displayName": "MV Boucher",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MV Boucher"
+  },
+  {
+    "playerId": "a90e53ec",
+    "displayName": "MW Short",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "MW Short"
+  },
+  {
+    "playerId": "465aa633",
+    "displayName": "N Burger",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "N Burger"
+  },
+  {
+    "playerId": "bd54eef5",
+    "displayName": "N Jagadeesan",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "N Jagadeesan"
+  },
+  {
+    "playerId": "addbde6c",
+    "displayName": "N Saini",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "N Saini"
+  },
+  {
+    "playerId": "ee1b6c27",
+    "displayName": "N Thushara",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "N Thushara"
+  },
+  {
+    "playerId": "b822e99c",
+    "displayName": "NB Singh",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "NB Singh"
+  },
+  {
+    "playerId": "6ec424a9",
+    "displayName": "ND Doshi",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "ND Doshi"
+  },
+  {
+    "playerId": "44afbf2d",
+    "displayName": "NJ Maddinson",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "NJ Maddinson"
+  },
+  {
+    "playerId": "6042bf26",
+    "displayName": "NJ Rimmington",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "NJ Rimmington"
+  },
+  {
+    "playerId": "a2870fb7",
+    "displayName": "NK Patel",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "NK Patel"
+  },
+  {
+    "playerId": "5673a3fc",
+    "displayName": "NL McCullum",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "NL McCullum"
+  },
+  {
+    "playerId": "0f12f9df",
+    "displayName": "NLTC Perera",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "NLTC Perera"
+  },
+  {
+    "playerId": "aedc3b7c",
+    "displayName": "NS Naik",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "NS Naik"
+  },
+  {
+    "playerId": "9eb1455b",
+    "displayName": "NT Ellis",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "NT Ellis"
+  },
+  {
+    "playerId": "890946a0",
+    "displayName": "NV Ojha",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "NV Ojha"
+  },
+  {
+    "playerId": "c6097d68",
+    "displayName": "O Thomas",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "O Thomas"
+  },
+  {
+    "playerId": "7bf96684",
+    "displayName": "OA Shah",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "OA Shah"
+  },
+  {
+    "playerId": "529eb9e0",
+    "displayName": "OC McCoy",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "OC McCoy"
+  },
+  {
+    "playerId": "23cca426",
+    "displayName": "OF Smith",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "OF Smith"
+  },
+  {
+    "playerId": "6ad3a659",
+    "displayName": "P Amarnath",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "P Amarnath"
+  },
+  {
+    "playerId": "1a0c3177",
+    "displayName": "P Awana",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "P Awana"
+  },
+  {
+    "playerId": "8ac93ca2",
+    "displayName": "P Chopra",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "P Chopra"
+  },
+  {
+    "playerId": "eaa90ab4",
+    "displayName": "P Dharmani",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "P Dharmani"
+  },
+  {
+    "playerId": "2728e7e9",
+    "displayName": "P Dogra",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "P Dogra"
+  },
+  {
+    "playerId": "ed5a5510",
+    "displayName": "P Dubey",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "P Dubey"
+  },
+  {
+    "playerId": "e938e1bc",
+    "displayName": "P Kumar",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "P Kumar"
+  },
+  {
+    "playerId": "f62772e5",
+    "displayName": "P Negi",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "P Negi"
+  },
+  {
+    "playerId": "0c432afb",
+    "displayName": "P Parameswaran",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "P Parameswaran"
+  },
+  {
+    "playerId": "ddb00822",
+    "displayName": "P Prasanth",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "P Prasanth"
+  },
+  {
+    "playerId": "441c72ae",
+    "displayName": "P Ray Barman",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "P Ray Barman"
+  },
+  {
+    "playerId": "9a0146b3",
+    "displayName": "P Sahu",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "P Sahu"
+  },
+  {
+    "playerId": "cedc1d9a",
+    "displayName": "P Suyal",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "P Suyal"
+  },
+  {
+    "playerId": "b5da6c24",
+    "displayName": "PA Patel",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "PA Patel"
+  },
+  {
+    "playerId": "2461eef2",
+    "displayName": "PA Reddy",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "PA Reddy"
+  },
+  {
+    "playerId": "6c882e9a",
+    "displayName": "PBB Rajapaksa",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "PBB Rajapaksa"
+  },
+  {
+    "playerId": "25eeb281",
+    "displayName": "PC Valthaty",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "PC Valthaty"
+  },
+  {
+    "playerId": "a386e91b",
+    "displayName": "PD Collingwood",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "PD Collingwood"
+  },
+  {
+    "playerId": "c695b423",
+    "displayName": "PH Solanki",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "PH Solanki"
+  },
+  {
+    "playerId": "08548b13",
+    "displayName": "PHKD Mendis",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "PHKD Mendis"
+  },
+  {
+    "playerId": "9fc0ef64",
+    "displayName": "PJ Sangwan",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "PJ Sangwan"
+  },
+  {
+    "playerId": "bb965e9a",
+    "displayName": "PK Garg",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "PK Garg"
+  },
+  {
+    "playerId": "4b4d1957",
+    "displayName": "PM Sarvesh Kumar",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "PM Sarvesh Kumar"
+  },
+  {
+    "playerId": "663b5e34",
+    "displayName": "PN Mankad",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "PN Mankad"
+  },
+  {
+    "playerId": "6c6591ab",
+    "displayName": "PP Ojha",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "PP Ojha"
+  },
+  {
+    "playerId": "0aadc906",
+    "displayName": "PR Shah",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "PR Shah"
+  },
+  {
+    "playerId": "ada15e88",
+    "displayName": "PSP Handscomb",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "PSP Handscomb"
+  },
+  {
+    "playerId": "6aed7e79",
+    "displayName": "PV Tambe",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "PV Tambe"
+  },
+  {
+    "playerId": "327b58d3",
+    "displayName": "PVD Chameera",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "PVD Chameera"
+  },
+  {
+    "playerId": "c27b5a0e",
+    "displayName": "PVSN Raju",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "PVSN Raju"
+  },
+  {
+    "playerId": "c96f6ac5",
+    "displayName": "PWA Mulder",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "PWA Mulder"
+  },
+  {
+    "playerId": "372455c4",
+    "displayName": "Q de Kock",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "Q de Kock"
+  },
+  {
+    "playerId": "495d42a5",
+    "displayName": "R Ashwin",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "R Ashwin"
+  },
+  {
+    "playerId": "33a364a6",
+    "displayName": "R Bhatia",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "R Bhatia"
+  },
+  {
+    "playerId": "4d5a1617",
+    "displayName": "R Bishnoi",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "R Bishnoi"
+  },
+  {
+    "playerId": "26a85969",
+    "displayName": "R Dhawan",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "R Dhawan"
+  },
+  {
+    "playerId": "0184dc35",
+    "displayName": "R Dravid",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "R Dravid"
+  },
+  {
+    "playerId": "266849c1",
+    "displayName": "R Goyal",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "R Goyal"
+  },
+  {
+    "playerId": "c654af19",
+    "displayName": "R McLaren",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "R McLaren"
+  },
+  {
+    "playerId": "bafd0398",
+    "displayName": "R Minz",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "R Minz"
+  },
+  {
+    "playerId": "ce4cc4d5",
+    "displayName": "R Ninan",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "R Ninan"
+  },
+  {
+    "playerId": "650d5e49",
+    "displayName": "R Powell",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "R Powell"
+  },
+  {
+    "playerId": "d68e7f48",
+    "displayName": "R Rampaul",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "R Rampaul"
+  },
+  {
+    "playerId": "ba5e1069",
+    "displayName": "R Ravindra",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "R Ravindra"
+  },
+  {
+    "playerId": "c7a995d3",
+    "displayName": "R Sai Kishore",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "R Sai Kishore"
+  },
+  {
+    "playerId": "33ffc3dd",
+    "displayName": "R Sanjay Yadav",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "R Sanjay Yadav"
+  },
+  {
+    "playerId": "626c5379",
+    "displayName": "R Sathish",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "R Sathish"
+  },
+  {
+    "playerId": "5d9a1a73",
+    "displayName": "R Sharma",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "R Sharma"
+  },
+  {
+    "playerId": "c5aef772",
+    "displayName": "R Shepherd",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "R Shepherd"
+  },
+  {
+    "playerId": "de4b0555",
+    "displayName": "R Shukla",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "R Shukla"
+  },
+  {
+    "playerId": "39a2dfa8",
+    "displayName": "R Tewatia",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "R Tewatia"
+  },
+  {
+    "playerId": "41eb4a4f",
+    "displayName": "R Vinay Kumar",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "R Vinay Kumar"
+  },
+  {
+    "playerId": "ba6b2f91",
+    "displayName": "RA Bawa",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "RA Bawa"
+  },
+  {
+    "playerId": "fe93fd9d",
+    "displayName": "RA Jadeja",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "RA Jadeja"
+  },
+  {
+    "playerId": "7c390b03",
+    "displayName": "RA Shaikh",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "RA Shaikh"
+  },
+  {
+    "playerId": "77255a9e",
+    "displayName": "RA Tripathi",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "RA Tripathi"
+  },
+  {
+    "playerId": "18c78b11",
+    "displayName": "RE Levi",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "RE Levi"
+  },
+  {
+    "playerId": "05c2ca46",
+    "displayName": "RE van der Merwe",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "RE van der Merwe"
+  },
+  {
+    "playerId": "b2b23612",
+    "displayName": "RG More",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "RG More"
+  },
+  {
+    "playerId": "402f8494",
+    "displayName": "RJ Gleeson",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "RJ Gleeson"
+  },
+  {
+    "playerId": "12eddf28",
+    "displayName": "RJ Harris",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "RJ Harris"
+  },
+  {
+    "playerId": "26ff4c29",
+    "displayName": "RJ Peterson",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "RJ Peterson"
+  },
+  {
+    "playerId": "23ac69e6",
+    "displayName": "RJ Quiney",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "RJ Quiney"
+  },
+  {
+    "playerId": "8db7f47f",
+    "displayName": "RJW Topley",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "RJW Topley"
+  },
+  {
+    "playerId": "b63e358a",
+    "displayName": "RK Bhui",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "RK Bhui"
+  },
+  {
+    "playerId": "4ec07775",
+    "displayName": "RN ten Doeschate",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "RN ten Doeschate"
+  },
+  {
+    "playerId": "64775749",
+    "displayName": "RP Meredith",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "RP Meredith"
+  },
+  {
+    "playerId": "c3d1402f",
+    "displayName": "RP Singh",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "RP Singh"
+  },
+  {
+    "playerId": "7d3720ba",
+    "displayName": "RR Bhatkal",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "RR Bhatkal"
+  },
+  {
+    "playerId": "21ac077a",
+    "displayName": "RR Bose",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "RR Bose"
+  },
+  {
+    "playerId": "919a3be2",
+    "displayName": "RR Pant",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "RR Pant"
+  },
+  {
+    "playerId": "5d096f3d",
+    "displayName": "RR Powar",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "RR Powar"
+  },
+  {
+    "playerId": "5f4e9e8f",
+    "displayName": "RR Raje",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "RR Raje"
+  },
+  {
+    "playerId": "36d33dd0",
+    "displayName": "RR Sarwan",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "RR Sarwan"
+  },
+  {
+    "playerId": "7ca5e05d",
+    "displayName": "RS Bopara",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "RS Bopara"
+  },
+  {
+    "playerId": "9ff100a6",
+    "displayName": "RS Gavaskar",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "RS Gavaskar"
+  },
+  {
+    "playerId": "c3c92b42",
+    "displayName": "RS Hangargekar",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "RS Hangargekar"
+  },
+  {
+    "playerId": "a3ecf01f",
+    "displayName": "RS Sodhi",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "RS Sodhi"
+  },
+  {
+    "playerId": "7d415ea5",
+    "displayName": "RT Ponting",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "RT Ponting"
+  },
+  {
+    "playerId": "b2570b38",
+    "displayName": "RV Gomez",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "RV Gomez"
+  },
+  {
+    "playerId": "60500956",
+    "displayName": "RV Patel",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "RV Patel"
+  },
+  {
+    "playerId": "c9d33ef5",
+    "displayName": "RV Pawar",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "RV Pawar"
+  },
+  {
+    "playerId": "1c17e270",
+    "displayName": "RV Uthappa",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "RV Uthappa"
+  },
+  {
+    "playerId": "67af6f81",
+    "displayName": "RW Price",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "RW Price"
+  },
+  {
+    "playerId": "95a2ea61",
+    "displayName": "S Anirudha",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "S Anirudha"
+  },
+  {
+    "playerId": "957532de",
+    "displayName": "S Aravind",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "S Aravind"
+  },
+  {
+    "playerId": "76388dc8",
+    "displayName": "S Badree",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "S Badree"
+  },
+  {
+    "playerId": "3576e47e",
+    "displayName": "S Badrinath",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "S Badrinath"
+  },
+  {
+    "playerId": "881a9bdd",
+    "displayName": "S Chanderpaul",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "S Chanderpaul"
+  },
+  {
+    "playerId": "0a476045",
+    "displayName": "S Dhawan",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "S Dhawan"
+  },
+  {
+    "playerId": "a4e37e47",
+    "displayName": "S Dube",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "S Dube"
+  },
+  {
+    "playerId": "97290faf",
+    "displayName": "S Joseph",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "S Joseph"
+  },
+  {
+    "playerId": "1da489ff",
+    "displayName": "S Kaushik",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "S Kaushik"
+  },
+  {
+    "playerId": "fb693839",
+    "displayName": "S Ladda",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "S Ladda"
+  },
+  {
+    "playerId": "b410bd3d",
+    "displayName": "S Lamichhane",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "S Lamichhane"
+  },
+  {
+    "playerId": "ade90de7",
+    "displayName": "S Midhun",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "S Midhun"
+  },
+  {
+    "playerId": "9d80c5e1",
+    "displayName": "S Nadeem",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "S Nadeem"
+  },
+  {
+    "playerId": "287686fd",
+    "displayName": "S Narwal",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "S Narwal"
+  },
+  {
+    "playerId": "90edaaa9",
+    "displayName": "S Rana",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "S Rana"
+  },
+  {
+    "playerId": "f5f18a18",
+    "displayName": "S Randiv",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "S Randiv"
+  },
+  {
+    "playerId": "cdc6bdba",
+    "displayName": "S Sandeep Warrier",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "S Sandeep Warrier"
+  },
+  {
+    "playerId": "3fca55af",
+    "displayName": "S Sohal",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "S Sohal"
+  },
+  {
+    "playerId": "6b8eb6e5",
+    "displayName": "S Sreesanth",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "S Sreesanth"
+  },
+  {
+    "playerId": "64a4c383",
+    "displayName": "S Sriram",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "S Sriram"
+  },
+  {
+    "playerId": "c24a2c5d",
+    "displayName": "S Tyagi",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "S Tyagi"
+  },
+  {
+    "playerId": "756389bd",
+    "displayName": "S Vidyut",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "S Vidyut"
+  },
+  {
+    "playerId": "1a2676c5",
+    "displayName": "SA Abbott",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SA Abbott"
+  },
+  {
+    "playerId": "ae091d39",
+    "displayName": "SA Asnodkar",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SA Asnodkar"
+  },
+  {
+    "playerId": "0604ef16",
+    "displayName": "SB Bangar",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SB Bangar"
+  },
+  {
+    "playerId": "6b2ff18f",
+    "displayName": "SB Dubey",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SB Dubey"
+  },
+  {
+    "playerId": "c8179c68",
+    "displayName": "SB Jakati",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SB Jakati"
+  },
+  {
+    "playerId": "670709ec",
+    "displayName": "SB Joshi",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SB Joshi"
+  },
+  {
+    "playerId": "57efa3be",
+    "displayName": "SB Styris",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SB Styris"
+  },
+  {
+    "playerId": "dddca1d6",
+    "displayName": "SB Wagh",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SB Wagh"
+  },
+  {
+    "playerId": "725529bc",
+    "displayName": "SC Ganguly",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SC Ganguly"
+  },
+  {
+    "playerId": "fef92afc",
+    "displayName": "SC Kuggeleijn",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SC Kuggeleijn"
+  },
+  {
+    "playerId": "facb9086",
+    "displayName": "SD Chitnis",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SD Chitnis"
+  },
+  {
+    "playerId": "1fc6ef83",
+    "displayName": "SD Hope",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SD Hope"
+  },
+  {
+    "playerId": "9601c534",
+    "displayName": "SD Lad",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SD Lad"
+  },
+  {
+    "playerId": "4f629497",
+    "displayName": "SE Bond",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SE Bond"
+  },
+  {
+    "playerId": "508a1ea7",
+    "displayName": "SE Marsh",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SE Marsh"
+  },
+  {
+    "playerId": "83c3e8e3",
+    "displayName": "SH Johnson",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SH Johnson"
+  },
+  {
+    "playerId": "2049f3a0",
+    "displayName": "SJ Srivastava",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SJ Srivastava"
+  },
+  {
+    "playerId": "1dc12ab9",
+    "displayName": "SK Raina",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SK Raina"
+  },
+  {
+    "playerId": "cbf58a86",
+    "displayName": "SK Rasheed",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SK Rasheed"
+  },
+  {
+    "playerId": "3d7e087f",
+    "displayName": "SK Trivedi",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SK Trivedi"
+  },
+  {
+    "playerId": "bb18be76",
+    "displayName": "SK Warne",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SK Warne"
+  },
+  {
+    "playerId": "a12e1d51",
+    "displayName": "SL Malinga",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SL Malinga"
+  },
+  {
+    "playerId": "d167edd3",
+    "displayName": "SM Boland",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SM Boland"
+  },
+  {
+    "playerId": "e94915e6",
+    "displayName": "SM Curran",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SM Curran"
+  },
+  {
+    "playerId": "63bff7f9",
+    "displayName": "SM Harwood",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SM Harwood"
+  },
+  {
+    "playerId": "fdedb37c",
+    "displayName": "SM Katich",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SM Katich"
+  },
+  {
+    "playerId": "88fccd6c",
+    "displayName": "SM Pollock",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SM Pollock"
+  },
+  {
+    "playerId": "4c4fa80b",
+    "displayName": "SMSM Senanayake",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SMSM Senanayake"
+  },
+  {
+    "playerId": "f088b960",
+    "displayName": "SN Khan",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SN Khan"
+  },
+  {
+    "playerId": "1abb78f8",
+    "displayName": "SN Thakur",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SN Thakur"
+  },
+  {
+    "playerId": "48a1d7b7",
+    "displayName": "SO Hetmyer",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SO Hetmyer"
+  },
+  {
+    "playerId": "eea6b7f1",
+    "displayName": "SP Fleming",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SP Fleming"
+  },
+  {
+    "playerId": "541f85c9",
+    "displayName": "SP Goswami",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SP Goswami"
+  },
+  {
+    "playerId": "acc1aeda",
+    "displayName": "SP Jackson",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SP Jackson"
+  },
+  {
+    "playerId": "30a45b23",
+    "displayName": "SPD Smith",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SPD Smith"
+  },
+  {
+    "playerId": "d2c2b2d5",
+    "displayName": "SR Tendulkar",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SR Tendulkar"
+  },
+  {
+    "playerId": "4329fbb5",
+    "displayName": "SR Watson",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SR Watson"
+  },
+  {
+    "playerId": "b51f72a5",
+    "displayName": "SS Agarwal",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SS Agarwal"
+  },
+  {
+    "playerId": "a1d053dd",
+    "displayName": "SS Cottrell",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SS Cottrell"
+  },
+  {
+    "playerId": "0af3426f",
+    "displayName": "SS Mundhe",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SS Mundhe"
+  },
+  {
+    "playerId": "9385de2e",
+    "displayName": "SS Prabhudessai",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SS Prabhudessai"
+  },
+  {
+    "playerId": "caa89a48",
+    "displayName": "SS Sarkar",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SS Sarkar"
+  },
+  {
+    "playerId": "5f5d3ad4",
+    "displayName": "SS Shaikh",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SS Shaikh"
+  },
+  {
+    "playerId": "709b0bac",
+    "displayName": "SS Tiwary",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SS Tiwary"
+  },
+  {
+    "playerId": "8361e524",
+    "displayName": "SSB Magala",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SSB Magala"
+  },
+  {
+    "playerId": "f233bbb4",
+    "displayName": "ST Jayasuriya",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "ST Jayasuriya"
+  },
+  {
+    "playerId": "bd17b45f",
+    "displayName": "STR Binny",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "STR Binny"
+  },
+  {
+    "playerId": "c16d4035",
+    "displayName": "SW Billings",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SW Billings"
+  },
+  {
+    "playerId": "addfb70e",
+    "displayName": "SW Tait",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SW Tait"
+  },
+  {
+    "playerId": "9d704f6f",
+    "displayName": "SZ Mulani",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "SZ Mulani"
+  },
+  {
+    "playerId": "25f7b7d6",
+    "displayName": "T Banton",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "T Banton"
+  },
+  {
+    "playerId": "0a4ebc61",
+    "displayName": "T Henderson",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "T Henderson"
+  },
+  {
+    "playerId": "f836b33d",
+    "displayName": "T Kohler-Cadmore",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "T Kohler-Cadmore"
+  },
+  {
+    "playerId": "40caa465",
+    "displayName": "T Kohli",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "T Kohli"
+  },
+  {
+    "playerId": "c9cac448",
+    "displayName": "T Mishra",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "T Mishra"
+  },
+  {
+    "playerId": "ce794613",
+    "displayName": "T Natarajan",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "T Natarajan"
+  },
+  {
+    "playerId": "a03bba42",
+    "displayName": "T Shamsi",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "T Shamsi"
+  },
+  {
+    "playerId": "75de770f",
+    "displayName": "T Taibu",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "T Taibu"
+  },
+  {
+    "playerId": "b2ae53f5",
+    "displayName": "T Thushara",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "T Thushara"
+  },
+  {
+    "playerId": "5748e866",
+    "displayName": "TD Paine",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "TD Paine"
+  },
+  {
+    "playerId": "13c35c9e",
+    "displayName": "TG Southee",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "TG Southee"
+  },
+  {
+    "playerId": "e86754b2",
+    "displayName": "TK Curran",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "TK Curran"
+  },
+  {
+    "playerId": "4663bd23",
+    "displayName": "TL Seifert",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "TL Seifert"
+  },
+  {
+    "playerId": "aaa1b522",
+    "displayName": "TL Suman",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "TL Suman"
+  },
+  {
+    "playerId": "5bdcdb72",
+    "displayName": "TM Dilshan",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "TM Dilshan"
+  },
+  {
+    "playerId": "a76d10ba",
+    "displayName": "TM Srivastava",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "TM Srivastava"
+  },
+  {
+    "playerId": "2f3817ce",
+    "displayName": "TP Sudhindra",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "TP Sudhindra"
+  },
+  {
+    "playerId": "d2d4bb0a",
+    "displayName": "TR Birt",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "TR Birt"
+  },
+  {
+    "playerId": "245c97cb",
+    "displayName": "TS Mills",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "TS Mills"
+  },
+  {
+    "playerId": "46a9bea1",
+    "displayName": "TU Deshpande",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "TU Deshpande"
+  },
+  {
+    "playerId": "622cc511",
+    "displayName": "U Kaul",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "U Kaul"
+  },
+  {
+    "playerId": "91b9300b",
+    "displayName": "UA Birla",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "UA Birla"
+  },
+  {
+    "playerId": "0c94f480",
+    "displayName": "UBT Chand",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "UBT Chand"
+  },
+  {
+    "playerId": "331ea488",
+    "displayName": "UT Khawaja",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "UT Khawaja"
+  },
+  {
+    "playerId": "d4d929b0",
+    "displayName": "V Kaverappa",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "V Kaverappa"
+  },
+  {
+    "playerId": "5ffc0565",
+    "displayName": "V Nigam",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "V Nigam"
+  },
+  {
+    "playerId": "d718440b",
+    "displayName": "V Pratap Singh",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "V Pratap Singh"
+  },
+  {
+    "playerId": "1e030637",
+    "displayName": "V Puthur",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "V Puthur"
+  },
+  {
+    "playerId": "8ba8195d",
+    "displayName": "V Sehwag",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "V Sehwag"
+  },
+  {
+    "playerId": "0994d0ae",
+    "displayName": "V Shankar",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "V Shankar"
+  },
+  {
+    "playerId": "03a83c50",
+    "displayName": "V Viyaskanth",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "V Viyaskanth"
+  },
+  {
+    "playerId": "7c3b3b78",
+    "displayName": "VG Arora",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "VG Arora"
+  },
+  {
+    "playerId": "6dbcf855",
+    "displayName": "VH Zol",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "VH Zol"
+  },
+  {
+    "playerId": "0a3d54b9",
+    "displayName": "VR Aaron",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "VR Aaron"
+  },
+  {
+    "playerId": "034b4b7d",
+    "displayName": "VRV Singh",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "VRV Singh"
+  },
+  {
+    "playerId": "5f26df4f",
+    "displayName": "VS Malik",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "VS Malik"
+  },
+  {
+    "playerId": "38f2c66c",
+    "displayName": "VS Yeligati",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "VS Yeligati"
+  },
+  {
+    "playerId": "de8cce37",
+    "displayName": "VVS Laxman",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "VVS Laxman"
+  },
+  {
+    "playerId": "93a17209",
+    "displayName": "VY Mahesh",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "VY Mahesh"
+  },
+  {
+    "playerId": "619aa81f",
+    "displayName": "W Jaffer",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "W Jaffer"
+  },
+  {
+    "playerId": "cb9b8664",
+    "displayName": "W O'Rourke",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "W O'Rourke"
+  },
+  {
+    "playerId": "3dba85c2",
+    "displayName": "WA Mota",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "WA Mota"
+  },
+  {
+    "playerId": "3a60e0b5",
+    "displayName": "WD Parnell",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "WD Parnell"
+  },
+  {
+    "playerId": "fe11caa6",
+    "displayName": "WP Saha",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "WP Saha"
+  },
+  {
+    "playerId": "1763bc6c",
+    "displayName": "X Thalaivan Sargunam",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "X Thalaivan Sargunam"
+  },
+  {
+    "playerId": "3b53243a",
+    "displayName": "XC Bartlett",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "XC Bartlett"
+  },
+  {
+    "playerId": "bae11797",
+    "displayName": "Y Gnaneswara Rao",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "Y Gnaneswara Rao"
+  },
+  {
+    "playerId": "662c47a6",
+    "displayName": "Y Nagar",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "Y Nagar"
+  },
+  {
+    "playerId": "cfa4bd2b",
+    "displayName": "Y Prithvi Raj",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "Y Prithvi Raj"
+  },
+  {
+    "playerId": "fe763256",
+    "displayName": "Y Venugopal Rao",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "Y Venugopal Rao"
+  },
+  {
+    "playerId": "4353bba5",
+    "displayName": "YA Abdulla",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "YA Abdulla"
+  },
+  {
+    "playerId": "3c6ffae8",
+    "displayName": "YK Pathan",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "YK Pathan"
+  },
+  {
+    "playerId": "dd7e9b3b",
+    "displayName": "YV Dhull",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "YV Dhull"
+  },
+  {
+    "playerId": "4e04666c",
+    "displayName": "YV Takawale",
+    "overrideValue": "",
+    "looksAbbreviated": "yes",
+    "knownNames": "YV Takawale"
+  },
+  {
+    "playerId": "cc777ffa",
+    "displayName": "Abdul Basith",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Abdul Basith"
+  },
+  {
+    "playerId": "8e514b4c",
+    "displayName": "Abdul Samad",
+    "overrideValue": "Abdul Samad",
+    "looksAbbreviated": "no",
+    "knownNames": "Abdul Samad"
+  },
+  {
+    "playerId": "888e32bf",
+    "displayName": "Abdur Razzak",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Abdur Razzak"
+  },
+  {
+    "playerId": "f29185a1",
+    "displayName": "Abhishek Sharma",
+    "overrideValue": "Abhishek Sharma",
+    "looksAbbreviated": "no",
+    "knownNames": "Abhishek Sharma"
+  },
+  {
+    "playerId": "ad3b6e95",
+    "displayName": "Abishek Porel",
+    "overrideValue": "Abishek Porel",
+    "looksAbbreviated": "no",
+    "knownNames": "Abishek Porel"
+  },
+  {
+    "playerId": "0a67aec0",
+    "displayName": "Akash Deep",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Akash Deep"
+  },
+  {
+    "playerId": "4bd09374",
+    "displayName": "Akash Madhwal",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Akash Madhwal"
+  },
+  {
+    "playerId": "b483905d",
+    "displayName": "Akash Singh",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Akash Singh"
+  },
+  {
+    "playerId": "378daa89",
+    "displayName": "Aman Hakim Khan",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Aman Hakim Khan"
+  },
+  {
+    "playerId": "6b19d823",
+    "displayName": "Amit Mishra",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Amit Mishra"
+  },
+  {
+    "playerId": "d2340a43",
+    "displayName": "Anand Rajan",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Anand Rajan"
+  },
+  {
+    "playerId": "bbd41817",
+    "displayName": "Andre Russell",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Andre Russell"
+  },
+  {
+    "playerId": "7c7d63a2",
+    "displayName": "Andrew Tye",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Andrew Tye"
+  },
+  {
+    "playerId": "a3b0600d",
+    "displayName": "Aniket Verma",
+    "overrideValue": "Aniket Verma",
+    "looksAbbreviated": "no",
+    "knownNames": "Aniket Verma"
+  },
+  {
+    "playerId": "7bb62642",
+    "displayName": "Anirudh Singh",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Anirudh Singh"
+  },
+  {
+    "playerId": "24d94623",
+    "displayName": "Ankit Sharma",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Ankit Sharma"
+  },
+  {
+    "playerId": "f18ba07f",
+    "displayName": "Ankit Soni",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Ankit Soni"
+  },
+  {
+    "playerId": "1399b39c",
+    "displayName": "Anmolpreet Singh",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Anmolpreet Singh"
+  },
+  {
+    "playerId": "acdc62f5",
+    "displayName": "Anrich Nortje",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Anrich Nortje"
+  },
+  {
+    "playerId": "c8f5f961",
+    "displayName": "Anuj Rawat",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Anuj Rawat"
+  },
+  {
+    "playerId": "69be866a",
+    "displayName": "Anureet Singh",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Anureet Singh"
+  },
+  {
+    "playerId": "44aac2f0",
+    "displayName": "Arjun Tendulkar",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Arjun Tendulkar"
+  },
+  {
+    "playerId": "12314277",
+    "displayName": "Arshad Khan",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Arshad Khan | Arshad Khan (2)"
+  },
+  {
+    "playerId": "244048f6",
+    "displayName": "Arshdeep Singh",
+    "overrideValue": "Arshdeep Singh",
+    "looksAbbreviated": "no",
+    "knownNames": "Arshdeep Singh"
+  },
+  {
+    "playerId": "84d9c311",
+    "displayName": "Ashutosh Sharma",
+    "overrideValue": "Ashutosh Sharma",
+    "looksAbbreviated": "no",
+    "knownNames": "Ashutosh Sharma"
+  },
+  {
+    "playerId": "d45c29b1",
+    "displayName": "Ashwani Kumar",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Ashwani Kumar"
+  },
+  {
+    "playerId": "1ac746c8",
+    "displayName": "Atharva Taide",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Atharva Taide"
+  },
+  {
+    "playerId": "eef2536f",
+    "displayName": "Avesh Khan",
+    "overrideValue": "Avesh Khan",
+    "looksAbbreviated": "no",
+    "knownNames": "Avesh Khan"
+  },
+  {
+    "playerId": "b2b4f545",
+    "displayName": "Ayush Mhatre",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Ayush Mhatre"
+  },
+  {
+    "playerId": "9a158001",
+    "displayName": "Azhar Mahmood",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Azhar Mahmood"
+  },
+  {
+    "playerId": "8f6dd463",
+    "displayName": "Azmatullah Omarzai",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Azmatullah Omarzai"
+  },
+  {
+    "playerId": "871e9faf",
+    "displayName": "Basil Thampi",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Basil Thampi"
+  },
+  {
+    "playerId": "2e81a32d",
+    "displayName": "Bhuvneshwar Kumar",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Bhuvneshwar Kumar"
+  },
+  {
+    "playerId": "c18496e1",
+    "displayName": "Bipul Sharma",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Bipul Sharma"
+  },
+  {
+    "playerId": "eaa76d3c",
+    "displayName": "Cameron Green",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Cameron Green"
+  },
+  {
+    "playerId": "fb66ce1f",
+    "displayName": "Chris Morris",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Chris Morris"
+  },
+  {
+    "playerId": "23eeb873",
+    "displayName": "Deepak Chahar",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Deepak Chahar"
+  },
+  {
+    "playerId": "df5a6881",
+    "displayName": "Devon Conway",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Devon Conway"
+  },
+  {
+    "playerId": "844e79d1",
+    "displayName": "Dewald Brevis",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Dewald Brevis"
+  },
+  {
+    "playerId": "bcf325d2",
+    "displayName": "Dhruv Jurel",
+    "overrideValue": "Dhruv Jurel",
+    "looksAbbreviated": "no",
+    "knownNames": "Dhruv Jurel"
+  },
+  {
+    "playerId": "c03f1114",
+    "displayName": "Dinesh Karthik",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Dinesh Karthik"
+  },
+  {
+    "playerId": "3355b542",
+    "displayName": "Faf du Plessis",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Faf du Plessis"
+  },
+  {
+    "playerId": "e9c7f0d0",
+    "displayName": "Fazalhaq Farooqi",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Fazalhaq Farooqi"
+  },
+  {
+    "playerId": "890de8cb",
+    "displayName": "Gagandeep Singh",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Gagandeep Singh"
+  },
+  {
+    "playerId": "b681e71e",
+    "displayName": "Glenn Maxwell",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Glenn Maxwell"
+  },
+  {
+    "playerId": "9f77963a",
+    "displayName": "Gulbadin Naib",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Gulbadin Naib"
+  },
+  {
+    "playerId": "6eb146d2",
+    "displayName": "Gurkeerat Singh",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Gurkeerat Singh"
+  },
+  {
+    "playerId": "99258814",
+    "displayName": "Gurnoor Brar",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Gurnoor Brar"
+  },
+  {
+    "playerId": "8b5b6769",
+    "displayName": "Harbhajan Singh",
+    "overrideValue": "Harbhajan Singh",
+    "looksAbbreviated": "no",
+    "knownNames": "Harbhajan Singh"
+  },
+  {
+    "playerId": "2a72fd4f",
+    "displayName": "Harmeet Singh",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Harmeet Singh"
+  },
+  {
+    "playerId": "0bf15e52",
+    "displayName": "Harmeet Singh",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Harmeet Singh"
+  },
+  {
+    "playerId": "c05edf8e",
+    "displayName": "Harpreet Brar",
+    "overrideValue": "Harpreet Brar",
+    "looksAbbreviated": "no",
+    "knownNames": "Harpreet Brar"
+  },
+  {
+    "playerId": "28c78fb3",
+    "displayName": "Harpreet Singh",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Harpreet Singh"
+  },
+  {
+    "playerId": "25228673",
+    "displayName": "Harsh Dubey",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Harsh Dubey"
+  },
+  {
+    "playerId": "f986ca1a",
+    "displayName": "Harshal Patel",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Harshal Patel"
+  },
+  {
+    "playerId": "77b1aa15",
+    "displayName": "Harshit Rana",
+    "overrideValue": "Harshit Rana",
+    "looksAbbreviated": "no",
+    "knownNames": "Harshit Rana"
+  },
+  {
+    "playerId": "235c2bb6",
+    "displayName": "Heinrich Klaasen",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Heinrich Klaasen"
+  },
+  {
+    "playerId": "ebcfef83",
+    "displayName": "Himmat Singh",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Himmat Singh"
+  },
+  {
+    "playerId": "acee4cc4",
+    "displayName": "Imran Tahir",
+    "overrideValue": "Imran Tahir",
+    "looksAbbreviated": "no",
+    "knownNames": "Imran Tahir"
+  },
+  {
+    "playerId": "85aae393",
+    "displayName": "Iqbal Abdulla",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Iqbal Abdulla"
+  },
+  {
+    "playerId": "752f7486",
+    "displayName": "Ishan Kishan",
+    "overrideValue": "Ishan Kishan",
+    "looksAbbreviated": "no",
+    "knownNames": "Ishan Kishan"
+  },
+  {
+    "playerId": "9b6e1b3f",
+    "displayName": "Jake Fraser-McGurk",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Jake Fraser-McGurk"
+  },
+  {
+    "playerId": "d7b3a420",
+    "displayName": "Jaskaran Singh",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Jaskaran Singh"
+  },
+  {
+    "playerId": "0f721006",
+    "displayName": "Jason Holder",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Jason Holder"
+  },
+  {
+    "playerId": "462411b3",
+    "displayName": "Jasprit Bumrah",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Jasprit Bumrah"
+  },
+  {
+    "playerId": "800d2d97",
+    "displayName": "Jitesh Sharma",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Jitesh Sharma"
+  },
+  {
+    "playerId": "5574750c",
+    "displayName": "Jofra Archer",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Jofra Archer"
+  },
+  {
+    "playerId": "9f961c14",
+    "displayName": "Joginder Sharma",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Joginder Sharma"
+  },
+  {
+    "playerId": "abb83e27",
+    "displayName": "Jonny Bairstow",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Jonny Bairstow"
+  },
+  {
+    "playerId": "99b75528",
+    "displayName": "Jos Buttler",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Jos Buttler"
+  },
+  {
+    "playerId": "03806cf8",
+    "displayName": "Josh Hazlewood",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Josh Hazlewood"
+  },
+  {
+    "playerId": "989889ff",
+    "displayName": "Josh Inglis",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Josh Inglis"
+  },
+  {
+    "playerId": "e62dd25d",
+    "displayName": "Kagiso Rabada",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Kagiso Rabada"
+  },
+  {
+    "playerId": "ff077124",
+    "displayName": "Kamran Akmal",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Kamran Akmal"
+  },
+  {
+    "playerId": "6ef60d3a",
+    "displayName": "Kamran Khan",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Kamran Khan"
+  },
+  {
+    "playerId": "1647bd37",
+    "displayName": "Karanveer Singh",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Karanveer Singh"
+  },
+  {
+    "playerId": "62175638",
+    "displayName": "Karim Janat",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Karim Janat"
+  },
+  {
+    "playerId": "5d2eea49",
+    "displayName": "Kartik Tyagi",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Kartik Tyagi"
+  },
+  {
+    "playerId": "944533a5",
+    "displayName": "Karun Nair",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Karun Nair"
+  },
+  {
+    "playerId": "a2f46292",
+    "displayName": "Khaleel Ahmed",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Khaleel Ahmed"
+  },
+  {
+    "playerId": "5b8c830e",
+    "displayName": "Krunal Pandya",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Krunal Pandya"
+  },
+  {
+    "playerId": "8d2c70ad",
+    "displayName": "Kuldeep Yadav",
+    "overrideValue": "Kuldeep Yadav",
+    "looksAbbreviated": "no",
+    "knownNames": "Kuldeep Yadav"
+  },
+  {
+    "playerId": "57ca01b3",
+    "displayName": "Kumar Kushagra",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Kumar Kushagra"
+  },
+  {
+    "playerId": "ad427b5c",
+    "displayName": "Lalit Yadav",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Lalit Yadav"
+  },
+  {
+    "playerId": "50c6bc2b",
+    "displayName": "Liam Livingstone",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Liam Livingstone"
+  },
+  {
+    "playerId": "0404d43c",
+    "displayName": "Liton Das",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Liton Das"
+  },
+  {
+    "playerId": "2f9d0389",
+    "displayName": "Lockie Ferguson",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Lockie Ferguson"
+  },
+  {
+    "playerId": "c3a96caf",
+    "displayName": "Mandeep Singh",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Mandeep Singh"
+  },
+  {
+    "playerId": "d9273ee7",
+    "displayName": "Marcus Stoinis",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Marcus Stoinis"
+  },
+  {
+    "playerId": "e186f49c",
+    "displayName": "Mashrafe Mortaza",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Mashrafe Mortaza"
+  },
+  {
+    "playerId": "64839cb3",
+    "displayName": "Matheesha Pathirana",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Matheesha Pathirana"
+  },
+  {
+    "playerId": "a457cfb5",
+    "displayName": "Mayank Dagar",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Mayank Dagar"
+  },
+  {
+    "playerId": "7eae4418",
+    "displayName": "Misbah-ul-Haq",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Misbah-ul-Haq"
+  },
+  {
+    "playerId": "3d8feaf8",
+    "displayName": "Mitchell Marsh",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Mitchell Marsh"
+  },
+  {
+    "playerId": "51a3c5ef",
+    "displayName": "Mitchell McClenaghan",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Mitchell McClenaghan"
+  },
+  {
+    "playerId": "e4a0deae",
+    "displayName": "Mitchell Santner",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Mitchell Santner"
+  },
+  {
+    "playerId": "bb351c23",
+    "displayName": "Moeen Ali",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Moeen Ali"
+  },
+  {
+    "playerId": "2bb09eb2",
+    "displayName": "Mohammad Ashraful",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Mohammad Ashraful"
+  },
+  {
+    "playerId": "e03b66ec",
+    "displayName": "Mohammad Asif",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Mohammad Asif"
+  },
+  {
+    "playerId": "9ab63e7b",
+    "displayName": "Mohammad Hafeez",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Mohammad Hafeez"
+  },
+  {
+    "playerId": "62af8546",
+    "displayName": "Mohammad Nabi",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Mohammad Nabi"
+  },
+  {
+    "playerId": "8cf9814c",
+    "displayName": "Mohammed Shami",
+    "overrideValue": "Mohammed Shami",
+    "looksAbbreviated": "no",
+    "knownNames": "Mohammed Shami"
+  },
+  {
+    "playerId": "2f49c897",
+    "displayName": "Mohammed Siraj",
+    "overrideValue": "Mohammed Siraj",
+    "looksAbbreviated": "no",
+    "knownNames": "Mohammed Siraj"
+  },
+  {
+    "playerId": "9a5f2863",
+    "displayName": "Mohit Rathee",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Mohit Rathee"
+  },
+  {
+    "playerId": "c33d8116",
+    "displayName": "Mohsin Khan",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Mohsin Khan"
+  },
+  {
+    "playerId": "fb24e76c",
+    "displayName": "Monu Kumar",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Monu Kumar"
+  },
+  {
+    "playerId": "7d92277a",
+    "displayName": "Mujeeb Ur Rahman",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Mujeeb Ur Rahman"
+  },
+  {
+    "playerId": "765a4731",
+    "displayName": "Mukesh Choudhary",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Mukesh Choudhary"
+  },
+  {
+    "playerId": "2cffab74",
+    "displayName": "Mukesh Kumar",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Mukesh Kumar"
+  },
+  {
+    "playerId": "d621b427",
+    "displayName": "Musheer Khan",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Musheer Khan"
+  },
+  {
+    "playerId": "0a8fce53",
+    "displayName": "Mustafizur Rahman",
+    "overrideValue": "Mustafizur Rahman",
+    "looksAbbreviated": "no",
+    "knownNames": "Mustafizur Rahman"
+  },
+  {
+    "playerId": "fffa744b",
+    "displayName": "Naman Dhir",
+    "overrideValue": "Naman Dhir",
+    "looksAbbreviated": "no",
+    "knownNames": "Naman Dhir"
+  },
+  {
+    "playerId": "56ab442f",
+    "displayName": "Nathan Coulter-Nile",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Nathan Coulter-Nile"
+  },
+  {
+    "playerId": "21d4e29b",
+    "displayName": "Navdeep Saini",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "NA Saini | Navdeep Saini"
+  },
+  {
+    "playerId": "c0c411cb",
+    "displayName": "Naveen-ul-Haq",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Naveen-ul-Haq"
+  },
+  {
+    "playerId": "d1a60072",
+    "displayName": "Nehal Wadhera",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Nehal Wadhera"
+  },
+  {
+    "playerId": "3241e3fd",
+    "displayName": "Nicholas Pooran",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Nicholas Pooran"
+  },
+  {
+    "playerId": "aad0c365",
+    "displayName": "Nithish Kumar Reddy",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Nithish Kumar Reddy"
+  },
+  {
+    "playerId": "fb2d1dda",
+    "displayName": "Nitish Rana",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Nitish Rana"
+  },
+  {
+    "playerId": "efc04be7",
+    "displayName": "Noor Ahmad",
+    "overrideValue": "Noor Ahmad",
+    "looksAbbreviated": "no",
+    "knownNames": "Noor Ahmad"
+  },
+  {
+    "playerId": "e32d22f6",
+    "displayName": "Pankaj Singh",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Pankaj Singh"
+  },
+  {
+    "playerId": "9170ff49",
+    "displayName": "Parvez Rasool",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Parvez Rasool"
+  },
+  {
+    "playerId": "ded9240e",
+    "displayName": "Pat Cummins",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Pat Cummins"
+  },
+  {
+    "playerId": "3d284ca3",
+    "displayName": "Phil Salt",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Phil Salt"
+  },
+  {
+    "playerId": "98ae73b1",
+    "displayName": "Piyush Chawla",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Piyush Chawla"
+  },
+  {
+    "playerId": "9418198b",
+    "displayName": "Prabhsimran Singh",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Prabhsimran Singh"
+  },
+  {
+    "playerId": "85e0cf10",
+    "displayName": "Prasidh Krishna",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Prasidh Krishna"
+  },
+  {
+    "playerId": "80b2fb19",
+    "displayName": "Prince Yadav",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Prince Yadav"
+  },
+  {
+    "playerId": "8b3e9c7c",
+    "displayName": "Prithvi Shaw",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Prithvi Shaw"
+  },
+  {
+    "playerId": "b5797845",
+    "displayName": "Priyansh Arya",
+    "overrideValue": "Priyansh Arya",
+    "looksAbbreviated": "no",
+    "knownNames": "Priyansh Arya"
+  },
+  {
+    "playerId": "0bacade8",
+    "displayName": "Rahmanullah Gurbaz",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Rahmanullah Gurbaz"
+  },
+  {
+    "playerId": "2ed569a0",
+    "displayName": "Rahul Chahar",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Rahul Chahar"
+  },
+  {
+    "playerId": "c740ea83",
+    "displayName": "Rajat Patidar",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Rajat Patidar"
+  },
+  {
+    "playerId": "be24ead0",
+    "displayName": "Ramandeep Singh",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Ramandeep Singh"
+  },
+  {
+    "playerId": "5f547c8b",
+    "displayName": "Rashid Khan",
+    "overrideValue": "Rashid Khan",
+    "looksAbbreviated": "no",
+    "knownNames": "Rashid Khan"
+  },
+  {
+    "playerId": "b8527c3d",
+    "displayName": "Rasikh Salam",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Rasikh Salam"
+  },
+  {
+    "playerId": "df064e1a",
+    "displayName": "Ravi Bishnoi",
+    "overrideValue": "Ravi Bishnoi",
+    "looksAbbreviated": "no",
+    "knownNames": "Ravi Bishnoi"
+  },
+  {
+    "playerId": "cad00a4d",
+    "displayName": "Rilee Rossouw",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Rilee Rossouw"
+  },
+  {
+    "playerId": "0a509d6b",
+    "displayName": "Rinku Singh",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Rinku Singh"
+  },
+  {
+    "playerId": "04a418e8",
+    "displayName": "Riyan Parag",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Riyan Parag"
+  },
+  {
+    "playerId": "740742ef",
+    "displayName": "Rohit Sharma",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Rohit Sharma"
+  },
+  {
+    "playerId": "45a43fe2",
+    "displayName": "Ruturaj Gaikwad",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Ruturaj Gaikwad"
+  },
+  {
+    "playerId": "e66732f8",
+    "displayName": "Ryan Rickelton",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Ryan Rickelton"
+  },
+  {
+    "playerId": "dc9dd038",
+    "displayName": "Sachin Baby",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Sachin Baby"
+  },
+  {
+    "playerId": "4d6d6280",
+    "displayName": "Salman Butt",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Salman Butt"
+  },
+  {
+    "playerId": "f89d3b11",
+    "displayName": "Sameer Rizvi",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Sameer Rizvi"
+  },
+  {
+    "playerId": "ce820073",
+    "displayName": "Sandeep Sharma",
+    "overrideValue": "Sandeep Sharma",
+    "looksAbbreviated": "no",
+    "knownNames": "Sandeep Sharma"
+  },
+  {
+    "playerId": "a4cc73aa",
+    "displayName": "Sanju Samson",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Sanju Samson"
+  },
+  {
+    "playerId": "b0f2baf4",
+    "displayName": "Sanvir Singh",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Sanvir Singh"
+  },
+  {
+    "playerId": "9e7225b0",
+    "displayName": "Saurav Chauhan",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Saurav Chauhan"
+  },
+  {
+    "playerId": "3c28853f",
+    "displayName": "Sediqullah Atal",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Sediqullah Atal"
+  },
+  {
+    "playerId": "f9e6e7ef",
+    "displayName": "Shahbaz Ahmed",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Shahbaz Ahmed"
+  },
+  {
+    "playerId": "0dc00542",
+    "displayName": "Shahid Afridi",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Shahid Afridi"
+  },
+  {
+    "playerId": "7dcb9bc9",
+    "displayName": "Shahrukh Khan",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Shahrukh Khan"
+  },
+  {
+    "playerId": "7dc35884",
+    "displayName": "Shakib Al Hasan",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Shakib Al Hasan"
+  },
+  {
+    "playerId": "26989d80",
+    "displayName": "Shashank Singh",
+    "overrideValue": "Shashank Singh",
+    "looksAbbreviated": "no",
+    "knownNames": "Shashank Singh"
+  },
+  {
+    "playerId": "d014d5ac",
+    "displayName": "Sherfane Rutherford",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Sherfane Rutherford"
+  },
+  {
+    "playerId": "c38d3503",
+    "displayName": "Shivam Mavi",
+    "overrideValue": "Shivam Mavi",
+    "looksAbbreviated": "no",
+    "knownNames": "Shivam Mavi"
+  },
+  {
+    "playerId": "6f49cc6e",
+    "displayName": "Shivam Sharma",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Shivam Sharma"
+  },
+  {
+    "playerId": "e1d9ae9c",
+    "displayName": "Shivam Singh",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Shivam Singh"
+  },
+  {
+    "playerId": "8a668774",
+    "displayName": "Shoaib Ahmed",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Shoaib Ahmed"
+  },
+  {
+    "playerId": "10a91f35",
+    "displayName": "Shoaib Akhtar",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Shoaib Akhtar"
+  },
+  {
+    "playerId": "64c34cd0",
+    "displayName": "Shoaib Malik",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Shoaib Malik"
+  },
+  {
+    "playerId": "7a8bd078",
+    "displayName": "Shreyas Gopal",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Shreyas Gopal"
+  },
+  {
+    "playerId": "85ec8e33",
+    "displayName": "Shreyas Iyer",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Shreyas Iyer"
+  },
+  {
+    "playerId": "b4b99816",
+    "displayName": "Shubman Gill",
+    "overrideValue": "Shubman Gill",
+    "looksAbbreviated": "no",
+    "knownNames": "Shubman Gill"
+  },
+  {
+    "playerId": "dcf81436",
+    "displayName": "Siddarth Kaul",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Siddarth Kaul"
+  },
+  {
+    "playerId": "26d041c4",
+    "displayName": "Sikandar Raza",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Sikandar Raza"
+  },
+  {
+    "playerId": "30df8c66",
+    "displayName": "Simarjeet Singh",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Simarjeet Singh"
+  },
+  {
+    "playerId": "64d43928",
+    "displayName": "Sohail Tanvir",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Sohail Tanvir"
+  },
+  {
+    "playerId": "8998a68f",
+    "displayName": "Sumit Kumar",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Sumit Kumar"
+  },
+  {
+    "playerId": "9d430b40",
+    "displayName": "Sunil Narine",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Sunil Narine"
+  },
+  {
+    "playerId": "ee3dfa89",
+    "displayName": "Sunny Gupta",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Sunny Gupta"
+  },
+  {
+    "playerId": "30e37810",
+    "displayName": "Sunny Singh",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Sunny Singh"
+  },
+  {
+    "playerId": "271f83cd",
+    "displayName": "Suryakumar Yadav",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Suryakumar Yadav"
+  },
+  {
+    "playerId": "970ddd24",
+    "displayName": "Suryansh Shedge",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Suryansh Shedge"
+  },
+  {
+    "playerId": "9440ef41",
+    "displayName": "Suyash Sharma",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Suyash Sharma"
+  },
+  {
+    "playerId": "983f2f61",
+    "displayName": "Swapnil Singh",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Swapnil Singh"
+  },
+  {
+    "playerId": "5724e517",
+    "displayName": "Tanush Kotian",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Tanush Kotian"
+  },
+  {
+    "playerId": "c28e9f12",
+    "displayName": "Tejas Baroka",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Tejas Baroka"
+  },
+  {
+    "playerId": "b0482a1d",
+    "displayName": "Tilak Varma",
+    "overrideValue": "Tilak Varma",
+    "looksAbbreviated": "no",
+    "knownNames": "Tilak Varma"
+  },
+  {
+    "playerId": "f1f99156",
+    "displayName": "Tim David",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Tim David"
+  },
+  {
+    "playerId": "12b610c2",
+    "displayName": "Travis Head",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Travis Head"
+  },
+  {
+    "playerId": "a818c1be",
+    "displayName": "Trent Boult",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Trent Boult"
+  },
+  {
+    "playerId": "85b3fab2",
+    "displayName": "Tristan Stubbs",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Tristan Stubbs"
+  },
+  {
+    "playerId": "16dfcc19",
+    "displayName": "Umar Gul",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Umar Gul"
+  },
+  {
+    "playerId": "cc1e8c68",
+    "displayName": "Umesh Yadav",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Umesh Yadav"
+  },
+  {
+    "playerId": "81c08fa3",
+    "displayName": "Umran Malik",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Umran Malik"
+  },
+  {
+    "playerId": "cf59b3f0",
+    "displayName": "Urvil Patel",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Urvil Patel"
+  },
+  {
+    "playerId": "470f446b",
+    "displayName": "Vaibhav Suryavanshi",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Vaibhav Suryavanshi"
+  },
+  {
+    "playerId": "5b7ab5a9",
+    "displayName": "Varun Chakaravarthy",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Varun Chakaravarthy"
+  },
+  {
+    "playerId": "a24be938",
+    "displayName": "Venkatesh Iyer",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Venkatesh Iyer"
+  },
+  {
+    "playerId": "54e52590",
+    "displayName": "Vijaykumar Vyshak",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Vijaykumar Vyshak"
+  },
+  {
+    "playerId": "ba607b88",
+    "displayName": "Virat Kohli",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Virat Kohli"
+  },
+  {
+    "playerId": "26d76ad9",
+    "displayName": "Virat Singh",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Virat Singh"
+  },
+  {
+    "playerId": "0494fa6e",
+    "displayName": "Vishnu Vinod",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Vishnu Vinod"
+  },
+  {
+    "playerId": "1b7b0fa7",
+    "displayName": "Vivrant Sharma",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Vivrant Sharma"
+  },
+  {
+    "playerId": "a97c8ec2",
+    "displayName": "Wanindu Hasaranga",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Wanindu Hasaranga"
+  },
+  {
+    "playerId": "f19ccfad",
+    "displayName": "Washington Sundar",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Washington Sundar"
+  },
+  {
+    "playerId": "9caf69a1",
+    "displayName": "Will Jacks",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Will Jacks"
+  },
+  {
+    "playerId": "bcce309e",
+    "displayName": "WPUJC Vaas",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "WPUJC Vaas"
+  },
+  {
+    "playerId": "7210d461",
+    "displayName": "Yash Dayal",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Yash Dayal"
+  },
+  {
+    "playerId": "4b31f3a3",
+    "displayName": "Yash Thakur",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Yash Thakur"
+  },
+  {
+    "playerId": "6c19c6e5",
+    "displayName": "Yashasvi Jaiswal",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Yashasvi Jaiswal"
+  },
+  {
+    "playerId": "297b26da",
+    "displayName": "Yashpal Singh",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Yashpal Singh"
+  },
+  {
+    "playerId": "33cb3411",
+    "displayName": "Younis Khan",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Younis Khan"
+  },
+  {
+    "playerId": "4885bbe6",
+    "displayName": "Yudhvir Singh",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Yudhvir Singh"
+  },
+  {
+    "playerId": "1c914163",
+    "displayName": "Yuvraj Singh",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Yuvraj Singh"
+  },
+  {
+    "playerId": "57ee1fde",
+    "displayName": "Yuzvendra Chahal",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Yuzvendra Chahal"
+  },
+  {
+    "playerId": "91a4a398",
+    "displayName": "Zaheer Khan",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Zaheer Khan"
+  },
+  {
+    "playerId": "36619795",
+    "displayName": "Zeeshan Ansari",
+    "overrideValue": "",
+    "looksAbbreviated": "no",
+    "knownNames": "Zeeshan Ansari"
+  }
+]
