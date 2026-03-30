@@ -734,14 +734,17 @@ function GuidedQueryBuilder({
 }
 
 export default function StatEngineClient({
-  players,
-  careerStats,
-  seasonStats,
-  teamSeasonStats,
-  matchupStats,
-  battingInningsStats,
-  bowlingInningsStats
+  players = [],
+  careerStats = [],
+  seasonStats = [],
+  teamSeasonStats = [],
+  matchupStats = [],
+  battingInningsStats = [],
+  bowlingInningsStats = []
 }) {
+  const [loadedDatasets, setLoadedDatasets] = useState(null);
+  const [isLoadingDatasets, setIsLoadingDatasets] = useState(players.length === 0);
+  const [dataLoadError, setDataLoadError] = useState("");
   const [activeSection, setActiveSection] = useState("ask");
   const [askMode, setAskMode] = useState("guided");
   const [context, setContext] = useState("career");
@@ -755,18 +758,82 @@ export default function StatEngineClient({
   const [battleMode, setBattleMode] = useState("batterVsBowler");
   const [yearCompareMode, setYearCompareMode] = useState("singlePlayer");
 
-  const batters = players.filter((player) => player.primaryRole !== "bowler");
-  const bowlers = players.filter((player) => player.primaryRole !== "batter");
-  const viratKohliId = players.find((player) => player.displayName === "Virat Kohli")?.playerId || batters[0]?.playerId || "";
+  useEffect(() => {
+    if (players.length > 0) {
+      return undefined;
+    }
+
+    let isMounted = true;
+
+    async function loadDatasets() {
+      try {
+        setIsLoadingDatasets(true);
+        setDataLoadError("");
+
+        const datasetKeys = ["players", "career", "season", "teamSeason", "matchup", "battingInnings", "bowlingInnings"];
+        const responses = await Promise.all(
+          datasetKeys.map((key) => fetch(`/stat-engine/api/stat-engine-data/${key}`).then((response) => {
+            if (!response.ok) {
+              throw new Error(`Failed to load ${key}`);
+            }
+
+            return response.json();
+          }))
+        );
+
+        if (!isMounted) {
+          return;
+        }
+
+        setLoadedDatasets({
+          players: responses[0],
+          careerStats: responses[1],
+          seasonStats: responses[2],
+          teamSeasonStats: responses[3],
+          matchupStats: responses[4],
+          battingInningsStats: responses[5],
+          bowlingInningsStats: responses[6]
+        });
+      } catch {
+        if (!isMounted) {
+          return;
+        }
+
+        setDataLoadError("Could not load the IPL datasets. Refresh and try again.");
+      } finally {
+        if (isMounted) {
+          setIsLoadingDatasets(false);
+        }
+      }
+    }
+
+    loadDatasets();
+
+    return () => {
+      isMounted = false;
+    };
+  }, [players.length]);
+
+  const resolvedPlayers = loadedDatasets?.players || players;
+  const resolvedCareerStats = loadedDatasets?.careerStats || careerStats;
+  const resolvedSeasonStats = loadedDatasets?.seasonStats || seasonStats;
+  const resolvedTeamSeasonStats = loadedDatasets?.teamSeasonStats || teamSeasonStats;
+  const resolvedMatchupStats = loadedDatasets?.matchupStats || matchupStats;
+  const resolvedBattingInningsStats = loadedDatasets?.battingInningsStats || battingInningsStats;
+  const resolvedBowlingInningsStats = loadedDatasets?.bowlingInningsStats || bowlingInningsStats;
+
+  const batters = resolvedPlayers.filter((player) => player.primaryRole !== "bowler");
+  const bowlers = resolvedPlayers.filter((player) => player.primaryRole !== "batter");
+  const viratKohliId = resolvedPlayers.find((player) => player.displayName === "Virat Kohli")?.playerId || batters[0]?.playerId || "";
   const rohitSharmaId =
-    players.find((player) => player.displayName === "Rohit Sharma")?.playerId ||
+    resolvedPlayers.find((player) => player.displayName === "Rohit Sharma")?.playerId ||
     batters.find((player) => player.playerId !== viratKohliId)?.playerId ||
     batters[0]?.playerId ||
     "";
-  const jaspritBumrahId = players.find((player) => player.displayName === "Jasprit Bumrah")?.playerId || bowlers[0]?.playerId || "";
+  const jaspritBumrahId = resolvedPlayers.find((player) => player.displayName === "Jasprit Bumrah")?.playerId || bowlers[0]?.playerId || "";
   const lasithMalingaId =
-    players.find((player) => player.displayName === "SL Malinga")?.playerId ||
-    players.find((player) => player.displayName === "Lasith Malinga")?.playerId ||
+    resolvedPlayers.find((player) => player.displayName === "SL Malinga")?.playerId ||
+    resolvedPlayers.find((player) => player.displayName === "Lasith Malinga")?.playerId ||
     bowlers.find((player) => player.playerId !== jaspritBumrahId)?.playerId ||
     bowlers[0]?.playerId ||
     "";
@@ -779,20 +846,34 @@ export default function StatEngineClient({
     seasonB: 2025
   });
 
-  const datasetMap = {
-    career: careerStats,
-    season: seasonStats,
-    teamSeason: teamSeasonStats,
-    battingInnings: battingInningsStats,
-    bowlingInnings: bowlingInningsStats
-  };
-  const teamStats = useMemo(() => aggregateTeamTotals(teamSeasonStats), [teamSeasonStats]);
+  useEffect(() => {
+    if (!resolvedPlayers.length) {
+      return;
+    }
 
-  const yearOptions = Array.from(new Set(seasonStats.map((record) => record.season)))
+    setBattleState((currentState) => ({
+      ...currentState,
+      leftId: currentState.leftId || viratKohliId,
+      rightId: currentState.rightId || rohitSharmaId,
+      batterId: currentState.batterId || viratKohliId,
+      bowlerId: currentState.bowlerId || jaspritBumrahId
+    }));
+  }, [resolvedPlayers.length, viratKohliId, rohitSharmaId, jaspritBumrahId]);
+
+  const datasetMap = {
+    career: resolvedCareerStats,
+    season: resolvedSeasonStats,
+    teamSeason: resolvedTeamSeasonStats,
+    battingInnings: resolvedBattingInningsStats,
+    bowlingInnings: resolvedBowlingInningsStats
+  };
+  const teamStats = useMemo(() => aggregateTeamTotals(resolvedTeamSeasonStats), [resolvedTeamSeasonStats]);
+
+  const yearOptions = Array.from(new Set(resolvedSeasonStats.map((record) => record.season)))
     .sort((left, right) => right - left)
     .map((season) => ({ value: String(season), label: String(season) }));
 
-  const teamOptions = Array.from(new Set(teamSeasonStats.map((record) => record.teamCode)))
+  const teamOptions = Array.from(new Set(resolvedTeamSeasonStats.map((record) => record.teamCode)))
     .sort()
     .map((teamCode) => ({ value: teamCode, label: teamCode }));
 
@@ -1006,8 +1087,8 @@ export default function StatEngineClient({
   }
 
   const battlePresets = FAMOUS_MATCHUP_PAIRS.map((pair) => {
-    const batter = players.find((player) => player.displayName === pair.batterName) || null;
-    const bowler = players.find((player) => player.displayName === pair.bowlerName) || null;
+    const batter = resolvedPlayers.find((player) => player.displayName === pair.batterName) || null;
+    const bowler = resolvedPlayers.find((player) => player.displayName === pair.bowlerName) || null;
 
     if (!batter || !bowler) {
       return null;
@@ -1033,10 +1114,10 @@ export default function StatEngineClient({
 
   const battle = buildBattle({
     mode: battleMode,
-    players,
-    careerStats,
-    seasonStats,
-    matchupStats,
+    players: resolvedPlayers,
+    careerStats: resolvedCareerStats,
+    seasonStats: resolvedSeasonStats,
+    matchupStats: resolvedMatchupStats,
     params: {
       ...battleState,
       yearCompareMode
@@ -1061,13 +1142,13 @@ export default function StatEngineClient({
             ]
           : yearCompareMode === "twoPlayers"
             ? [
-                { id: "leftId", label: "Player A", value: battleState.leftId, options: toSelectOptions(players), onChange: (value) => updateBattleState("leftId", value), searchable: true, placeholder: "Search player A" },
+                { id: "leftId", label: "Player A", value: battleState.leftId, options: toSelectOptions(resolvedPlayers), onChange: (value) => updateBattleState("leftId", value), searchable: true, placeholder: "Search player A" },
                 { id: "seasonA", label: "Season A", value: String(battleState.seasonA), options: yearOptions, onChange: (value) => updateBattleState("seasonA", Number(value)) },
-                { id: "rightId", label: "Player B", value: battleState.rightId, options: toSelectOptions(players), onChange: (value) => updateBattleState("rightId", value), searchable: true, placeholder: "Search player B" },
+                { id: "rightId", label: "Player B", value: battleState.rightId, options: toSelectOptions(resolvedPlayers), onChange: (value) => updateBattleState("rightId", value), searchable: true, placeholder: "Search player B" },
                 { id: "seasonB", label: "Season B", value: String(battleState.seasonB), options: yearOptions, onChange: (value) => updateBattleState("seasonB", Number(value)) }
               ]
             : [
-                { id: "leftId", label: "Player", value: battleState.leftId, options: toSelectOptions(players), onChange: (value) => { updateBattleState("leftId", value); updateBattleState("rightId", value); }, searchable: true, placeholder: "Search player" },
+                { id: "leftId", label: "Player", value: battleState.leftId, options: toSelectOptions(resolvedPlayers), onChange: (value) => { updateBattleState("leftId", value); updateBattleState("rightId", value); }, searchable: true, placeholder: "Search player" },
                 { id: "seasonA", label: "Season A", value: String(battleState.seasonA), options: yearOptions, onChange: (value) => updateBattleState("seasonA", Number(value)) },
                 { id: "seasonB", label: "Season B", value: String(battleState.seasonB), options: yearOptions, onChange: (value) => updateBattleState("seasonB", Number(value)) }
               ];
@@ -1083,6 +1164,34 @@ export default function StatEngineClient({
         ? "batter"
         : "bowler"
       : null;
+
+  if (isLoadingDatasets && !resolvedPlayers.length) {
+    return (
+      <main className="min-h-screen bg-[radial-gradient(circle_at_top,rgba(16,185,129,0.14),transparent_22%),radial-gradient(circle_at_top_right,rgba(245,158,11,0.12),transparent_18%),radial-gradient(circle_at_bottom_left,rgba(16,185,129,0.1),transparent_20%),linear-gradient(180deg,#0b1112_0%,#081011_100%)] px-4 py-6 text-slate-100 sm:px-6 lg:px-8">
+        <div className="mx-auto flex w-full max-w-3xl flex-col gap-6">
+          <SectionCard eyebrow="IPL Stat Engine" title="Loading the full IPL data engine">
+            <div className="rounded-[24px] border border-white/10 bg-white/[0.04] px-4 py-6 text-sm text-slate-300">
+              Pulling in IPL 2008-2025 datasets for Ask Stats and Battle Mode.
+            </div>
+          </SectionCard>
+        </div>
+      </main>
+    );
+  }
+
+  if (dataLoadError && !resolvedPlayers.length) {
+    return (
+      <main className="min-h-screen bg-[radial-gradient(circle_at_top,rgba(16,185,129,0.14),transparent_22%),radial-gradient(circle_at_top_right,rgba(245,158,11,0.12),transparent_18%),radial-gradient(circle_at_bottom_left,rgba(16,185,129,0.1),transparent_20%),linear-gradient(180deg,#0b1112_0%,#081011_100%)] px-4 py-6 text-slate-100 sm:px-6 lg:px-8">
+        <div className="mx-auto flex w-full max-w-3xl flex-col gap-6">
+          <SectionCard eyebrow="IPL Stat Engine" title="Could not load the datasets">
+            <div className="rounded-[24px] border border-amber-300/15 bg-amber-300/10 px-4 py-6 text-sm text-amber-100">
+              {dataLoadError}
+            </div>
+          </SectionCard>
+        </div>
+      </main>
+    );
+  }
 
   return (
     <main className="min-h-screen bg-[radial-gradient(circle_at_top,rgba(16,185,129,0.14),transparent_22%),radial-gradient(circle_at_top_right,rgba(245,158,11,0.12),transparent_18%),radial-gradient(circle_at_bottom_left,rgba(16,185,129,0.1),transparent_20%),linear-gradient(180deg,#0b1112_0%,#081011_100%)] px-4 py-6 text-slate-100 sm:px-6 lg:px-8">
