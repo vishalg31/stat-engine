@@ -9,6 +9,7 @@ import ConditionRow from "./ConditionRow";
 import PillTabs from "./PillTabs";
 import ResultsGrid from "./ResultsGrid";
 import SectionCard from "./SectionCard";
+import TemplateCarousel from "./TemplateCarousel";
 
 const sectionTabs = [
   {
@@ -42,6 +43,16 @@ const QUICK_QUERY_PRESETS = [
     query: { entity: "batters", ranking: "best", metric: "strikeRate", scope: "career", season: "2025", teamCode: "CSK", thresholdValue: "500" }
   },
   {
+    id: "best-sr-since-2021",
+    label: "Best SR Since 2021",
+    query: { entity: "batters", ranking: "best", metric: "strikeRate", scope: "sinceYear", season: "2021", teamCode: "all", thresholdValue: "300" }
+  },
+  {
+    id: "kkr-runs-since-2021",
+    label: "KKR Runs Since 2021",
+    query: { entity: "batters", ranking: "most", metric: "runs", scope: "sinceYear", season: "2021", teamCode: "KKR", thresholdValue: "" }
+  },
+  {
     id: "best-bowling-figures",
     label: "Best Bowling Fig",
     query: { entity: "bowlers", ranking: "best", metric: "bestBowlingFigure", scope: "career", season: "2025", teamCode: "CSK", thresholdValue: "" }
@@ -62,6 +73,7 @@ const contextTabs = [
 const guidedScopeOptions = [
   { value: "career", label: "All Time" },
   { value: "season", label: "Season" },
+  { value: "sinceYear", label: "Since Year" },
   { value: "team", label: "By Team" },
   { value: "teamSeason", label: "Team + Season" }
 ];
@@ -78,7 +90,7 @@ const DEFAULT_GUIDED_QUERY = {
   metric: "runs",
   scope: "career",
   season: "2025",
-  teamCode: "CSK",
+  teamCode: "all",
   thresholdValue: ""
 };
 
@@ -149,6 +161,74 @@ function aggregateTeamTotals(teamSeasonStats) {
     const strikeRate = record.ballsFaced ? (record.runs * 100) / record.ballsFaced : null;
     const battingAverage = dismissals > 0 ? record.runs / dismissals : null;
     const economy = record.oversBowled ? record.runsConceded / record.oversBowled : null;
+    const bowlingAverage = record.wickets ? record.runsConceded / record.wickets : null;
+    const strikeRateBowling = record.wickets ? record.ballsBowled / record.wickets : null;
+
+    return {
+      ...record,
+      strikeRate,
+      battingAverage,
+      economy,
+      bowlingAverage,
+      strikeRateBowling
+    };
+  });
+}
+
+function aggregateSinceYearTotals(seasonStats) {
+  const grouped = new Map();
+
+  for (const record of seasonStats) {
+    const key = record.playerId;
+    const existing = grouped.get(key);
+
+    if (!existing) {
+      grouped.set(key, {
+        ...record,
+        season: undefined
+      });
+      continue;
+    }
+
+    existing.matches = (existing.matches || 0) + (record.matches || 0);
+    existing.innings = (existing.innings || 0) + (record.innings || 0);
+    existing.notOuts = (existing.notOuts || 0) + (record.notOuts || 0);
+    existing.runs = (existing.runs || 0) + (record.runs || 0);
+    existing.ballsFaced = (existing.ballsFaced || 0) + (record.ballsFaced || 0);
+    existing.fours = (existing.fours || 0) + (record.fours || 0);
+    existing.sixes = (existing.sixes || 0) + (record.sixes || 0);
+    existing.fifties = (existing.fifties || 0) + (record.fifties || 0);
+    existing.hundreds = (existing.hundreds || 0) + (record.hundreds || 0);
+    existing.highestScore = Math.max(existing.highestScore || 0, record.highestScore || 0);
+    existing.ducks = (existing.ducks || 0) + (record.ducks || 0);
+
+    existing.inningsBowled = (existing.inningsBowled || 0) + (record.inningsBowled || 0);
+    existing.oversBowled = (existing.oversBowled || 0) + (record.oversBowled || 0);
+    existing.ballsBowled = (existing.ballsBowled || 0) + (record.ballsBowled || 0);
+    existing.runsConceded = (existing.runsConceded || 0) + (record.runsConceded || 0);
+    existing.wickets = (existing.wickets || 0) + (record.wickets || 0);
+    existing.dotBalls = (existing.dotBalls || 0) + (record.dotBalls || 0);
+    existing.fourWicketHauls = (existing.fourWicketHauls || 0) + (record.fourWicketHauls || 0);
+    existing.fiveWicketHauls = (existing.fiveWicketHauls || 0) + (record.fiveWicketHauls || 0);
+
+    const existingBestWickets = existing.bestBowlingWickets || 0;
+    const nextBestWickets = record.bestBowlingWickets || 0;
+    const existingBestRuns = existing.bestBowlingRuns ?? Number.POSITIVE_INFINITY;
+    const nextBestRuns = record.bestBowlingRuns ?? Number.POSITIVE_INFINITY;
+
+    if (nextBestWickets > existingBestWickets) {
+      existing.bestBowlingWickets = record.bestBowlingWickets;
+      existing.bestBowlingRuns = record.bestBowlingRuns;
+    } else if (nextBestWickets === existingBestWickets && nextBestRuns < existingBestRuns) {
+      existing.bestBowlingRuns = record.bestBowlingRuns;
+    }
+  }
+
+  return Array.from(grouped.values()).map((record) => {
+    const dismissals = Math.max((record.innings || 0) - (record.notOuts || 0), 0);
+    const strikeRate = record.ballsFaced ? (record.runs * 100) / record.ballsFaced : null;
+    const battingAverage = dismissals > 0 ? record.runs / dismissals : null;
+    const economy = record.ballsBowled ? (record.runsConceded * 6) / record.ballsBowled : null;
     const bowlingAverage = record.wickets ? record.runsConceded / record.wickets : null;
     const strikeRateBowling = record.wickets ? record.ballsBowled / record.wickets : null;
 
@@ -547,18 +627,25 @@ function buildGuidedPreview(query, metricConfig) {
   const scopeLabel = guidedScopeOptions.find((option) => option.value === query.scope)?.label || "All Time";
   const isAllTimeQuery =
     query.scope === "career" ||
-    (query.scope === "team" && query.season === "all") ||
+    ((query.scope === "team" || query.scope === "sinceYear") && query.season === "all") ||
     (query.scope === "teamSeason" && query.season === "all");
+  const isSinceYearQuery = query.scope === "sinceYear";
 
   let sentence = `${entityLabel} with ${rankingLabel.toLowerCase()} ${metricLabel.toLowerCase()}`;
 
   if (isAllTimeQuery) {
     sentence += " all time";
+  } else if (isSinceYearQuery) {
+    sentence += ` since ${query.season}`;
   } else {
     sentence += ` in ${query.season}`;
   }
 
-  if ((query.scope === "teamSeason" || query.scope === "team") && query.teamCode) {
+  if (
+    (query.scope === "teamSeason" || query.scope === "team" || query.scope === "sinceYear") &&
+    query.teamCode &&
+    query.teamCode !== "all"
+  ) {
     sentence += ` for ${query.teamCode}`;
   }
 
@@ -669,7 +756,7 @@ function GuidedQueryBuilder({
             ))}
           </select>
 
-          {query.scope === "season" || query.scope === "teamSeason" || query.scope === "team" ? (
+          {query.scope === "season" || query.scope === "sinceYear" || query.scope === "teamSeason" || query.scope === "team" ? (
             <select
               value={String(query.season)}
               onChange={(event) => onChange("season", event.target.value)}
@@ -685,7 +772,7 @@ function GuidedQueryBuilder({
             </select>
           ) : null}
 
-          {query.scope === "teamSeason" || query.scope === "team" ? (
+          {query.scope === "teamSeason" || query.scope === "team" || query.scope === "sinceYear" ? (
             <>
               <span className="text-slate-400">for</span>
               <select
@@ -876,25 +963,53 @@ export default function StatEngineClient({
   const teamOptions = Array.from(new Set(resolvedTeamSeasonStats.map((record) => record.teamCode)))
     .sort()
     .map((teamCode) => ({ value: teamCode, label: teamCode }));
+  const guidedTeamOptions = [{ value: "all", label: "All Teams" }, ...teamOptions];
 
   const guidedMetricConfig = getMetricConfig(guidedQuery.entity, guidedQuery.metric);
 
   const guidedResult = useMemo(() => {
+    const isSinceYearQuery = guidedQuery.scope === "sinceYear";
+    const hasSinceYearTeamFilter =
+      isSinceYearQuery && Boolean(guidedQuery.teamCode) && guidedQuery.teamCode !== "all";
     const isTeamSeasonShortcut =
       guidedQuery.scope === "team" &&
       guidedQuery.season !== "all" &&
       !guidedMetricConfig?.dataset;
-    const contextKey = guidedMetricConfig?.dataset || (isTeamSeasonShortcut ? "teamSeason" : guidedQuery.scope);
+    let contextKey = guidedMetricConfig?.dataset
+      || (isTeamSeasonShortcut ? "teamSeason" : isSinceYearQuery ? (hasSinceYearTeamFilter ? "team" : "career") : guidedQuery.scope);
+    if (guidedQuery.scope === 'season' && !guidedMetricConfig?.dataset) {
+      contextKey = 'teamSeason';
+    }
     const conditionsForQuery = [];
+    const sinceYearValue = Number(guidedQuery.season);
     const shouldFilterSeason =
       guidedQuery.scope === "season" ||
+      guidedQuery.scope === "sinceYear" ||
       ((guidedQuery.scope === "teamSeason" || guidedQuery.scope === "team") && guidedQuery.season !== "all");
 
     if (shouldFilterSeason) {
-      conditionsForQuery.push({ field: "season", operator: "eq", value: Number(guidedQuery.season) });
+      if (guidedQuery.scope === "sinceYear") {
+        if (guidedMetricConfig?.dataset) {
+          conditionsForQuery.push({
+            field: "season",
+            operator: "gte",
+            value: sinceYearValue
+          });
+        }
+      } else {
+        conditionsForQuery.push({
+          field: "season",
+          operator: "eq",
+          value: Number(guidedQuery.season)
+        });
+      }
     }
 
-    if ((guidedQuery.scope === "teamSeason" || guidedQuery.scope === "team") && guidedQuery.teamCode) {
+    if (
+      (guidedQuery.scope === "teamSeason" || guidedQuery.scope === "team" || guidedQuery.scope === "sinceYear" || guidedQuery.scope === "season") &&
+      guidedQuery.teamCode &&
+      guidedQuery.teamCode !== "all"
+    ) {
       conditionsForQuery.push({ field: "teamCode", operator: "is", value: guidedQuery.teamCode });
     }
 
@@ -908,7 +1023,19 @@ export default function StatEngineClient({
 
     const filtered = filterDataset({
       context: contextKey,
-      dataset: contextKey === "team" ? teamStats : datasetMap[contextKey],
+      dataset: guidedMetricConfig?.dataset
+        ? datasetMap[contextKey]
+        : isSinceYearQuery
+          ? aggregateSinceYearTotals(
+              (hasSinceYearTeamFilter ? resolvedTeamSeasonStats : resolvedSeasonStats).filter(
+                (record) =>
+                  record.season >= sinceYearValue &&
+                  (!hasSinceYearTeamFilter || record.teamCode === guidedQuery.teamCode)
+              )
+            )
+          : contextKey === "team"
+            ? teamStats
+            : datasetMap[contextKey],
       conditions: conditionsForQuery
     });
     const cleanedResults = filterGuidedParticipation(filtered.results, guidedQuery, contextKey);
@@ -922,7 +1049,7 @@ export default function StatEngineClient({
       preview: `Showing ${previewMeta.sentence}`,
       scopeLabel: previewMeta.scopeLabel
     };
-  }, [datasetMap, guidedMetricConfig, guidedQuery, teamStats]);
+  }, [datasetMap, guidedMetricConfig, guidedQuery, resolvedSeasonStats, resolvedTeamSeasonStats, teamStats]);
 
   const filteredResult = filterDataset({
     context,
@@ -958,11 +1085,11 @@ export default function StatEngineClient({
       }
 
       if (key === "scope" && value === "career") {
-        nextQuery.teamCode = currentQuery.teamCode || teamOptions[0]?.value || "";
+        nextQuery.teamCode = currentQuery.teamCode || "all";
       }
 
-      if (key === "scope" && value !== "teamSeason") {
-        nextQuery.teamCode = currentQuery.teamCode || teamOptions[0]?.value || "";
+      if (key === "scope" && value !== "teamSeason" && value !== "team" && value !== "sinceYear") {
+        nextQuery.teamCode = currentQuery.teamCode || "all";
       }
 
       return nextQuery;
@@ -1171,7 +1298,7 @@ export default function StatEngineClient({
         <div className="mx-auto flex w-full max-w-3xl flex-col gap-6">
           <SectionCard eyebrow="IPL Stat Engine" title="Loading the full IPL data engine">
             <div className="rounded-[24px] border border-white/10 bg-white/[0.04] px-4 py-6 text-sm text-slate-300">
-              Pulling in IPL 2008-2025 datasets for Ask Stats and Battle Mode.
+              Pulling in IPL 2008-2026 datasets for Ask Stats and Battle Mode.
             </div>
           </SectionCard>
         </div>
@@ -1205,78 +1332,77 @@ export default function StatEngineClient({
               items={sectionTabs}
               activeKey={activeSection}
               onChange={setActiveSection}
-              className="flex w-full justify-between overflow-hidden sm:flex sm:w-full sm:justify-center sm:overflow-visible"
-              itemClassName="min-w-[132px] sm:min-w-[172px]"
             />
-            <p className="text-center text-xs font-medium text-slate-400 sm:text-sm">
-              Built from IPL 2008-2025 ball-by-ball match data.
-            </p>
           </div>
         </SectionCard>
 
         {activeSection === "ask" ? (
-          <>
-            <SectionCard
-              eyebrow="Ask IPL Stats"
-              title=""
-              description=""
-            >
-              <div className="space-y-3">
-                <div>
-                  <p className="text-sm font-medium text-slate-300">
-                    Choose how you want to explore the stats.
-                  </p>
-                </div>
-                <div>
-                  <PillTabs items={askModeTabs} activeKey={askMode} onChange={handleAskModeChange} />
+          <div className="flex flex-col gap-6">
+            <SectionCard eyebrow="Query Builder" title="Ask a question">
+              <div className="flex flex-col gap-6">
+                <div className="flex flex-wrap items-center justify-between gap-4">
+                  <PillTabs
+                    items={askModeTabs}
+                    activeKey={askMode}
+                    onChange={handleAskModeChange}
+                  />
                   {advancedSoonNotice ? (
-                    <p className="mt-2 text-xs font-semibold text-amber-200">Coming Soon!</p>
+                    <span className="animate-pulse text-sm font-bold text-amber-400">
+                      Advanced filters coming soon!
+                    </span>
                   ) : null}
                 </div>
+
+                {askMode === "guided" ? (
+                  <div className="flex flex-col gap-6">
+                    <TemplateCarousel
+                      templates={QUICK_QUERY_PRESETS}
+                      activeTemplateId={activeQuickPresetId}
+                      onApply={applyQuickPreset}
+                    />
+                    <GuidedQueryBuilder
+                      query={guidedQuery}
+                      onChange={handleGuidedChange}
+                      onReset={resetGuidedQuery}
+                      metricConfig={guidedMetricConfig}
+                      yearOptions={yearOptions}
+                      teamOptions={guidedTeamOptions}
+                    />
+                  </div>
+                ) : (
+                  <div className="flex flex-col gap-5">
+                    <PillTabs
+                      items={contextTabs}
+                      activeKey={context}
+                      onChange={handleContextChange}
+                    />
+                    <div className="flex flex-col gap-3">
+                      {conditions.map((condition, index) => (
+                        <ConditionRow
+                          key={index}
+                          context={context}
+                          condition={condition}
+                          onChange={(nextCondition) => updateCondition(index, nextCondition)}
+                          onRemove={() => removeCondition(index)}
+                          canRemove={conditions.length > 1}
+                        />
+                      ))}
+                    </div>
+                    <div className="flex justify-start">
+                      <button
+                        type="button"
+                        onClick={addCondition}
+                        className="h-10 rounded-2xl border border-white/10 bg-white/[0.04] px-4 text-sm font-semibold text-slate-200 transition duration-200 hover:border-emerald-300/30 hover:text-white active:scale-[0.98]"
+                      >
+                        + Add Condition
+                      </button>
+                    </div>
+                  </div>
+                )}
               </div>
             </SectionCard>
 
-            <SectionCard
-              eyebrow="Quick Query"
-              title="Build a natural stat question"
-              description="Examples: batters with most runs in 2025, bowlers with most wickets all time, best strike rate at 500 runs."
-            >
-              <div className="no-scrollbar -mx-1 mb-4 flex gap-2 overflow-x-auto px-1">
-                {QUICK_QUERY_PRESETS.map((preset) => (
-                  <button
-                    key={preset.id}
-                    type="button"
-                    onClick={() => applyQuickPreset(preset)}
-                    className={`shrink-0 rounded-full border px-3 py-2 text-xs font-semibold transition duration-200 active:scale-[0.98] ${
-                      activeQuickPresetId === preset.id
-                        ? "border-amber-300/30 bg-[linear-gradient(135deg,rgba(16,185,129,0.22),rgba(245,158,11,0.18))] text-white shadow-[0_12px_24px_rgba(16,185,129,0.14)]"
-                        : "border-white/10 bg-white/[0.04] text-slate-200 hover:border-emerald-300/30 hover:bg-[linear-gradient(135deg,rgba(16,185,129,0.1),rgba(245,158,11,0.08))] hover:text-white"
-                    }`}
-                  >
-                    {preset.label}
-                  </button>
-                ))}
-              </div>
-              <GuidedQueryBuilder
-                query={guidedQuery}
-                onChange={handleGuidedChange}
-                onReset={resetGuidedQuery}
-                metricConfig={guidedMetricConfig}
-                yearOptions={yearOptions}
-                teamOptions={teamOptions}
-              />
-              <div className="mt-4 rounded-[24px] border border-emerald-300/10 bg-[linear-gradient(135deg,rgba(14,40,34,0.96),rgba(13,18,18,0.98))] px-4 py-5 text-base leading-7 text-slate-100 shadow-[inset_0_1px_0_rgba(255,255,255,0.04)]">
-                <div className="flex flex-wrap items-center gap-x-1.5 gap-y-2">
-                  {renderPreviewText(askPreview)}
-                </div>
-              </div>
-            </SectionCard>
-
-            <SectionCard
-              eyebrow="Results"
-              title={`Matching records: ${askTotal.toLocaleString("en-IN")}`}
-              description=""
-            >
+            <SectionCard eyebrow="Results" title={askPreview}>
               <ResultsGrid
                 context={askContext}
                 records={askResults}
@@ -1284,46 +1410,22 @@ export default function StatEngineClient({
                 roleProfileOverride={askRoleProfileOverride}
               />
             </SectionCard>
-          </>
-        ) : (
-          <SectionCard
-            eyebrow="Player Battle"
-            title="Step into the battle zone"
-            description="Matchup leads the experience, with quick switching into symmetric battles and year-based comparisons."
-          >
-            <BattlePanel
-              mode={battleMode}
-              onModeChange={handleBattleModeChange}
-              yearCompareMode={yearCompareMode}
-              yearCompareTabs={yearCompareTabs}
-              onYearCompareModeChange={setYearCompareMode}
-              selectorConfig={selectorConfig}
-              battle={battle}
-              battlePresets={battlePresets}
-              onApplyBattlePreset={applyBattlePreset}
-            />
-          </SectionCard>
-        )}
+          </div>
+        ) : null}
 
-        <footer className="flex flex-col items-center justify-center gap-2 rounded-[24px] border border-white/6 bg-white/[0.03] px-4 py-4 text-center text-xs text-slate-400 shadow-[inset_0_1px_0_rgba(255,255,255,0.03)] sm:flex-row sm:flex-wrap sm:gap-3">
-          <span>Built from IPL 2008-2025 data.</span>
-          <span className="hidden text-slate-600 sm:inline">•</span>
-          <span>Made by Vishal.</span>
-          <a
-            href="https://vishalbuilds.com"
-            target="_blank"
-            rel="noreferrer"
-            className="font-semibold text-slate-300 transition hover:text-white"
-          >
-            Website
-          </a>
-          <a
-            href="mailto:vgvishal31@gmail.com"
-            className="font-semibold text-slate-300 transition hover:text-white"
-          >
-            Email
-          </a>
-        </footer>
+        {activeSection === "battle" ? (
+          <BattlePanel
+            mode={battleMode}
+            onModeChange={handleBattleModeChange}
+            yearCompareMode={yearCompareMode}
+            yearCompareTabs={yearCompareTabs}
+            onYearCompareModeChange={setYearCompareMode}
+            selectorConfig={selectorConfig}
+            battle={battle}
+            battlePresets={battlePresets}
+            onApplyBattlePreset={applyBattlePreset}
+          />
+        ) : null}
       </div>
     </main>
   );
