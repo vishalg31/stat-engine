@@ -30,17 +30,17 @@ const QUICK_QUERY_PRESETS = [
   {
     id: "top-runs-2025",
     label: "Top Runs 2025",
-    query: { entity: "batters", ranking: "most", metric: "runs", scope: "season", season: "2025", teamCode: "CSK", thresholdValue: "" }
+    query: { entity: "batters", ranking: "most", metric: "runs", scope: "season", season: "2025", teamCode: "all", thresholdValue: "" }
   },
   {
     id: "all-time-wickets",
     label: "All-Time Wkts",
-    query: { entity: "bowlers", ranking: "most", metric: "wickets", scope: "career", season: "2025", teamCode: "CSK", thresholdValue: "" }
+    query: { entity: "bowlers", ranking: "most", metric: "wickets", scope: "career", season: "2025", teamCode: "all", thresholdValue: "" }
   },
   {
     id: "best-sr-500",
     label: "Best SR 500+",
-    query: { entity: "batters", ranking: "best", metric: "strikeRate", scope: "career", season: "2025", teamCode: "CSK", thresholdValue: "500" }
+    query: { entity: "batters", ranking: "best", metric: "strikeRate", scope: "career", season: "2025", teamCode: "all", thresholdValue: "500" }
   },
   {
     id: "best-sr-since-2021",
@@ -55,7 +55,7 @@ const QUICK_QUERY_PRESETS = [
   {
     id: "best-bowling-figures",
     label: "Best Bowling Fig",
-    query: { entity: "bowlers", ranking: "best", metric: "bestBowlingFigure", scope: "career", season: "2025", teamCode: "CSK", thresholdValue: "" }
+    query: { entity: "bowlers", ranking: "best", metric: "bestBowlingFigure", scope: "career", season: "2025", teamCode: "all", thresholdValue: "" }
   }
 ];
 
