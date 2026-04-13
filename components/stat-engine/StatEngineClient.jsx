@@ -78,6 +78,13 @@ const guidedScopeOptions = [
   { value: "teamSeason", label: "Team + Season" }
 ];
 
+const guidedPhaseOptions = [
+  { value: "all", label: "All Overs" },
+  { value: "powerplay", label: "Powerplay (1-6)" },
+  { value: "middle", label: "Middle Overs (7-16)" },
+  { value: "death", label: "Death Overs (17-20)" }
+];
+
 const guidedEntityOptions = [
   { value: "batters", label: "Batters" },
   { value: "bowlers", label: "Bowlers" },
@@ -90,6 +97,7 @@ const DEFAULT_GUIDED_QUERY = {
   metric: "runs",
   scope: "career",
   season: "2025",
+  phase: "all",
   teamCode: "all",
   thresholdValue: ""
 };
@@ -99,7 +107,7 @@ function getBoundaryPercentage(record) {
     return null;
   }
 
-  return ((((record.fours || 0) * 4) + ((record.sixes || 0) * 6)) * 100) / record.runs;
+  return Number((((((record.fours || 0) * 4) + ((record.sixes || 0) * 6)) * 100) / record.runs).toFixed(2));
 }
 
 function getDotPercentage(record) {
@@ -107,7 +115,7 @@ function getDotPercentage(record) {
     return null;
   }
 
-  return ((record.dotBalls || 0) * 100) / record.ballsBowled;
+  return Number((((record.dotBalls || 0) * 100) / record.ballsBowled).toFixed(2));
 }
 
 function aggregateTeamTotals(teamSeasonStats) {
@@ -158,11 +166,11 @@ function aggregateTeamTotals(teamSeasonStats) {
 
   return Array.from(grouped.values()).map((record) => {
     const dismissals = Math.max((record.innings || 0) - (record.notOuts || 0), 0);
-    const strikeRate = record.ballsFaced ? (record.runs * 100) / record.ballsFaced : null;
-    const battingAverage = dismissals > 0 ? record.runs / dismissals : null;
-    const economy = record.oversBowled ? record.runsConceded / record.oversBowled : null;
-    const bowlingAverage = record.wickets ? record.runsConceded / record.wickets : null;
-    const strikeRateBowling = record.wickets ? record.ballsBowled / record.wickets : null;
+    const strikeRate = record.ballsFaced ? Number(((record.runs * 100) / record.ballsFaced).toFixed(2)) : null;
+    const battingAverage = dismissals > 0 ? Number((record.runs / dismissals).toFixed(2)) : null;
+    const economy = record.ballsBowled ? Number(((record.runsConceded * 6) / record.ballsBowled).toFixed(2)) : null;
+    const bowlingAverage = record.wickets ? Number((record.runsConceded / record.wickets).toFixed(2)) : null;
+    const strikeRateBowling = record.wickets ? Number((record.ballsBowled / record.wickets).toFixed(2)) : null;
 
     return {
       ...record,
@@ -226,11 +234,11 @@ function aggregateSinceYearTotals(seasonStats) {
 
   return Array.from(grouped.values()).map((record) => {
     const dismissals = Math.max((record.innings || 0) - (record.notOuts || 0), 0);
-    const strikeRate = record.ballsFaced ? (record.runs * 100) / record.ballsFaced : null;
-    const battingAverage = dismissals > 0 ? record.runs / dismissals : null;
-    const economy = record.ballsBowled ? (record.runsConceded * 6) / record.ballsBowled : null;
-    const bowlingAverage = record.wickets ? record.runsConceded / record.wickets : null;
-    const strikeRateBowling = record.wickets ? record.ballsBowled / record.wickets : null;
+    const strikeRate = record.ballsFaced ? Number(((record.runs * 100) / record.ballsFaced).toFixed(2)) : null;
+    const battingAverage = dismissals > 0 ? Number((record.runs / dismissals).toFixed(2)) : null;
+    const economy = record.ballsBowled ? Number(((record.runsConceded * 6) / record.ballsBowled).toFixed(2)) : null;
+    const bowlingAverage = record.wickets ? Number((record.runsConceded / record.wickets).toFixed(2)) : null;
+    const strikeRateBowling = record.wickets ? Number((record.ballsBowled / record.wickets).toFixed(2)) : null;
 
     return {
       ...record,
@@ -499,7 +507,7 @@ function getMetricOptions(entity) {
 }
 
 function renderPreviewText(preview) {
-  const segments = preview.split(/(\b(?:all time|\d{4}|minimum\s+\d+|\d+)\b|most|best|highest|lowest|runs|wickets|strike rate|batting average|bowling average|economy|bowling strike rate|dot %|dot balls|boundary %|fours|sixes|not outs|fifties|hundreds|highest score|batting figure|bowling figure)/gi);
+  const segments = preview.split(/(\b(?:all time|\d{4}|minimum\s+\d+|\d+|powerplay|middle|death)\b|most|best|highest|lowest|runs|wickets|strike rate|batting average|bowling average|economy|bowling strike rate|dot %|dot balls|boundary %|fours|sixes|not outs|fifties|hundreds|highest score|batting figure|bowling figure)/gi);
 
   return segments
     .filter(Boolean)
@@ -528,7 +536,10 @@ function renderPreviewText(preview) {
           "hundreds",
           "highest score",
           "batting figure",
-          "bowling figure"
+          "bowling figure",
+          "powerplay",
+          "middle",
+          "death"
         ].includes(normalized) ||
         normalized === "all time" ||
         /^\d{4}$/.test(normalized) ||
@@ -625,6 +636,7 @@ function buildGuidedPreview(query, metricConfig) {
   const rankingLabel = metricConfig?.rankingOptions.find((option) => option.value === query.ranking)?.label || "Best";
   const metricLabel = metricConfig?.label || "Stats";
   const scopeLabel = guidedScopeOptions.find((option) => option.value === query.scope)?.label || "All Time";
+  const phaseLabel = guidedPhaseOptions.find((option) => option.value === query.phase)?.label;
   const isAllTimeQuery =
     query.scope === "career" ||
     ((query.scope === "team" || query.scope === "sinceYear") && query.season === "all") ||
@@ -632,6 +644,11 @@ function buildGuidedPreview(query, metricConfig) {
   const isSinceYearQuery = query.scope === "sinceYear";
 
   let sentence = `${entityLabel} with ${rankingLabel.toLowerCase()} ${metricLabel.toLowerCase()}`;
+
+  if (!metricConfig?.dataset && query.phase && query.phase !== "all" && phaseLabel) {
+    const cleanPhaseLabel = phaseLabel.replace(/\s*\(.*\)/, "").replace(/Overs/i, "").trim();
+    sentence += ` in the ${cleanPhaseLabel}`;
+  }
 
   if (isAllTimeQuery) {
     sentence += " all time";
@@ -743,6 +760,23 @@ function GuidedQueryBuilder({
             ))}
           </select>
 
+        {!metricConfig?.dataset ? (
+          <>
+            <span className="text-slate-400">during</span>
+            <select
+              value={query.phase || "all"}
+              onChange={(event) => onChange("phase", event.target.value)}
+              className="h-11 rounded-2xl border border-white/10 bg-white/[0.05] px-3 text-sm font-semibold text-white outline-none transition duration-200 focus:border-emerald-300"
+            >
+              {guidedPhaseOptions.map((option) => (
+                <option key={option.value} value={option.value}>
+                  {option.label}
+                </option>
+              ))}
+            </select>
+          </>
+        ) : null}
+
           <span className="text-slate-400">in</span>
           <select
             value={query.scope}
@@ -772,7 +806,7 @@ function GuidedQueryBuilder({
             </select>
           ) : null}
 
-          {query.scope === "teamSeason" || query.scope === "team" || query.scope === "sinceYear" ? (
+        {query.phase === "all" && (query.scope === "teamSeason" || query.scope === "team" || query.scope === "sinceYear") ? (
             <>
               <span className="text-slate-400">for</span>
               <select
@@ -825,6 +859,7 @@ export default function StatEngineClient({
   careerStats = [],
   seasonStats = [],
   teamSeasonStats = [],
+  phaseStats = [],
   matchupStats = [],
   battingInningsStats = [],
   bowlingInningsStats = []
@@ -857,7 +892,7 @@ export default function StatEngineClient({
         setIsLoadingDatasets(true);
         setDataLoadError("");
 
-        const datasetKeys = ["players", "career", "season", "teamSeason", "matchup", "battingInnings", "bowlingInnings"];
+        const datasetKeys = ["players", "career", "season", "teamSeason", "phase", "matchup", "battingInnings", "bowlingInnings"];
         const responses = await Promise.all(
           datasetKeys.map((key) => fetch(`/stat-engine/api/stat-engine-data/${key}`).then((response) => {
             if (!response.ok) {
@@ -877,9 +912,10 @@ export default function StatEngineClient({
           careerStats: responses[1],
           seasonStats: responses[2],
           teamSeasonStats: responses[3],
-          matchupStats: responses[4],
-          battingInningsStats: responses[5],
-          bowlingInningsStats: responses[6]
+          phaseStats: responses[4],
+          matchupStats: responses[5],
+          battingInningsStats: responses[6],
+          bowlingInningsStats: responses[7]
         });
       } catch {
         if (!isMounted) {
@@ -905,6 +941,7 @@ export default function StatEngineClient({
   const resolvedCareerStats = loadedDatasets?.careerStats || careerStats;
   const resolvedSeasonStats = loadedDatasets?.seasonStats || seasonStats;
   const resolvedTeamSeasonStats = loadedDatasets?.teamSeasonStats || teamSeasonStats;
+  const resolvedPhaseStats = loadedDatasets?.phaseStats || phaseStats;
   const resolvedMatchupStats = loadedDatasets?.matchupStats || matchupStats;
   const resolvedBattingInningsStats = loadedDatasets?.battingInningsStats || battingInningsStats;
   const resolvedBowlingInningsStats = loadedDatasets?.bowlingInningsStats || bowlingInningsStats;
@@ -951,6 +988,7 @@ export default function StatEngineClient({
     career: resolvedCareerStats,
     season: resolvedSeasonStats,
     teamSeason: resolvedTeamSeasonStats,
+    phase: resolvedPhaseStats,
     battingInnings: resolvedBattingInningsStats,
     bowlingInnings: resolvedBowlingInningsStats
   };
@@ -968,6 +1006,7 @@ export default function StatEngineClient({
   const guidedMetricConfig = getMetricConfig(guidedQuery.entity, guidedQuery.metric);
 
   const guidedResult = useMemo(() => {
+    const isPhaseQuery = guidedQuery.phase && guidedQuery.phase !== "all";
     const isSinceYearQuery = guidedQuery.scope === "sinceYear";
     const hasSinceYearTeamFilter =
       isSinceYearQuery && Boolean(guidedQuery.teamCode) && guidedQuery.teamCode !== "all";
@@ -980,6 +1019,10 @@ export default function StatEngineClient({
     if (guidedQuery.scope === 'season' && !guidedMetricConfig?.dataset) {
       contextKey = 'teamSeason';
     }
+    if (isPhaseQuery && !guidedMetricConfig?.dataset) {
+      contextKey = "phase";
+    }
+
     const conditionsForQuery = [];
     const sinceYearValue = Number(guidedQuery.season);
     const shouldFilterSeason =
@@ -987,25 +1030,50 @@ export default function StatEngineClient({
       guidedQuery.scope === "sinceYear" ||
       ((guidedQuery.scope === "teamSeason" || guidedQuery.scope === "team") && guidedQuery.season !== "all");
 
-    if (shouldFilterSeason) {
-      if (guidedQuery.scope === "sinceYear") {
-        if (guidedMetricConfig?.dataset) {
-          conditionsForQuery.push({
-            field: "season",
-            operator: "gte",
-            value: sinceYearValue
-          });
+    let baseDataset;
+
+    if (guidedMetricConfig?.dataset) {
+      baseDataset = datasetMap[contextKey];
+      if (shouldFilterSeason) {
+        if (guidedQuery.scope === "sinceYear") {
+          conditionsForQuery.push({ field: "season", operator: "gte", value: sinceYearValue });
+        } else {
+          conditionsForQuery.push({ field: "season", operator: "eq", value: Number(guidedQuery.season) });
         }
-      } else {
-        conditionsForQuery.push({
-          field: "season",
-          operator: "eq",
-          value: Number(guidedQuery.season)
+      }
+    } else if (isPhaseQuery) {
+      if (guidedQuery.scope === "career" || guidedQuery.scope === "sinceYear") {
+        const phaseFiltered = resolvedPhaseStats.filter((r) => {
+          if (r.phase !== guidedQuery.phase) return false;
+          if (guidedQuery.scope === "sinceYear" && r.season < sinceYearValue) return false;
+          return true;
         });
+        baseDataset = aggregateSinceYearTotals(phaseFiltered);
+      } else {
+        baseDataset = resolvedPhaseStats.filter((r) => r.phase === guidedQuery.phase);
+        if (shouldFilterSeason) {
+          conditionsForQuery.push({ field: "season", operator: "eq", value: Number(guidedQuery.season) });
+        }
+      }
+    } else if (isSinceYearQuery) {
+      baseDataset = aggregateSinceYearTotals(
+        (hasSinceYearTeamFilter ? resolvedTeamSeasonStats : resolvedSeasonStats).filter(
+          (record) =>
+            record.season >= sinceYearValue &&
+            (!hasSinceYearTeamFilter || record.teamCode === guidedQuery.teamCode)
+        )
+      );
+    } else if (contextKey === "team") {
+      baseDataset = teamStats;
+    } else {
+      baseDataset = datasetMap[contextKey];
+      if (shouldFilterSeason) {
+        conditionsForQuery.push({ field: "season", operator: "eq", value: Number(guidedQuery.season) });
       }
     }
 
     if (
+      !isPhaseQuery &&
       (guidedQuery.scope === "teamSeason" || guidedQuery.scope === "team" || guidedQuery.scope === "sinceYear" || guidedQuery.scope === "season") &&
       guidedQuery.teamCode &&
       guidedQuery.teamCode !== "all"
@@ -1022,20 +1090,8 @@ export default function StatEngineClient({
     }
 
     const filtered = filterDataset({
-      context: contextKey,
-      dataset: guidedMetricConfig?.dataset
-        ? datasetMap[contextKey]
-        : isSinceYearQuery
-          ? aggregateSinceYearTotals(
-              (hasSinceYearTeamFilter ? resolvedTeamSeasonStats : resolvedSeasonStats).filter(
-                (record) =>
-                  record.season >= sinceYearValue &&
-                  (!hasSinceYearTeamFilter || record.teamCode === guidedQuery.teamCode)
-              )
-            )
-          : contextKey === "team"
-            ? teamStats
-            : datasetMap[contextKey],
+      context: contextKey === "phase" ? "season" : contextKey,
+      dataset: baseDataset,
       conditions: conditionsForQuery
     });
     const cleanedResults = filterGuidedParticipation(filtered.results, guidedQuery, contextKey);
@@ -1090,6 +1146,17 @@ export default function StatEngineClient({
 
       if (key === "scope" && value !== "teamSeason" && value !== "team" && value !== "sinceYear") {
         nextQuery.teamCode = currentQuery.teamCode || "all";
+      }
+
+      if (key === "phase" && value !== "all") {
+        nextQuery.teamCode = "all";
+        if (currentQuery.scope === "team" || currentQuery.scope === "teamSeason") {
+          nextQuery.scope = "season";
+        }
+      }
+
+      if (key === "scope" && (value === "team" || value === "teamSeason")) {
+        nextQuery.phase = "all";
       }
 
       return nextQuery;

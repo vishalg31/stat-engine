@@ -50,6 +50,10 @@ function getMetaLabel(record) {
     parts.push(record.teamCode);
   }
 
+  if (record.phase) {
+    parts.push(record.phase.charAt(0).toUpperCase() + record.phase.slice(1));
+  }
+
   return parts.join(" • ");
 }
 
@@ -561,7 +565,10 @@ function getRoleProfile(records, override = null) {
   return "mixed";
 }
 
-function getTableColumns(context, roleProfile = "mixed", preferredSortKey = null) {
+function getTableColumns(context, records, roleProfile = "mixed", preferredSortKey = null) {
+  const hasSeason = records.some((r) => r.season !== undefined && r.season !== null);
+  const seasonCol = hasSeason ? [{ key: "season", label: "Season", mobileLabel: "Yr" }] : [];
+  const mixedSeasonCol = hasSeason ? [{ key: "season", label: "Season" }] : [];
   const nameOnlyBase = [
     { key: "displayName", label: "Player", mobileLabel: "Player", align: "left", sticky: true }
   ];
@@ -579,11 +586,11 @@ function getTableColumns(context, roleProfile = "mixed", preferredSortKey = null
         { key: "boundaryPercentage", label: "Boundary %", mobileLabel: "Bnd%" }
       ];
 
-  if (context === "season") {
+  if (context === "season" || context === "phase") {
     if (roleProfile === "batter") {
       return [
         ...nameOnlyBase,
-        { key: "season", label: "Season", mobileLabel: "Yr" },
+        ...seasonCol,
         { key: "matches", label: "Matches", mobileLabel: "Mat" },
         { key: "runs", label: "Runs", mobileLabel: "Runs" },
         ...(isHighScoreView ? [{ key: "highestScore", label: "HS", mobileLabel: "HS" }] : []),
@@ -595,7 +602,7 @@ function getTableColumns(context, roleProfile = "mixed", preferredSortKey = null
     if (roleProfile === "bowler") {
       return [
         ...nameOnlyBase,
-        { key: "season", label: "Season", mobileLabel: "Yr" },
+        ...seasonCol,
         { key: "matches", label: "Matches", mobileLabel: "Mat" },
         { key: "wickets", label: "Wkts", mobileLabel: "Wkts" },
         { key: "economy", label: "Econ", mobileLabel: "Econ" },
@@ -606,7 +613,7 @@ function getTableColumns(context, roleProfile = "mixed", preferredSortKey = null
 
     return [
       ...base,
-      { key: "season", label: "Season" },
+      ...mixedSeasonCol,
       { key: "matches", label: "Matches" },
       { key: "runs", label: "Runs" },
       { key: "strikeRate", label: "SR" },
@@ -620,7 +627,7 @@ function getTableColumns(context, roleProfile = "mixed", preferredSortKey = null
       return [
         ...nameOnlyBase,
         { key: "teamCode", label: "Team", mobileLabel: "Tm", align: "left" },
-        { key: "season", label: "Season", mobileLabel: "Yr" },
+        ...seasonCol,
         { key: "matches", label: "Matches", mobileLabel: "Mat" },
         { key: "runs", label: "Runs", mobileLabel: "Runs" },
         ...(isHighScoreView ? [{ key: "highestScore", label: "HS", mobileLabel: "HS" }] : []),
@@ -633,7 +640,7 @@ function getTableColumns(context, roleProfile = "mixed", preferredSortKey = null
       return [
         ...nameOnlyBase,
         { key: "teamCode", label: "Team", mobileLabel: "Tm", align: "left" },
-        { key: "season", label: "Season", mobileLabel: "Yr" },
+        ...seasonCol,
         { key: "matches", label: "Matches", mobileLabel: "Mat" },
         { key: "wickets", label: "Wkts", mobileLabel: "Wkts" },
         { key: "economy", label: "Econ", mobileLabel: "Econ" },
@@ -645,7 +652,7 @@ function getTableColumns(context, roleProfile = "mixed", preferredSortKey = null
     return [
       ...base,
       { key: "teamCode", label: "Team", align: "left" },
-      { key: "season", label: "Season" },
+      ...mixedSeasonCol,
       { key: "matches", label: "Matches" },
       { key: "runs", label: "Runs" },
       { key: "strikeRate", label: "SR" },
@@ -693,7 +700,7 @@ function getTableColumns(context, roleProfile = "mixed", preferredSortKey = null
   if (context === "battingInnings") {
     return [
       { key: "displayName", label: "Player", align: "left", sticky: true },
-      { key: "season", label: "Season", mobileLabel: "Yr" },
+      ...seasonCol,
       { key: "teamCode", label: "Team", mobileLabel: "Tm", align: "left" },
       { key: "runs", label: "Runs", mobileLabel: "Runs" },
       { key: "ballsFaced", label: "Balls", mobileLabel: "Balls" },
@@ -706,7 +713,7 @@ function getTableColumns(context, roleProfile = "mixed", preferredSortKey = null
   if (context === "bowlingInnings") {
     return [
       { key: "displayName", label: "Player", align: "left", sticky: true },
-      { key: "season", label: "Season", mobileLabel: "Yr" },
+      ...seasonCol,
       { key: "teamCode", label: "Team", mobileLabel: "Tm", align: "left" },
       { key: "bowlingFigure", label: "Figure", mobileLabel: "Fig" },
       { key: "oversBowled", label: "Overs", mobileLabel: "Ov" },
@@ -715,7 +722,7 @@ function getTableColumns(context, roleProfile = "mixed", preferredSortKey = null
     ];
   }
 
-  if ((context === "career" || context === "season" || context === "teamSeason" || context === "team") && roleProfile === "bowler") {
+  if ((context === "career" || context === "season" || context === "teamSeason" || context === "team" || context === "phase") && roleProfile === "bowler") {
     return [
       ...nameOnlyBase,
       { key: "matches", label: "Matches", mobileLabel: "Mat" },
@@ -727,7 +734,7 @@ function getTableColumns(context, roleProfile = "mixed", preferredSortKey = null
     ];
   }
 
-  if ((context === "career" || context === "season" || context === "teamSeason" || context === "team") && roleProfile === "batter") {
+  if ((context === "career" || context === "season" || context === "teamSeason" || context === "team" || context === "phase") && roleProfile === "batter") {
     return [
       ...nameOnlyBase,
       { key: "matches", label: "Matches", mobileLabel: "Mat" },
@@ -770,7 +777,7 @@ function getDefaultSortConfig(context, roleProfile = "mixed", preferredSort = nu
     return { key: "wickets", direction: "desc" };
   }
 
-  if (context === "season" || context === "teamSeason" || context === "team") {
+  if (context === "season" || context === "teamSeason" || context === "team" || context === "phase") {
     return { key: "runs", direction: "desc" };
   }
 
@@ -1016,8 +1023,8 @@ function ResultTable({ context, records, preferredSort, roleProfileOverride }) {
   const PAGE_SIZE = 15;
   const roleProfile = useMemo(() => getRoleProfile(records, roleProfileOverride), [records, roleProfileOverride]);
   const columns = useMemo(
-    () => injectMetricColumn(getTableColumns(context, roleProfile, preferredSort?.key || null), preferredSort?.key || null),
-    [context, preferredSort?.key, roleProfile]
+    () => injectMetricColumn(getTableColumns(context, records, roleProfile, preferredSort?.key || null), preferredSort?.key || null),
+    [context, records, preferredSort?.key, roleProfile]
   );
   const defaultSort = useMemo(
     () => getDefaultSortConfig(context, roleProfile, preferredSort),

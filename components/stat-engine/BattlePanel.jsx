@@ -108,16 +108,36 @@ function SearchableBattleSelect({ label, value, options, onChange, placeholder }
     <div className="grid gap-2">
       <label className="grid gap-2">
         <span className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-400">{label}</span>
-        <input
-          value={query}
-          onChange={(event) => handleChange(event.target.value)}
-          onFocus={() => setIsOpen(true)}
-          onBlur={() => {
-            window.setTimeout(() => setIsOpen(false), 120);
-          }}
-          placeholder={placeholder}
-          className="h-12 rounded-2xl border border-white/10 bg-[linear-gradient(180deg,rgba(20,28,28,0.96),rgba(10,14,14,0.98))] px-4 text-sm text-white outline-none transition duration-200 focus:border-emerald-300 focus:shadow-[0_0_0_3px_rgba(16,185,129,0.12)]"
-        />
+        <div className="relative">
+          <input
+            value={query}
+            onChange={(event) => handleChange(event.target.value)}
+            onFocus={() => setIsOpen(true)}
+            onBlur={() => {
+              window.setTimeout(() => setIsOpen(false), 120);
+            }}
+            placeholder={placeholder}
+            className="h-12 w-full rounded-2xl border border-white/10 bg-[linear-gradient(180deg,rgba(20,28,28,0.96),rgba(10,14,14,0.98))] pl-4 pr-10 text-sm text-white outline-none transition duration-200 focus:border-emerald-300 focus:shadow-[0_0_0_3px_rgba(16,185,129,0.12)]"
+          />
+          {query ? (
+            <button
+              type="button"
+              onMouseDown={(e) => {
+                e.preventDefault();
+                setQuery("");
+                onChange("");
+                setIsOpen(true);
+              }}
+              className="absolute right-3 top-1/2 -translate-y-1/2 rounded-full p-1 text-slate-500 transition-colors hover:bg-white/10 hover:text-slate-300"
+              aria-label="Clear selection"
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M18 6 6 18" />
+                <path d="m6 6 12 12" />
+              </svg>
+            </button>
+          ) : null}
+        </div>
       </label>
 
       {isOpen && suggestions.length > 0 ? (
@@ -172,33 +192,29 @@ function MatchupPresetRail({ presets, onApply }) {
 function ComparisonRow({ row }) {
   const leftClass =
     row.winner === "left"
-      ? "text-emerald-200"
-      : row.winner === "right"
-        ? "text-slate-500"
-        : "text-slate-100";
+      ? "text-emerald-400"
+      : "text-white";
   const rightClass =
     row.winner === "right"
-      ? "text-amber-200"
-      : row.winner === "left"
-        ? "text-slate-500"
-        : "text-slate-100";
+      ? "text-amber-400"
+      : "text-white";
 
   return (
     <motion.div
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.22, ease: "easeOut" }}
-      className="grid grid-cols-[minmax(0,1fr)_76px_minmax(0,1fr)] items-center gap-2 rounded-[18px] border border-white/8 bg-[linear-gradient(180deg,rgba(14,20,20,0.98),rgba(9,13,13,0.98))] px-2 py-3 shadow-[0_12px_22px_rgba(2,6,23,0.16)] sm:grid-cols-[minmax(0,1fr)_108px_minmax(0,1fr)] sm:px-3"
+      className="grid grid-cols-[minmax(0,1fr)_76px_minmax(0,1fr)] items-center gap-2 border-b border-white/5 px-2 py-3 transition duration-200 last:border-b-0 hover:bg-white/[0.02] sm:grid-cols-[minmax(0,1fr)_108px_minmax(0,1fr)] sm:px-4"
     >
-      <div className={`min-w-0 rounded-[14px] border border-emerald-400/14 bg-emerald-500/8 px-2 py-3 text-center text-sm font-black transition sm:px-3 sm:text-base ${leftClass}`}>
+      <div className={`min-w-0 text-center text-sm font-black sm:text-base ${leftClass}`}>
         {row.leftDisplayValue}
       </div>
       <div className="px-2 text-center">
-        <p className="text-[9px] font-black uppercase tracking-[0.18em] text-slate-300 sm:text-[10px] sm:tracking-[0.22em]">
+        <p className="text-[10px] font-bold uppercase tracking-[0.15em] text-slate-400 sm:text-[11px] sm:tracking-[0.2em]">
           {row.label}
         </p>
       </div>
-      <div className={`min-w-0 rounded-[14px] border border-amber-400/14 bg-amber-500/8 px-2 py-3 text-center text-sm font-black transition sm:px-3 sm:text-base ${rightClass}`}>
+      <div className={`min-w-0 text-center text-sm font-black sm:text-base ${rightClass}`}>
         {row.rightDisplayValue}
       </div>
     </motion.div>
@@ -209,9 +225,9 @@ function MatchupStatRow({ row }) {
   const value = row.leftDisplayValue !== "--" ? row.leftDisplayValue : row.rightDisplayValue;
   const valueClass =
     row.winnerSide === "left"
-      ? "text-emerald-200"
+      ? "text-emerald-400"
       : row.winnerSide === "right"
-        ? "text-amber-200"
+        ? "text-amber-400"
         : "text-white";
 
   return (
@@ -219,10 +235,9 @@ function MatchupStatRow({ row }) {
       initial={{ opacity: 0, y: 12 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.24, ease: "easeOut" }}
-      whileTap={{ scale: 0.98 }}
-      className="grid w-full grid-cols-[minmax(0,1fr)_auto] items-center gap-4 rounded-[18px] border border-white/8 bg-[linear-gradient(180deg,rgba(14,20,20,0.98),rgba(9,13,13,0.98))] px-4 py-3 shadow-[0_12px_22px_rgba(2,6,23,0.16)] md:mx-auto md:max-w-[560px] md:grid-cols-[minmax(0,1fr)_112px]"
+      className="grid w-full grid-cols-[minmax(0,1fr)_auto] items-center gap-4 border-b border-white/5 px-4 py-3 transition duration-200 last:border-b-0 hover:bg-white/[0.02] md:mx-auto md:max-w-[560px] md:grid-cols-[minmax(0,1fr)_112px]"
     >
-      <p className="text-[10px] font-black uppercase tracking-[0.22em] text-slate-300 md:text-xs">{row.label}</p>
+      <p className="text-[10px] font-bold uppercase tracking-[0.15em] text-slate-400 md:text-[11px] md:tracking-[0.2em]">{row.label}</p>
       <p className={`text-right text-lg font-black tracking-tight sm:text-xl ${valueClass}`}>{value}</p>
     </motion.div>
   );
@@ -310,8 +325,9 @@ export default function BattlePanel({
       </div>
 
       <div className="grid gap-4">
-        <div className="overflow-hidden rounded-[30px] border border-white/10 bg-[linear-gradient(180deg,rgba(13,19,20,0.98),rgba(7,10,11,0.98))] shadow-[0_28px_56px_rgba(2,6,23,0.34)]">
-          <div className="border-b border-white/6 bg-[radial-gradient(circle_at_left,rgba(16,185,129,0.2),transparent_28%),radial-gradient(circle_at_right,rgba(245,158,11,0.18),transparent_28%),linear-gradient(90deg,rgba(16,185,129,0.18),rgba(255,255,255,0.03),rgba(245,158,11,0.18))] px-5 py-4">
+        <div className="relative overflow-hidden rounded-[30px] border border-white/20 bg-[linear-gradient(180deg,rgba(13,19,20,0.98),rgba(7,10,11,0.98))] shadow-[0_0_24px_rgba(255,255,255,0.08),0_28px_56px_rgba(2,6,23,0.4)] ring-1 ring-white/5">
+          <div className="pointer-events-none absolute inset-x-0 top-0 z-10 h-px bg-gradient-to-r from-transparent via-white/40 to-transparent" />
+          <div className="relative border-b border-white/6 bg-[radial-gradient(circle_at_left,rgba(16,185,129,0.2),transparent_28%),radial-gradient(circle_at_right,rgba(245,158,11,0.18),transparent_28%),linear-gradient(90deg,rgba(16,185,129,0.18),rgba(255,255,255,0.03),rgba(245,158,11,0.18))] px-5 py-4">
             <p className="text-[11px] font-black uppercase tracking-[0.28em] text-slate-300">
               {isMatchupMode ? "Head to Head Matchup" : "Battle Breakdown"}
             </p>
@@ -331,25 +347,25 @@ export default function BattlePanel({
             </div>
 
             {isMatchupMode ? (
-              <div className="overflow-hidden rounded-[22px] border border-white/10 bg-[linear-gradient(180deg,rgba(12,18,18,0.98),rgba(7,11,11,0.98))]">
-                <div className="grid w-full grid-cols-[minmax(0,1fr)_auto] items-center border-b border-white/8 px-4 py-3 text-[10px] font-black uppercase tracking-[0.22em] text-slate-300 md:mx-auto md:max-w-[560px] md:grid-cols-[minmax(0,1fr)_112px] md:px-0 md:text-xs">
+              <div className="overflow-hidden rounded-[22px] border border-white/15 bg-[linear-gradient(180deg,rgba(12,18,18,0.98),rgba(7,11,11,0.98))]">
+                <div className="grid w-full grid-cols-[minmax(0,1fr)_auto] items-center border-b border-white/8 px-4 py-3 text-[10px] font-black uppercase tracking-[0.22em] text-slate-300 md:mx-auto md:max-w-[560px] md:grid-cols-[minmax(0,1fr)_112px] md:px-4 md:text-xs">
                   <div>Matchup Stat</div>
                   <div className="text-right">Value</div>
                 </div>
-                <div className="grid gap-2 p-2">
-                {battle.rows.map((row) => (
-                  <MatchupStatRow key={row.key} row={row} />
-                ))}
-              </div>
+                <div className="grid">
+                  {battle.rows.map((row) => (
+                    <MatchupStatRow key={row.key} row={row} />
+                  ))}
+                </div>
               </div>
             ) : (
-              <div className="overflow-hidden rounded-[22px] border border-white/10 bg-[linear-gradient(180deg,rgba(12,18,18,0.98),rgba(7,11,11,0.98))]">
+              <div className="overflow-hidden rounded-[22px] border border-white/15 bg-[linear-gradient(180deg,rgba(12,18,18,0.98),rgba(7,11,11,0.98))]">
                 <div className="grid grid-cols-[minmax(0,1fr)_76px_minmax(0,1fr)] items-center border-b border-white/8 px-2 py-3 text-[9px] font-black uppercase tracking-[0.18em] text-slate-300 sm:grid-cols-[minmax(0,1fr)_108px_minmax(0,1fr)] sm:px-3 sm:text-[10px] sm:tracking-[0.22em]">
                   <div className="text-center text-emerald-200">Challenger</div>
                   <div className="text-center">Stat</div>
                   <div className="text-center text-amber-200">Opponent</div>
                 </div>
-                <div className="grid gap-2 p-2">
+                <div className="grid">
                   {battle.rows.map((row) => (
                     <ComparisonRow key={row.key} row={row} />
                   ))}

@@ -6,6 +6,7 @@ const DATASET_FILES = {
   career: "career_stats.json",
   season: "season_stats.json",
   teamSeason: "team_season_stats.json",
+  phase: "phase_stats.json",
   matchup: "matchup_stats.json",
   battingInnings: "batting_innings.json",
   bowlingInnings: "bowling_innings.json"
