@@ -782,10 +782,12 @@
       "AJ Hosein"
     ],
     "teams": [
+      "CSK",
       "SRH"
     ],
     "activeYears": [
-      2023
+      2023,
+      2026
     ],
     "primaryRole": "all_rounder"
   },
@@ -1597,7 +1599,8 @@
     ],
     "activeYears": [
       2024,
-      2025
+      2025,
+      2026
     ],
     "primaryRole": "batter"
   },
@@ -1674,6 +1677,20 @@
     "activeYears": [
       2011,
       2012
+    ],
+    "primaryRole": "batter"
+  },
+  {
+    "playerId": "7c3c0337",
+    "displayName": "Auqib Nabi",
+    "knownNames": [
+      "Auqib Nabi"
+    ],
+    "teams": [
+      "DC"
+    ],
+    "activeYears": [
+      2026
     ],
     "primaryRole": "batter"
   },
@@ -3141,7 +3158,8 @@
     "activeYears": [
       2022,
       2024,
-      2025
+      2025,
+      2026
     ],
     "primaryRole": "batter"
   },
@@ -4018,6 +4036,20 @@
     "primaryRole": "batter"
   },
   {
+    "playerId": "e5437608",
+    "displayName": "GF Linde",
+    "knownNames": [
+      "GF Linde"
+    ],
+    "teams": [
+      "LSG"
+    ],
+    "activeYears": [
+      2026
+    ],
+    "primaryRole": "batter"
+  },
+  {
     "playerId": "94253925",
     "displayName": "GH Vihari",
     "knownNames": [
@@ -4138,6 +4170,20 @@
       2024
     ],
     "primaryRole": "batter"
+  },
+  {
+    "playerId": "cc61ee8f",
+    "displayName": "Gurjapneet Singh",
+    "knownNames": [
+      "Gurjapneet Singh"
+    ],
+    "teams": [
+      "CSK"
+    ],
+    "activeYears": [
+      2026
+    ],
+    "primaryRole": "bowler"
   },
   {
     "playerId": "6eb146d2",
@@ -4343,7 +4389,7 @@
       2025,
       2026
     ],
-    "primaryRole": "all_rounder"
+    "primaryRole": "bowler"
   },
   {
     "playerId": "f986ca1a",
@@ -4803,7 +4849,7 @@
       2025,
       2026
     ],
-    "primaryRole": "batter"
+    "primaryRole": "all_rounder"
   },
   {
     "playerId": "4125d931",
@@ -5395,7 +5441,8 @@
       2021,
       2022,
       2023,
-      2025
+      2025,
+      2026
     ],
     "primaryRole": "bowler"
   },
@@ -9801,7 +9848,7 @@
       2025,
       2026
     ],
-    "primaryRole": "bowler"
+    "primaryRole": "all_rounder"
   },
   {
     "playerId": "de4b0555",
@@ -13449,14 +13496,16 @@
       "Venkatesh Iyer"
     ],
     "teams": [
-      "KKR"
+      "KKR",
+      "RCB"
     ],
     "activeYears": [
       2021,
       2022,
       2023,
       2024,
-      2025
+      2025,
+      2026
     ],
     "primaryRole": "batter"
   },
@@ -13921,7 +13970,7 @@
       2025,
       2026
     ],
-    "primaryRole": "all_rounder"
+    "primaryRole": "bowler"
   },
   {
     "playerId": "bae11797",
