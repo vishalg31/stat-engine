@@ -6611,6 +6611,20 @@
     "primaryRole": "bowler"
   },
   {
+    "playerId": "60aa2db3",
+    "displayName": "LG Pretorius",
+    "knownNames": [
+      "LG Pretorius"
+    ],
+    "teams": [
+      "RR"
+    ],
+    "activeYears": [
+      2026
+    ],
+    "primaryRole": "batter"
+  },
+  {
     "playerId": "d3611425",
     "displayName": "LI Meriwala",
     "knownNames": [
@@ -9309,6 +9323,20 @@
     "primaryRole": "batter"
   },
   {
+    "playerId": "ece7b6b3",
+    "displayName": "PP Hinge",
+    "knownNames": [
+      "PP Hinge"
+    ],
+    "teams": [
+      "SRH"
+    ],
+    "activeYears": [
+      2026
+    ],
+    "primaryRole": "bowler"
+  },
+  {
     "playerId": "0aadc906",
     "displayName": "PR Shah",
     "knownNames": [
@@ -10117,7 +10145,8 @@
       2019,
       2022,
       2024,
-      2025
+      2025,
+      2026
     ],
     "primaryRole": "bowler"
   },
@@ -11233,6 +11262,20 @@
       2013
     ],
     "primaryRole": "batter"
+  },
+  {
+    "playerId": "280fff14",
+    "displayName": "Sakib Hussain",
+    "knownNames": [
+      "Sakib Hussain"
+    ],
+    "teams": [
+      "SRH"
+    ],
+    "activeYears": [
+      2026
+    ],
+    "primaryRole": "bowler"
   },
   {
     "playerId": "4d6d6280",
