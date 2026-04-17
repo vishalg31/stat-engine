@@ -1,5 +1,6 @@
 import "./globals.css";
 import HubHeader from "./hub-header";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
   title: "IPL Stat Engine",
@@ -12,6 +13,7 @@ export default function RootLayout({ children }) {
       <body>
         <HubHeader />
         {children}
+        <Analytics />
       </body>
     </html>
   );
