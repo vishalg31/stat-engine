@@ -1614,7 +1614,8 @@
       "MI"
     ],
     "activeYears": [
-      2025
+      2025,
+      2026
     ],
     "primaryRole": "bowler"
   },
@@ -2321,7 +2322,7 @@
     "activeYears": [
       2026
     ],
-    "primaryRole": "bowler"
+    "primaryRole": "all_rounder"
   },
   {
     "playerId": "f3171936",
@@ -2867,6 +2868,20 @@
       2008
     ],
     "primaryRole": "all_rounder"
+  },
+  {
+    "playerId": "de7d833e",
+    "displayName": "D Madushanka",
+    "knownNames": [
+      "D Madushanka"
+    ],
+    "teams": [
+      "SRH"
+    ],
+    "activeYears": [
+      2026
+    ],
+    "primaryRole": "bowler"
   },
   {
     "playerId": "11614d87",
@@ -3623,6 +3638,20 @@
     ],
     "activeYears": [
       2008
+    ],
+    "primaryRole": "batter"
+  },
+  {
+    "playerId": "9e6032fa",
+    "displayName": "DV Malewar",
+    "knownNames": [
+      "DV Malewar"
+    ],
+    "teams": [
+      "MI"
+    ],
+    "activeYears": [
+      2026
     ],
     "primaryRole": "batter"
   },
@@ -4529,7 +4558,8 @@
       "LSG"
     ],
     "activeYears": [
-      2025
+      2025,
+      2026
     ],
     "primaryRole": "batter"
   },
@@ -4849,7 +4879,7 @@
       2025,
       2026
     ],
-    "primaryRole": "all_rounder"
+    "primaryRole": "bowler"
   },
   {
     "playerId": "4125d931",
@@ -5908,7 +5938,8 @@
       2019,
       2020,
       2022,
-      2025
+      2025,
+      2026
     ],
     "primaryRole": "batter"
   },
@@ -6227,6 +6258,20 @@
       2022,
       2023,
       2024
+    ],
+    "primaryRole": "bowler"
+  },
+  {
+    "playerId": "e48a4814",
+    "displayName": "Krish Bhagat",
+    "knownNames": [
+      "Krish Bhagat"
+    ],
+    "teams": [
+      "MI"
+    ],
+    "activeYears": [
+      2026
     ],
     "primaryRole": "bowler"
   },
@@ -8084,7 +8129,8 @@
     ],
     "activeYears": [
       2024,
-      2025
+      2025,
+      2026
     ],
     "primaryRole": "bowler"
   },
@@ -8227,7 +8273,8 @@
     "activeYears": [
       2022,
       2024,
-      2025
+      2025,
+      2026
     ],
     "primaryRole": "bowler"
   },
@@ -11464,7 +11511,8 @@
     ],
     "activeYears": [
       2024,
-      2025
+      2025,
+      2026
     ],
     "primaryRole": "batter"
   },
@@ -11965,7 +12013,7 @@
     "activeYears": [
       2026
     ],
-    "primaryRole": "all_rounder"
+    "primaryRole": "bowler"
   },
   {
     "playerId": "8a668774",
@@ -13104,7 +13152,8 @@
     ],
     "activeYears": [
       2021,
-      2022
+      2022,
+      2026
     ],
     "primaryRole": "batter"
   },
@@ -14127,6 +14176,20 @@
       2023,
       2024,
       2025
+    ],
+    "primaryRole": "bowler"
+  },
+  {
+    "playerId": "02dfebbe",
+    "displayName": "Yash Raj Punja",
+    "knownNames": [
+      "Yash Raj Punja"
+    ],
+    "teams": [
+      "RR"
+    ],
+    "activeYears": [
+      2026
     ],
     "primaryRole": "bowler"
   },
