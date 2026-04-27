@@ -1431,7 +1431,8 @@
     "activeYears": [
       2023,
       2024,
-      2025
+      2025,
+      2026
     ],
     "primaryRole": "bowler"
   },
@@ -5085,6 +5086,7 @@
     ],
     "teams": [
       "CSK",
+      "GT",
       "KKR",
       "LSG",
       "RR",
@@ -5097,7 +5099,8 @@
       2020,
       2021,
       2022,
-      2023
+      2023,
+      2026
     ],
     "primaryRole": "bowler"
   },
@@ -5273,7 +5276,8 @@
       "RCB"
     ],
     "activeYears": [
-      2025
+      2025,
+      2026
     ],
     "primaryRole": "batter"
   },
@@ -6273,7 +6277,7 @@
     "activeYears": [
       2026
     ],
-    "primaryRole": "bowler"
+    "primaryRole": "batter"
   },
   {
     "playerId": "5b8c830e",
@@ -7791,9 +7795,10 @@
       "GT"
     ],
     "activeYears": [
-      2024
+      2024,
+      2026
     ],
-    "primaryRole": "batter"
+    "primaryRole": "all_rounder"
   },
   {
     "playerId": "da934ee8",
@@ -9179,7 +9184,8 @@
       2021,
       2022,
       2024,
-      2025
+      2025,
+      2026
     ],
     "primaryRole": "bowler"
   },
@@ -13444,7 +13450,8 @@
       "CSK"
     ],
     "activeYears": [
-      2025
+      2025,
+      2026
     ],
     "primaryRole": "batter"
   },
