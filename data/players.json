@@ -582,7 +582,8 @@
     "activeYears": [
       2023,
       2024,
-      2025
+      2025,
+      2026
     ],
     "primaryRole": "batter"
   },
@@ -895,6 +896,20 @@
       2025
     ],
     "primaryRole": "bowler"
+  },
+  {
+    "playerId": "d8d67045",
+    "displayName": "Akshat Raghuwanshi",
+    "knownNames": [
+      "Akshat Raghuwanshi"
+    ],
+    "teams": [
+      "LSG"
+    ],
+    "activeYears": [
+      2026
+    ],
+    "primaryRole": "batter"
   },
   {
     "playerId": "8291f939",
@@ -2323,7 +2338,7 @@
     "activeYears": [
       2026
     ],
-    "primaryRole": "all_rounder"
+    "primaryRole": "bowler"
   },
   {
     "playerId": "f3171936",
@@ -2353,7 +2368,7 @@
       2025,
       2026
     ],
-    "primaryRole": "batter"
+    "primaryRole": "all_rounder"
   },
   {
     "playerId": "fe366f34",
@@ -4382,7 +4397,8 @@
       2022,
       2023,
       2024,
-      2025
+      2025,
+      2026
     ],
     "primaryRole": "all_rounder"
   },
@@ -5487,10 +5503,12 @@
       "Josh Inglis"
     ],
     "teams": [
+      "LSG",
       "PBKS"
     ],
     "activeYears": [
-      2025
+      2025,
+      2026
     ],
     "primaryRole": "batter"
   },
@@ -5739,12 +5757,14 @@
       "KA Jamieson"
     ],
     "teams": [
+      "DC",
       "PBKS",
       "RCB"
     ],
     "activeYears": [
       2021,
-      2025
+      2025,
+      2026
     ],
     "primaryRole": "bowler"
   },
@@ -6777,7 +6797,8 @@
       2022,
       2023,
       2024,
-      2025
+      2025,
+      2026
     ],
     "primaryRole": "bowler"
   },
@@ -7163,7 +7184,8 @@
       2014,
       2015,
       2024,
-      2025
+      2025,
+      2026
     ],
     "primaryRole": "bowler"
   },
@@ -7292,7 +7314,8 @@
       2022,
       2023,
       2024,
-      2025
+      2025,
+      2026
     ],
     "primaryRole": "batter"
   },
@@ -7517,10 +7540,12 @@
       "MD Shanaka"
     ],
     "teams": [
-      "GT"
+      "GT",
+      "RR"
     ],
     "activeYears": [
-      2023
+      2023,
+      2026
     ],
     "primaryRole": "batter"
   },
@@ -8442,6 +8467,20 @@
     ],
     "activeYears": [
       2012
+    ],
+    "primaryRole": "batter"
+  },
+  {
+    "playerId": "3cea23da",
+    "displayName": "N Sindhu",
+    "knownNames": [
+      "N Sindhu"
+    ],
+    "teams": [
+      "GT"
+    ],
+    "activeYears": [
+      2026
     ],
     "primaryRole": "batter"
   },
@@ -9622,7 +9661,8 @@
     "activeYears": [
       2022,
       2024,
-      2025
+      2025,
+      2026
     ],
     "primaryRole": "bowler"
   },
@@ -9788,7 +9828,8 @@
       "MI"
     ],
     "activeYears": [
-      2025
+      2025,
+      2026
     ],
     "primaryRole": "batter"
   },
@@ -9965,6 +10006,20 @@
     "primaryRole": "bowler"
   },
   {
+    "playerId": "c1e53c3f",
+    "displayName": "R Smaran",
+    "knownNames": [
+      "R Smaran"
+    ],
+    "teams": [
+      "SRH"
+    ],
+    "activeYears": [
+      2026
+    ],
+    "primaryRole": "batter"
+  },
+  {
     "playerId": "39a2dfa8",
     "displayName": "R Tewatia",
     "knownNames": [
@@ -10031,7 +10086,8 @@
     ],
     "activeYears": [
       2022,
-      2025
+      2025,
+      2026
     ],
     "primaryRole": "batter"
   },
@@ -10046,6 +10102,20 @@
     ],
     "activeYears": [
       2009
+    ],
+    "primaryRole": "bowler"
+  },
+  {
+    "playerId": "5b615e7c",
+    "displayName": "Raghu Sharma",
+    "knownNames": [
+      "Raghu Sharma"
+    ],
+    "teams": [
+      "MI"
+    ],
+    "activeYears": [
+      2026
     ],
     "primaryRole": "bowler"
   },
@@ -10767,6 +10837,20 @@
       2010
     ],
     "primaryRole": "batter"
+  },
+  {
+    "playerId": "dee07622",
+    "displayName": "RS Ghosh",
+    "knownNames": [
+      "RS Ghosh"
+    ],
+    "teams": [
+      "CSK"
+    ],
+    "activeYears": [
+      2026
+    ],
+    "primaryRole": "bowler"
   },
   {
     "playerId": "c3c92b42",
@@ -12635,6 +12719,20 @@
     "primaryRole": "all_rounder"
   },
   {
+    "playerId": "926c7443",
+    "displayName": "SU Parakh",
+    "knownNames": [
+      "SU Parakh"
+    ],
+    "teams": [
+      "DC"
+    ],
+    "activeYears": [
+      2026
+    ],
+    "primaryRole": "batter"
+  },
+  {
     "playerId": "8998a68f",
     "displayName": "Sumit Kumar",
     "knownNames": [
@@ -12769,7 +12867,8 @@
       "PBKS"
     ],
     "activeYears": [
-      2025
+      2025,
+      2026
     ],
     "primaryRole": "batter"
   },
@@ -14003,7 +14102,8 @@
     ],
     "activeYears": [
       2024,
-      2025
+      2025,
+      2026
     ],
     "primaryRole": "all_rounder"
   },
