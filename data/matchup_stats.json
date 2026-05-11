@@ -585,6 +585,21 @@
     "dotBalls": 34
   },
   {
+    "batterId": "919a3be2",
+    "batterName": "Rishabh Pant",
+    "bowlerId": "2e81a32d",
+    "bowlerName": "Bhuvneshwar Kumar",
+    "matches": 11,
+    "innings": 11,
+    "runs": 122,
+    "balls": 57,
+    "dismissals": 2,
+    "strikeRate": 214.04,
+    "fours": 12,
+    "sixes": 8,
+    "dotBalls": 14
+  },
+  {
     "batterId": "1dc12ab9",
     "batterName": "Suresh Raina",
     "bowlerId": "6b19d823",
@@ -598,21 +613,6 @@
     "fours": 6,
     "sixes": 5,
     "dotBalls": 17
-  },
-  {
-    "batterId": "919a3be2",
-    "batterName": "Rishabh Pant",
-    "bowlerId": "2e81a32d",
-    "bowlerName": "Bhuvneshwar Kumar",
-    "matches": 10,
-    "innings": 10,
-    "runs": 121,
-    "balls": 56,
-    "dismissals": 2,
-    "strikeRate": 216.07,
-    "fours": 12,
-    "sixes": 8,
-    "dotBalls": 14
   },
   {
     "batterId": "a4cc73aa",
@@ -1380,6 +1380,21 @@
     "dotBalls": 3
   },
   {
+    "batterId": "a4cc73aa",
+    "batterName": "Sanju Samson",
+    "bowlerId": "ce794613",
+    "bowlerName": "T Natarajan",
+    "matches": 9,
+    "innings": 9,
+    "runs": 106,
+    "balls": 63,
+    "dismissals": 1,
+    "strikeRate": 168.25,
+    "fours": 12,
+    "sixes": 5,
+    "dotBalls": 25
+  },
+  {
     "batterId": "0a476045",
     "batterName": "Shikhar Dhawan",
     "bowlerId": "57ee1fde",
@@ -1588,6 +1603,21 @@
     "fours": 8,
     "sixes": 6,
     "dotBalls": 33
+  },
+  {
+    "batterId": "a4cc73aa",
+    "batterName": "Sanju Samson",
+    "bowlerId": "2e171977",
+    "bowlerName": "Axar Patel",
+    "matches": 14,
+    "innings": 14,
+    "runs": 103,
+    "balls": 84,
+    "dismissals": 2,
+    "strikeRate": 122.62,
+    "fours": 7,
+    "sixes": 3,
+    "dotBalls": 22
   },
   {
     "batterId": "0a476045",
@@ -2280,6 +2310,21 @@
     "dotBalls": 22
   },
   {
+    "batterId": "f29185a1",
+    "batterName": "Abhishek Sharma",
+    "bowlerId": "244048f6",
+    "bowlerName": "Arshdeep Singh",
+    "matches": 9,
+    "innings": 9,
+    "runs": 94,
+    "balls": 48,
+    "dismissals": 1,
+    "strikeRate": 195.83,
+    "fours": 11,
+    "sixes": 6,
+    "dotBalls": 18
+  },
+  {
     "batterId": "b8a55852",
     "batterName": "Brendon McCullum",
     "bowlerId": "41eb4a4f",
@@ -2593,21 +2638,6 @@
     "fours": 12,
     "sixes": 4,
     "dotBalls": 17
-  },
-  {
-    "batterId": "a4cc73aa",
-    "batterName": "Sanju Samson",
-    "bowlerId": "2e171977",
-    "bowlerName": "Axar Patel",
-    "matches": 13,
-    "innings": 13,
-    "runs": 91,
-    "balls": 74,
-    "dismissals": 2,
-    "strikeRate": 122.97,
-    "fours": 7,
-    "sixes": 2,
-    "dotBalls": 19
   },
   {
     "batterId": "271f83cd",
@@ -3240,21 +3270,6 @@
     "dotBalls": 11
   },
   {
-    "batterId": "f29185a1",
-    "batterName": "Abhishek Sharma",
-    "bowlerId": "244048f6",
-    "bowlerName": "Arshdeep Singh",
-    "matches": 8,
-    "innings": 8,
-    "runs": 85,
-    "balls": 43,
-    "dismissals": 1,
-    "strikeRate": 197.67,
-    "fours": 11,
-    "sixes": 5,
-    "dotBalls": 16
-  },
-  {
     "batterId": "752f7486",
     "batterName": "Ishan Kishan",
     "bowlerId": "2e171977",
@@ -3313,6 +3328,21 @@
     "fours": 9,
     "sixes": 2,
     "dotBalls": 28
+  },
+  {
+    "batterId": "a4cc73aa",
+    "batterName": "Sanju Samson",
+    "bowlerId": "8d2c70ad",
+    "bowlerName": "Kuldeep Yadav",
+    "matches": 9,
+    "innings": 9,
+    "runs": 85,
+    "balls": 56,
+    "dismissals": 1,
+    "strikeRate": 151.79,
+    "fours": 4,
+    "sixes": 6,
+    "dotBalls": 15
   },
   {
     "batterId": "0a476045",
@@ -4365,21 +4395,6 @@
     "dotBalls": 17
   },
   {
-    "batterId": "a4cc73aa",
-    "batterName": "Sanju Samson",
-    "bowlerId": "ce794613",
-    "bowlerName": "T Natarajan",
-    "matches": 8,
-    "innings": 8,
-    "runs": 79,
-    "balls": 55,
-    "dismissals": 1,
-    "strikeRate": 143.64,
-    "fours": 9,
-    "sixes": 3,
-    "dotBalls": 24
-  },
-  {
     "batterId": "4329fbb5",
     "batterName": "Shane Watson",
     "bowlerId": "6b19d823",
@@ -4543,6 +4558,21 @@
     "fours": 9,
     "sixes": 4,
     "dotBalls": 10
+  },
+  {
+    "batterId": "235c2bb6",
+    "batterName": "Heinrich Klaasen",
+    "bowlerId": "57ee1fde",
+    "bowlerName": "Yuzvendra Chahal",
+    "matches": 7,
+    "innings": 7,
+    "runs": 78,
+    "balls": 47,
+    "dismissals": 1,
+    "strikeRate": 165.96,
+    "fours": 2,
+    "sixes": 7,
+    "dotBalls": 12
   },
   {
     "batterId": "752f7486",
@@ -8539,15 +8569,15 @@
     "batterName": "Ruturaj Gaikwad",
     "bowlerId": "2e171977",
     "bowlerName": "Axar Patel",
-    "matches": 7,
-    "innings": 7,
+    "matches": 8,
+    "innings": 8,
     "runs": 63,
-    "balls": 44,
+    "balls": 48,
     "dismissals": 2,
-    "strikeRate": 143.18,
+    "strikeRate": 131.25,
     "fours": 3,
     "sixes": 4,
-    "dotBalls": 13
+    "dotBalls": 17
   },
   {
     "batterId": "a4cc73aa",
@@ -8848,6 +8878,21 @@
     "fours": 2,
     "sixes": 6,
     "dotBalls": 19
+  },
+  {
+    "batterId": "752f7486",
+    "batterName": "Ishan Kishan",
+    "bowlerId": "57ee1fde",
+    "bowlerName": "Yuzvendra Chahal",
+    "matches": 9,
+    "innings": 9,
+    "runs": 62,
+    "balls": 40,
+    "dismissals": 3,
+    "strikeRate": 155,
+    "fours": 3,
+    "sixes": 4,
+    "dotBalls": 8
   },
   {
     "batterId": "2e8994e7",
@@ -9267,21 +9312,6 @@
     "strikeRate": 141.86,
     "fours": 6,
     "sixes": 1,
-    "dotBalls": 10
-  },
-  {
-    "batterId": "235c2bb6",
-    "batterName": "Heinrich Klaasen",
-    "bowlerId": "57ee1fde",
-    "bowlerName": "Yuzvendra Chahal",
-    "matches": 6,
-    "innings": 6,
-    "runs": 61,
-    "balls": 35,
-    "dismissals": 1,
-    "strikeRate": 174.29,
-    "fours": 1,
-    "sixes": 6,
     "dotBalls": 10
   },
   {
@@ -10005,21 +10035,6 @@
     "dotBalls": 13
   },
   {
-    "batterId": "a4cc73aa",
-    "batterName": "Sanju Samson",
-    "bowlerId": "8d2c70ad",
-    "bowlerName": "Kuldeep Yadav",
-    "matches": 8,
-    "innings": 8,
-    "runs": 60,
-    "balls": 47,
-    "dismissals": 1,
-    "strikeRate": 127.66,
-    "fours": 3,
-    "sixes": 3,
-    "dotBalls": 13
-  },
-  {
     "batterId": "4329fbb5",
     "batterName": "Shane Watson",
     "bowlerId": "759ac88f",
@@ -10228,6 +10243,21 @@
     "fours": 3,
     "sixes": 6,
     "dotBalls": 8
+  },
+  {
+    "batterId": "f29185a1",
+    "batterName": "Abhishek Sharma",
+    "bowlerId": "81c36ee9",
+    "bowlerName": "M Jansen",
+    "matches": 3,
+    "innings": 3,
+    "runs": 59,
+    "balls": 17,
+    "dismissals": 0,
+    "strikeRate": 347.06,
+    "fours": 8,
+    "sixes": 4,
+    "dotBalls": 3
   },
   {
     "batterId": "29e95537",
@@ -11368,21 +11398,6 @@
     "fours": 2,
     "sixes": 2,
     "dotBalls": 26
-  },
-  {
-    "batterId": "752f7486",
-    "batterName": "Ishan Kishan",
-    "bowlerId": "57ee1fde",
-    "bowlerName": "Yuzvendra Chahal",
-    "matches": 8,
-    "innings": 8,
-    "runs": 57,
-    "balls": 34,
-    "dismissals": 3,
-    "strikeRate": 167.65,
-    "fours": 3,
-    "sixes": 4,
-    "dotBalls": 8
   },
   {
     "batterId": "00ea847a",
@@ -14175,6 +14190,21 @@
     "dotBalls": 10
   },
   {
+    "batterId": "12b610c2",
+    "batterName": "Travis Head",
+    "bowlerId": "57ee1fde",
+    "bowlerName": "Yuzvendra Chahal",
+    "matches": 5,
+    "innings": 5,
+    "runs": 53,
+    "balls": 28,
+    "dismissals": 2,
+    "strikeRate": 189.29,
+    "fours": 5,
+    "sixes": 3,
+    "dotBalls": 6
+  },
+  {
     "batterId": "6c19c6e5",
     "batterName": "Yashasvi Jaiswal",
     "bowlerId": "ce820073",
@@ -16230,21 +16260,6 @@
     "dotBalls": 15
   },
   {
-    "batterId": "12b610c2",
-    "batterName": "Travis Head",
-    "bowlerId": "57ee1fde",
-    "bowlerName": "Yuzvendra Chahal",
-    "matches": 4,
-    "innings": 4,
-    "runs": 50,
-    "balls": 25,
-    "dismissals": 1,
-    "strikeRate": 200,
-    "fours": 5,
-    "sixes": 3,
-    "dotBalls": 5
-  },
-  {
     "batterId": "ba607b88",
     "batterName": "Virat Kohli",
     "bowlerId": "1da489ff",
@@ -17668,6 +17683,21 @@
     "fours": 4,
     "sixes": 3,
     "dotBalls": 4
+  },
+  {
+    "batterId": "85b3fab2",
+    "batterName": "Tristan Stubbs",
+    "bowlerId": "cc61ee8f",
+    "bowlerName": "Gurjapneet Singh",
+    "matches": 2,
+    "innings": 2,
+    "runs": 48,
+    "balls": 25,
+    "dismissals": 0,
+    "strikeRate": 192,
+    "fours": 2,
+    "sixes": 4,
+    "dotBalls": 6
   },
   {
     "batterId": "ba607b88",
@@ -21300,6 +21330,21 @@
     "dotBalls": 7
   },
   {
+    "batterId": "3d8feaf8",
+    "batterName": "Mitchell Marsh",
+    "bowlerId": "2e81a32d",
+    "bowlerName": "Bhuvneshwar Kumar",
+    "matches": 6,
+    "innings": 6,
+    "runs": 44,
+    "balls": 30,
+    "dismissals": 1,
+    "strikeRate": 146.67,
+    "fours": 1,
+    "sixes": 4,
+    "dotBalls": 10
+  },
+  {
     "batterId": "4a8a2e3b",
     "batterName": "MS Dhoni",
     "bowlerId": "7c7d63a2",
@@ -22560,6 +22605,21 @@
     "dotBalls": 5
   },
   {
+    "batterId": "3d8feaf8",
+    "batterName": "Mitchell Marsh",
+    "bowlerId": "5b8c830e",
+    "bowlerName": "Krunal Pandya",
+    "matches": 4,
+    "innings": 4,
+    "runs": 43,
+    "balls": 25,
+    "dismissals": 1,
+    "strikeRate": 172,
+    "fours": 3,
+    "sixes": 3,
+    "dotBalls": 8
+  },
+  {
     "batterId": "bb351c23",
     "batterName": "Moeen Ali",
     "bowlerId": "a818c1be",
@@ -22849,15 +22909,15 @@
     "batterName": "Shreyas Iyer",
     "bowlerId": "5750bcb4",
     "bowlerName": "E Malinga",
-    "matches": 2,
-    "innings": 2,
+    "matches": 3,
+    "innings": 3,
     "runs": 43,
-    "balls": 15,
-    "dismissals": 0,
-    "strikeRate": 286.67,
+    "balls": 17,
+    "dismissals": 1,
+    "strikeRate": 252.94,
     "fours": 5,
     "sixes": 3,
-    "dotBalls": 2
+    "dotBalls": 4
   },
   {
     "batterId": "b4b99816",
@@ -23340,6 +23400,21 @@
     "dotBalls": 0
   },
   {
+    "batterId": "752f7486",
+    "batterName": "Ishan Kishan",
+    "bowlerId": "244048f6",
+    "bowlerName": "Arshdeep Singh",
+    "matches": 8,
+    "innings": 8,
+    "runs": 42,
+    "balls": 24,
+    "dismissals": 5,
+    "strikeRate": 175,
+    "fours": 5,
+    "sixes": 2,
+    "dotBalls": 8
+  },
+  {
     "batterId": "86dc8f2e",
     "batterName": "Jacques Kallis",
     "bowlerId": "1c914163",
@@ -23518,6 +23593,21 @@
     "fours": 4,
     "sixes": 2,
     "dotBalls": 2
+  },
+  {
+    "batterId": "3d8feaf8",
+    "batterName": "Mitchell Marsh",
+    "bowlerId": "03806cf8",
+    "bowlerName": "Josh Hazlewood",
+    "matches": 4,
+    "innings": 4,
+    "runs": 42,
+    "balls": 30,
+    "dismissals": 1,
+    "strikeRate": 140,
+    "fours": 4,
+    "sixes": 3,
+    "dotBalls": 15
   },
   {
     "batterId": "4a8a2e3b",
@@ -24675,6 +24765,21 @@
     "dotBalls": 12
   },
   {
+    "batterId": "b17e2f24",
+    "batterName": "KL Rahul",
+    "bowlerId": "765a4731",
+    "bowlerName": "Mukesh Choudhary",
+    "matches": 3,
+    "innings": 3,
+    "runs": 41,
+    "balls": 27,
+    "dismissals": 0,
+    "strikeRate": 151.85,
+    "fours": 6,
+    "sixes": 1,
+    "dotBalls": 11
+  },
+  {
     "batterId": "5b8c830e",
     "batterName": "Krunal Pandya",
     "bowlerId": "6b19d823",
@@ -25367,6 +25472,21 @@
   {
     "batterId": "12b610c2",
     "batterName": "Travis Head",
+    "bowlerId": "244048f6",
+    "bowlerName": "Arshdeep Singh",
+    "matches": 5,
+    "innings": 5,
+    "runs": 41,
+    "balls": 27,
+    "dismissals": 2,
+    "strikeRate": 151.85,
+    "fours": 6,
+    "sixes": 2,
+    "dotBalls": 15
+  },
+  {
+    "batterId": "12b610c2",
+    "batterName": "Travis Head",
     "bowlerId": "fcc21ace",
     "bowlerName": "A Kamboj",
     "matches": 3,
@@ -25753,6 +25873,21 @@
     "fours": 5,
     "sixes": 0,
     "dotBalls": 6
+  },
+  {
+    "batterId": "235c2bb6",
+    "batterName": "Heinrich Klaasen",
+    "bowlerId": "54e52590",
+    "bowlerName": "Vijaykumar Vyshak",
+    "matches": 3,
+    "innings": 3,
+    "runs": 40,
+    "balls": 22,
+    "dismissals": 1,
+    "strikeRate": 181.82,
+    "fours": 3,
+    "sixes": 2,
+    "dotBalls": 4
   },
   {
     "batterId": "235c2bb6",
@@ -26685,21 +26820,6 @@
     "dotBalls": 3
   },
   {
-    "batterId": "f29185a1",
-    "batterName": "Abhishek Sharma",
-    "bowlerId": "81c36ee9",
-    "bowlerName": "M Jansen",
-    "matches": 2,
-    "innings": 2,
-    "runs": 39,
-    "balls": 12,
-    "dismissals": 0,
-    "strikeRate": 325,
-    "fours": 6,
-    "sixes": 2,
-    "dotBalls": 2
-  },
-  {
     "batterId": "29e95537",
     "batterName": "Ajinkya Rahane",
     "bowlerId": "fe93fd9d",
@@ -27071,21 +27191,6 @@
     "dismissals": 1,
     "strikeRate": 162.5,
     "fours": 4,
-    "sixes": 2,
-    "dotBalls": 7
-  },
-  {
-    "batterId": "752f7486",
-    "batterName": "Ishan Kishan",
-    "bowlerId": "244048f6",
-    "bowlerName": "Arshdeep Singh",
-    "matches": 7,
-    "innings": 7,
-    "runs": 39,
-    "balls": 21,
-    "dismissals": 4,
-    "strikeRate": 185.71,
-    "fours": 5,
     "sixes": 2,
     "dotBalls": 7
   },
@@ -29055,6 +29160,21 @@
     "dotBalls": 4
   },
   {
+    "batterId": "919a3be2",
+    "batterName": "Rishabh Pant",
+    "bowlerId": "03806cf8",
+    "bowlerName": "Josh Hazlewood",
+    "matches": 6,
+    "innings": 6,
+    "runs": 38,
+    "balls": 22,
+    "dismissals": 0,
+    "strikeRate": 172.73,
+    "fours": 6,
+    "sixes": 1,
+    "dotBalls": 9
+  },
+  {
     "batterId": "1c17e270",
     "batterName": "Robin Uthappa",
     "bowlerId": "acee4cc4",
@@ -30375,6 +30495,21 @@
     "dotBalls": 2
   },
   {
+    "batterId": "5b8c830e",
+    "batterName": "Krunal Pandya",
+    "bowlerId": "8cf9814c",
+    "bowlerName": "Mohammed Shami",
+    "matches": 6,
+    "innings": 6,
+    "runs": 37,
+    "balls": 22,
+    "dismissals": 3,
+    "strikeRate": 168.18,
+    "fours": 4,
+    "sixes": 2,
+    "dotBalls": 7
+  },
+  {
     "batterId": "6b71e6cf",
     "batterName": "Kumar Sangakkara",
     "bowlerId": "3c6ffae8",
@@ -31549,15 +31684,15 @@
     "batterName": "Axar Patel",
     "bowlerId": "efc04be7",
     "bowlerName": "Noor Ahmad",
-    "matches": 3,
-    "innings": 3,
+    "matches": 4,
+    "innings": 4,
     "runs": 36,
-    "balls": 22,
+    "balls": 23,
     "dismissals": 2,
-    "strikeRate": 163.64,
+    "strikeRate": 156.52,
     "fours": 3,
     "sixes": 2,
-    "dotBalls": 6
+    "dotBalls": 7
   },
   {
     "batterId": "d5130a30",
@@ -31935,21 +32070,6 @@
     "dotBalls": 6
   },
   {
-    "batterId": "b17e2f24",
-    "batterName": "KL Rahul",
-    "bowlerId": "765a4731",
-    "bowlerName": "Mukesh Choudhary",
-    "matches": 2,
-    "innings": 2,
-    "runs": 36,
-    "balls": 23,
-    "dismissals": 0,
-    "strikeRate": 156.52,
-    "fours": 5,
-    "sixes": 1,
-    "dotBalls": 9
-  },
-  {
     "batterId": "5b8c830e",
     "batterName": "Krunal Pandya",
     "bowlerId": "8d2c70ad",
@@ -32158,6 +32278,21 @@
     "fours": 4,
     "sixes": 2,
     "dotBalls": 8
+  },
+  {
+    "batterId": "3d8feaf8",
+    "batterName": "Mitchell Marsh",
+    "bowlerId": "c5aef772",
+    "bowlerName": "R Shepherd",
+    "matches": 2,
+    "innings": 2,
+    "runs": 36,
+    "balls": 15,
+    "dismissals": 0,
+    "strikeRate": 240,
+    "fours": 3,
+    "sixes": 3,
+    "dotBalls": 3
   },
   {
     "batterId": "11df3dc8",
@@ -33285,6 +33420,21 @@
     "dotBalls": 8
   },
   {
+    "batterId": "752f7486",
+    "batterName": "Ishan Kishan",
+    "bowlerId": "54e52590",
+    "bowlerName": "Vijaykumar Vyshak",
+    "matches": 3,
+    "innings": 3,
+    "runs": 35,
+    "balls": 13,
+    "dismissals": 0,
+    "strikeRate": 269.23,
+    "fours": 2,
+    "sixes": 3,
+    "dotBalls": 0
+  },
+  {
     "batterId": "abb83e27",
     "batterName": "Jonny Bairstow",
     "bowlerId": "244048f6",
@@ -33628,21 +33778,6 @@
     "fours": 5,
     "sixes": 0,
     "dotBalls": 8
-  },
-  {
-    "batterId": "3d8feaf8",
-    "batterName": "Mitchell Marsh",
-    "bowlerId": "2e81a32d",
-    "bowlerName": "Bhuvneshwar Kumar",
-    "matches": 5,
-    "innings": 5,
-    "runs": 35,
-    "balls": 25,
-    "dismissals": 1,
-    "strikeRate": 140,
-    "fours": 1,
-    "sixes": 3,
-    "dotBalls": 9
   },
   {
     "batterId": "bb351c23",
@@ -35702,6 +35837,21 @@
   {
     "batterId": "919a3be2",
     "batterName": "Rishabh Pant",
+    "bowlerId": "b8527c3d",
+    "bowlerName": "Rasikh Salam",
+    "matches": 3,
+    "innings": 3,
+    "runs": 34,
+    "balls": 10,
+    "dismissals": 0,
+    "strikeRate": 340,
+    "fours": 3,
+    "sixes": 3,
+    "dotBalls": 1
+  },
+  {
+    "batterId": "919a3be2",
+    "batterName": "Rishabh Pant",
     "bowlerId": "7210d461",
     "bowlerName": "Yash Dayal",
     "matches": 1,
@@ -37650,6 +37800,21 @@
     "dotBalls": 2
   },
   {
+    "batterId": "c740ea83",
+    "batterName": "Rajat Patidar",
+    "bowlerId": "b1ad996b",
+    "bowlerName": "MP Yadav",
+    "matches": 2,
+    "innings": 2,
+    "runs": 33,
+    "balls": 19,
+    "dismissals": 1,
+    "strikeRate": 173.68,
+    "fours": 2,
+    "sixes": 3,
+    "dotBalls": 9
+  },
+  {
     "batterId": "fe93fd9d",
     "batterName": "Ravindra Jadeja",
     "bowlerId": "8cf9814c",
@@ -38055,6 +38220,21 @@
     "dotBalls": 3
   },
   {
+    "batterId": "12b610c2",
+    "batterName": "Travis Head",
+    "bowlerId": "2f9d0389",
+    "bowlerName": "Lockie Ferguson",
+    "matches": 3,
+    "innings": 3,
+    "runs": 33,
+    "balls": 13,
+    "dismissals": 1,
+    "strikeRate": 253.85,
+    "fours": 1,
+    "sixes": 4,
+    "dotBalls": 3
+  },
+  {
     "batterId": "a24be938",
     "batterName": "Venkatesh Iyer",
     "bowlerId": "462411b3",
@@ -38398,6 +38578,21 @@
     "fours": 4,
     "sixes": 1,
     "dotBalls": 3
+  },
+  {
+    "batterId": "f29185a1",
+    "batterName": "Abhishek Sharma",
+    "bowlerId": "2f9d0389",
+    "bowlerName": "Lockie Ferguson",
+    "matches": 5,
+    "innings": 5,
+    "runs": 32,
+    "balls": 18,
+    "dismissals": 1,
+    "strikeRate": 177.78,
+    "fours": 5,
+    "sixes": 1,
+    "dotBalls": 6
   },
   {
     "batterId": "f29185a1",
@@ -43920,6 +44115,21 @@
     "dotBalls": 1
   },
   {
+    "batterId": "235c2bb6",
+    "batterName": "Heinrich Klaasen",
+    "bowlerId": "81c36ee9",
+    "bowlerName": "M Jansen",
+    "matches": 2,
+    "innings": 2,
+    "runs": 30,
+    "balls": 16,
+    "dismissals": 0,
+    "strikeRate": 187.5,
+    "fours": 0,
+    "sixes": 3,
+    "dotBalls": 2
+  },
+  {
     "batterId": "e1d1b294",
     "batterName": "HH Gibbs",
     "bowlerId": "98ae73b1",
@@ -44685,6 +44895,21 @@
     "dotBalls": 4
   },
   {
+    "batterId": "3241e3fd",
+    "batterName": "Nicholas Pooran",
+    "bowlerId": "2e81a32d",
+    "bowlerName": "Bhuvneshwar Kumar",
+    "matches": 4,
+    "innings": 4,
+    "runs": 30,
+    "balls": 17,
+    "dismissals": 0,
+    "strikeRate": 176.47,
+    "fours": 3,
+    "sixes": 1,
+    "dotBalls": 3
+  },
+  {
     "batterId": "aad0c365",
     "batterName": "Nithish Kumar Reddy",
     "bowlerId": "ce820073",
@@ -44698,6 +44923,21 @@
     "fours": 0,
     "sixes": 4,
     "dotBalls": 10
+  },
+  {
+    "batterId": "aad0c365",
+    "batterName": "Nithish Kumar Reddy",
+    "bowlerId": "57ee1fde",
+    "bowlerName": "Yuzvendra Chahal",
+    "matches": 3,
+    "innings": 3,
+    "runs": 30,
+    "balls": 17,
+    "dismissals": 0,
+    "strikeRate": 176.47,
+    "fours": 3,
+    "sixes": 2,
+    "dotBalls": 6
   },
   {
     "batterId": "aad0c365",
@@ -44995,6 +45235,21 @@
     "balls": 9,
     "dismissals": 0,
     "strikeRate": 333.33,
+    "fours": 2,
+    "sixes": 3,
+    "dotBalls": 1
+  },
+  {
+    "batterId": "c740ea83",
+    "batterName": "Rajat Patidar",
+    "bowlerId": "13fc5c6d",
+    "bowlerName": "DS Rathi",
+    "matches": 3,
+    "innings": 3,
+    "runs": 30,
+    "balls": 10,
+    "dismissals": 0,
+    "strikeRate": 300,
     "fours": 2,
     "sixes": 3,
     "dotBalls": 1
@@ -47895,6 +48150,21 @@
     "dotBalls": 12
   },
   {
+    "batterId": "a4cc73aa",
+    "batterName": "Sanju Samson",
+    "bowlerId": "f834dcfc",
+    "bowlerName": "L Ngidi",
+    "matches": 3,
+    "innings": 3,
+    "runs": 29,
+    "balls": 25,
+    "dismissals": 1,
+    "strikeRate": 116,
+    "fours": 3,
+    "sixes": 1,
+    "dotBalls": 11
+  },
+  {
     "batterId": "709b0bac",
     "batterName": "Saurabh Tiwary",
     "bowlerId": "98ae73b1",
@@ -48193,21 +48463,6 @@
     "fours": 5,
     "sixes": 0,
     "dotBalls": 5
-  },
-  {
-    "batterId": "85b3fab2",
-    "batterName": "Tristan Stubbs",
-    "bowlerId": "cc61ee8f",
-    "bowlerName": "Gurjapneet Singh",
-    "matches": 1,
-    "innings": 1,
-    "runs": 29,
-    "balls": 13,
-    "dismissals": 0,
-    "strikeRate": 223.08,
-    "fours": 2,
-    "sixes": 2,
-    "dotBalls": 2
   },
   {
     "batterId": "a24be938",
@@ -49980,6 +50235,21 @@
     "dotBalls": 8
   },
   {
+    "batterId": "3d8feaf8",
+    "batterName": "Mitchell Marsh",
+    "bowlerId": "9440ef41",
+    "bowlerName": "Suyash Sharma",
+    "matches": 3,
+    "innings": 3,
+    "runs": 28,
+    "balls": 15,
+    "dismissals": 0,
+    "strikeRate": 186.67,
+    "fours": 2,
+    "sixes": 2,
+    "dotBalls": 2
+  },
+  {
     "batterId": "4b57e452",
     "batterName": "Murali Vijay",
     "bowlerId": "495d42a5",
@@ -50173,6 +50443,21 @@
     "fours": 4,
     "sixes": 2,
     "dotBalls": 0
+  },
+  {
+    "batterId": "9418198b",
+    "batterName": "Prabhsimran Singh",
+    "bowlerId": "ded9240e",
+    "bowlerName": "Pat Cummins",
+    "matches": 4,
+    "innings": 4,
+    "runs": 28,
+    "balls": 20,
+    "dismissals": 0,
+    "strikeRate": 140,
+    "fours": 4,
+    "sixes": 1,
+    "dotBalls": 10
   },
   {
     "batterId": "8b3e9c7c",
@@ -52170,6 +52455,21 @@
     "dotBalls": 2
   },
   {
+    "batterId": "2c25d4f5",
+    "batterName": "Devdutt Padikkal",
+    "bowlerId": "8cf9814c",
+    "bowlerName": "Mohammed Shami",
+    "matches": 6,
+    "innings": 6,
+    "runs": 27,
+    "balls": 26,
+    "dismissals": 0,
+    "strikeRate": 103.85,
+    "fours": 1,
+    "sixes": 2,
+    "dotBalls": 11
+  },
+  {
     "batterId": "df5a6881",
     "batterName": "Devon Conway",
     "bowlerId": "6a26221c",
@@ -54015,6 +54315,21 @@
     "dotBalls": 3
   },
   {
+    "batterId": "85ec8e33",
+    "batterName": "Shreyas Iyer",
+    "bowlerId": "aad0c365",
+    "bowlerName": "Nithish Kumar Reddy",
+    "matches": 3,
+    "innings": 3,
+    "runs": 27,
+    "balls": 14,
+    "dismissals": 0,
+    "strikeRate": 192.86,
+    "fours": 3,
+    "sixes": 1,
+    "dotBalls": 2
+  },
+  {
     "batterId": "b4b99816",
     "batterName": "Shubman Gill",
     "bowlerId": "f19ccfad",
@@ -54660,21 +54975,6 @@
     "dotBalls": 6
   },
   {
-    "batterId": "f29185a1",
-    "batterName": "Abhishek Sharma",
-    "bowlerId": "2f9d0389",
-    "bowlerName": "Lockie Ferguson",
-    "matches": 4,
-    "innings": 4,
-    "runs": 26,
-    "balls": 15,
-    "dismissals": 0,
-    "strikeRate": 173.33,
-    "fours": 5,
-    "sixes": 0,
-    "dotBalls": 4
-  },
-  {
     "batterId": "2b6e6dec",
     "batterName": "Adam Gilchrist",
     "bowlerId": "af7dadf7",
@@ -54977,6 +55277,21 @@
   {
     "batterId": "fe366f34",
     "batterName": "C Connolly",
+    "bowlerId": "25228673",
+    "bowlerName": "Harsh Dubey",
+    "matches": 2,
+    "innings": 2,
+    "runs": 26,
+    "balls": 10,
+    "dismissals": 0,
+    "strikeRate": 260,
+    "fours": 1,
+    "sixes": 3,
+    "dotBalls": 2
+  },
+  {
+    "batterId": "fe366f34",
+    "batterName": "C Connolly",
     "bowlerId": "8cf9814c",
     "bowlerName": "Mohammed Shami",
     "matches": 1,
@@ -54988,6 +55303,21 @@
     "fours": 3,
     "sixes": 2,
     "dotBalls": 3
+  },
+  {
+    "batterId": "fe366f34",
+    "batterName": "C Connolly",
+    "bowlerId": "5750bcb4",
+    "bowlerName": "E Malinga",
+    "matches": 1,
+    "innings": 1,
+    "runs": 26,
+    "balls": 15,
+    "dismissals": 0,
+    "strikeRate": 173.33,
+    "fours": 2,
+    "sixes": 2,
+    "dotBalls": 6
   },
   {
     "batterId": "db584dad",
@@ -55588,6 +55918,21 @@
     "fours": 5,
     "sixes": 0,
     "dotBalls": 1
+  },
+  {
+    "batterId": "752f7486",
+    "batterName": "Ishan Kishan",
+    "bowlerId": "81c36ee9",
+    "bowlerName": "M Jansen",
+    "matches": 4,
+    "innings": 4,
+    "runs": 26,
+    "balls": 20,
+    "dismissals": 2,
+    "strikeRate": 130,
+    "fours": 3,
+    "sixes": 1,
+    "dotBalls": 8
   },
   {
     "batterId": "59559bc2",
@@ -56355,6 +56700,21 @@
     "dotBalls": 3
   },
   {
+    "batterId": "3241e3fd",
+    "batterName": "Nicholas Pooran",
+    "bowlerId": "5b8c830e",
+    "bowlerName": "Krunal Pandya",
+    "matches": 3,
+    "innings": 3,
+    "runs": 26,
+    "balls": 17,
+    "dismissals": 0,
+    "strikeRate": 152.94,
+    "fours": 1,
+    "sixes": 2,
+    "dotBalls": 5
+  },
+  {
     "batterId": "fb2d1dda",
     "batterName": "Nitish Rana",
     "bowlerId": "5bb1a1c4",
@@ -56713,6 +57073,21 @@
     "fours": 3,
     "sixes": 1,
     "dotBalls": 6
+  },
+  {
+    "batterId": "c740ea83",
+    "batterName": "Rajat Patidar",
+    "bowlerId": "8cf9814c",
+    "bowlerName": "Mohammed Shami",
+    "matches": 4,
+    "innings": 4,
+    "runs": 26,
+    "balls": 19,
+    "dismissals": 0,
+    "strikeRate": 136.84,
+    "fours": 1,
+    "sixes": 2,
+    "dotBalls": 7
   },
   {
     "batterId": "c740ea83",
@@ -57612,6 +57987,21 @@
     "strikeRate": 288.89,
     "fours": 2,
     "sixes": 3,
+    "dotBalls": 3
+  },
+  {
+    "batterId": "12b610c2",
+    "batterName": "Travis Head",
+    "bowlerId": "81c36ee9",
+    "bowlerName": "M Jansen",
+    "matches": 3,
+    "innings": 3,
+    "runs": 26,
+    "balls": 12,
+    "dismissals": 0,
+    "strikeRate": 216.67,
+    "fours": 4,
+    "sixes": 1,
     "dotBalls": 3
   },
   {
@@ -58997,6 +59387,21 @@
   {
     "batterId": "235c2bb6",
     "batterName": "Heinrich Klaasen",
+    "bowlerId": "2f9d0389",
+    "bowlerName": "Lockie Ferguson",
+    "matches": 2,
+    "innings": 2,
+    "runs": 25,
+    "balls": 18,
+    "dismissals": 1,
+    "strikeRate": 138.89,
+    "fours": 1,
+    "sixes": 2,
+    "dotBalls": 6
+  },
+  {
+    "batterId": "235c2bb6",
+    "batterName": "Heinrich Klaasen",
     "bowlerId": "13fc5c6d",
     "bowlerName": "DS Rathi",
     "matches": 3,
@@ -60105,21 +60510,6 @@
     "dotBalls": 9
   },
   {
-    "batterId": "3241e3fd",
-    "batterName": "Nicholas Pooran",
-    "bowlerId": "5b8c830e",
-    "bowlerName": "Krunal Pandya",
-    "matches": 2,
-    "innings": 2,
-    "runs": 25,
-    "balls": 15,
-    "dismissals": 0,
-    "strikeRate": 166.67,
-    "fours": 1,
-    "sixes": 2,
-    "dotBalls": 4
-  },
-  {
     "batterId": "fb2d1dda",
     "batterName": "Nitish Rana",
     "bowlerId": "462411b3",
@@ -60298,21 +60688,6 @@
     "fours": 2,
     "sixes": 2,
     "dotBalls": 5
-  },
-  {
-    "batterId": "9418198b",
-    "batterName": "Prabhsimran Singh",
-    "bowlerId": "ded9240e",
-    "bowlerName": "Pat Cummins",
-    "matches": 3,
-    "innings": 3,
-    "runs": 25,
-    "balls": 17,
-    "dismissals": 0,
-    "strikeRate": 147.06,
-    "fours": 4,
-    "sixes": 1,
-    "dotBalls": 9
   },
   {
     "batterId": "9418198b",
@@ -61603,21 +61978,6 @@
     "fours": 4,
     "sixes": 1,
     "dotBalls": 4
-  },
-  {
-    "batterId": "12b610c2",
-    "batterName": "Travis Head",
-    "bowlerId": "2f9d0389",
-    "bowlerName": "Lockie Ferguson",
-    "matches": 2,
-    "innings": 2,
-    "runs": 25,
-    "balls": 10,
-    "dismissals": 1,
-    "strikeRate": 250,
-    "fours": 1,
-    "sixes": 3,
-    "dotBalls": 3
   },
   {
     "batterId": "85b3fab2",
@@ -63420,21 +63780,6 @@
     "dotBalls": 2
   },
   {
-    "batterId": "5b8c830e",
-    "batterName": "Krunal Pandya",
-    "bowlerId": "8cf9814c",
-    "bowlerName": "Mohammed Shami",
-    "matches": 5,
-    "innings": 5,
-    "runs": 24,
-    "balls": 19,
-    "dismissals": 3,
-    "strikeRate": 126.32,
-    "fours": 4,
-    "sixes": 0,
-    "dotBalls": 7
-  },
-  {
     "batterId": "6b71e6cf",
     "batterName": "Kumar Sangakkara",
     "bowlerId": "f0f628c7",
@@ -64123,21 +64468,6 @@
     "fours": 2,
     "sixes": 2,
     "dotBalls": 4
-  },
-  {
-    "batterId": "aad0c365",
-    "batterName": "Nithish Kumar Reddy",
-    "bowlerId": "57ee1fde",
-    "bowlerName": "Yuzvendra Chahal",
-    "matches": 2,
-    "innings": 2,
-    "runs": 24,
-    "balls": 14,
-    "dismissals": 0,
-    "strikeRate": 171.43,
-    "fours": 2,
-    "sixes": 2,
-    "dotBalls": 6
   },
   {
     "batterId": "fb2d1dda",
@@ -65085,6 +65415,21 @@
     "dotBalls": 5
   },
   {
+    "batterId": "f89d3b11",
+    "batterName": "Sameer Rizvi",
+    "bowlerId": "fcc21ace",
+    "bowlerName": "A Kamboj",
+    "matches": 2,
+    "innings": 2,
+    "runs": 24,
+    "balls": 10,
+    "dismissals": 0,
+    "strikeRate": 240,
+    "fours": 1,
+    "sixes": 3,
+    "dotBalls": 4
+  },
+  {
     "batterId": "a4cc73aa",
     "batterName": "Sanju Samson",
     "bowlerId": "efc04be7",
@@ -65653,21 +65998,6 @@
     "fours": 2,
     "sixes": 1,
     "dotBalls": 11
-  },
-  {
-    "batterId": "12b610c2",
-    "batterName": "Travis Head",
-    "bowlerId": "244048f6",
-    "bowlerName": "Arshdeep Singh",
-    "matches": 4,
-    "innings": 4,
-    "runs": 24,
-    "balls": 20,
-    "dismissals": 2,
-    "strikeRate": 120,
-    "fours": 5,
-    "sixes": 0,
-    "dotBalls": 12
   },
   {
     "batterId": "12b610c2",
@@ -66703,6 +67033,21 @@
     "fours": 3,
     "sixes": 1,
     "dotBalls": 7
+  },
+  {
+    "batterId": "fe366f34",
+    "batterName": "C Connolly",
+    "bowlerId": "7b44eb3e",
+    "bowlerName": "Shivang Kumar",
+    "matches": 2,
+    "innings": 2,
+    "runs": 23,
+    "balls": 16,
+    "dismissals": 1,
+    "strikeRate": 143.75,
+    "fours": 2,
+    "sixes": 1,
+    "dotBalls": 6
   },
   {
     "batterId": "eaa76d3c",
@@ -71835,6 +72180,21 @@
     "dotBalls": 4
   },
   {
+    "batterId": "235c2bb6",
+    "batterName": "Heinrich Klaasen",
+    "bowlerId": "244048f6",
+    "bowlerName": "Arshdeep Singh",
+    "matches": 4,
+    "innings": 4,
+    "runs": 22,
+    "balls": 19,
+    "dismissals": 0,
+    "strikeRate": 115.79,
+    "fours": 1,
+    "sixes": 0,
+    "dotBalls": 2
+  },
+  {
     "batterId": "e1d1b294",
     "batterName": "HH Gibbs",
     "bowlerId": "ae78bc32",
@@ -72977,6 +73337,21 @@
   {
     "batterId": "3d8feaf8",
     "batterName": "Mitchell Marsh",
+    "bowlerId": "b8527c3d",
+    "bowlerName": "Rasikh Salam",
+    "matches": 2,
+    "innings": 2,
+    "runs": 22,
+    "balls": 13,
+    "dismissals": 0,
+    "strikeRate": 169.23,
+    "fours": 1,
+    "sixes": 2,
+    "dotBalls": 3
+  },
+  {
+    "batterId": "3d8feaf8",
+    "batterName": "Mitchell Marsh",
     "bowlerId": "6b19d823",
     "bowlerName": "Amit Mishra",
     "matches": 3,
@@ -73860,21 +74235,6 @@
     "dotBalls": 17
   },
   {
-    "batterId": "919a3be2",
-    "batterName": "Rishabh Pant",
-    "bowlerId": "03806cf8",
-    "bowlerName": "Josh Hazlewood",
-    "matches": 5,
-    "innings": 5,
-    "runs": 22,
-    "balls": 17,
-    "dismissals": 0,
-    "strikeRate": 129.41,
-    "fours": 4,
-    "sixes": 0,
-    "dotBalls": 8
-  },
-  {
     "batterId": "04a418e8",
     "batterName": "Riyan Parag",
     "bowlerId": "f9e6e7ef",
@@ -74591,21 +74951,6 @@
     "dismissals": 0,
     "strikeRate": 157.14,
     "fours": 0,
-    "sixes": 1,
-    "dotBalls": 1
-  },
-  {
-    "batterId": "85ec8e33",
-    "batterName": "Shreyas Iyer",
-    "bowlerId": "aad0c365",
-    "bowlerName": "Nithish Kumar Reddy",
-    "matches": 2,
-    "innings": 2,
-    "runs": 22,
-    "balls": 11,
-    "dismissals": 0,
-    "strikeRate": 200,
-    "fours": 2,
     "sixes": 1,
     "dotBalls": 1
   },
@@ -75990,6 +76335,21 @@
     "dotBalls": 6
   },
   {
+    "batterId": "fe366f34",
+    "batterName": "C Connolly",
+    "bowlerId": "ded9240e",
+    "bowlerName": "Pat Cummins",
+    "matches": 1,
+    "innings": 1,
+    "runs": 21,
+    "balls": 12,
+    "dismissals": 0,
+    "strikeRate": 175,
+    "fours": 1,
+    "sixes": 2,
+    "dotBalls": 4
+  },
+  {
     "batterId": "94d7f855",
     "batterName": "C de Grandhomme",
     "bowlerId": "51a3c5ef",
@@ -76318,21 +76678,6 @@
     "fours": 4,
     "sixes": 0,
     "dotBalls": 7
-  },
-  {
-    "batterId": "2c25d4f5",
-    "batterName": "Devdutt Padikkal",
-    "bowlerId": "8cf9814c",
-    "bowlerName": "Mohammed Shami",
-    "matches": 5,
-    "innings": 5,
-    "runs": 21,
-    "balls": 20,
-    "dismissals": 0,
-    "strikeRate": 105,
-    "fours": 0,
-    "sixes": 2,
-    "dotBalls": 8
   },
   {
     "batterId": "2c25d4f5",
@@ -77023,21 +77368,6 @@
     "fours": 3,
     "sixes": 1,
     "dotBalls": 3
-  },
-  {
-    "batterId": "752f7486",
-    "batterName": "Ishan Kishan",
-    "bowlerId": "81c36ee9",
-    "bowlerName": "M Jansen",
-    "matches": 3,
-    "innings": 3,
-    "runs": 21,
-    "balls": 16,
-    "dismissals": 2,
-    "strikeRate": 131.25,
-    "fours": 3,
-    "sixes": 1,
-    "dotBalls": 8
   },
   {
     "batterId": "752f7486",
@@ -79183,21 +79513,6 @@
     "fours": 3,
     "sixes": 1,
     "dotBalls": 3
-  },
-  {
-    "batterId": "a4cc73aa",
-    "batterName": "Sanju Samson",
-    "bowlerId": "f834dcfc",
-    "bowlerName": "L Ngidi",
-    "matches": 2,
-    "innings": 2,
-    "runs": 21,
-    "balls": 13,
-    "dismissals": 1,
-    "strikeRate": 161.54,
-    "fours": 2,
-    "sixes": 1,
-    "dotBalls": 4
   },
   {
     "batterId": "a4cc73aa",
@@ -82425,6 +82740,21 @@
     "dotBalls": 2
   },
   {
+    "batterId": "752f7486",
+    "batterName": "Ishan Kishan",
+    "bowlerId": "2f9d0389",
+    "bowlerName": "Lockie Ferguson",
+    "matches": 3,
+    "innings": 3,
+    "runs": 20,
+    "balls": 16,
+    "dismissals": 1,
+    "strikeRate": 125,
+    "fours": 2,
+    "sixes": 1,
+    "dotBalls": 6
+  },
+  {
     "batterId": "c3d35165",
     "batterName": "JA Morkel",
     "bowlerId": "9fc0ef64",
@@ -83430,21 +83760,6 @@
     "dotBalls": 1
   },
   {
-    "batterId": "3d8feaf8",
-    "batterName": "Mitchell Marsh",
-    "bowlerId": "c5aef772",
-    "bowlerName": "R Shepherd",
-    "matches": 1,
-    "innings": 1,
-    "runs": 20,
-    "balls": 9,
-    "dismissals": 0,
-    "strikeRate": 222.22,
-    "fours": 1,
-    "sixes": 2,
-    "dotBalls": 2
-  },
-  {
     "batterId": "2be41edb",
     "batterName": "MJ Guptill",
     "bowlerId": "21d4e29b",
@@ -84148,21 +84463,6 @@
     "fours": 1,
     "sixes": 2,
     "dotBalls": 1
-  },
-  {
-    "batterId": "c740ea83",
-    "batterName": "Rajat Patidar",
-    "bowlerId": "8cf9814c",
-    "bowlerName": "Mohammed Shami",
-    "matches": 3,
-    "innings": 3,
-    "runs": 20,
-    "balls": 12,
-    "dismissals": 0,
-    "strikeRate": 166.67,
-    "fours": 0,
-    "sixes": 2,
-    "dotBalls": 3
   },
   {
     "batterId": "c740ea83",
@@ -85723,6 +86023,21 @@
     "fours": 1,
     "sixes": 1,
     "dotBalls": 1
+  },
+  {
+    "batterId": "970ddd24",
+    "batterName": "Suryansh Shedge",
+    "bowlerId": "7b44eb3e",
+    "bowlerName": "Shivang Kumar",
+    "matches": 1,
+    "innings": 1,
+    "runs": 20,
+    "balls": 9,
+    "dismissals": 0,
+    "strikeRate": 222.22,
+    "fours": 1,
+    "sixes": 2,
+    "dotBalls": 2
   },
   {
     "batterId": "b0482a1d",
@@ -87780,6 +88095,21 @@
     "dotBalls": 4
   },
   {
+    "batterId": "2c25d4f5",
+    "batterName": "Devdutt Padikkal",
+    "bowlerId": "80b2fb19",
+    "bowlerName": "Prince Yadav",
+    "matches": 2,
+    "innings": 2,
+    "runs": 19,
+    "balls": 10,
+    "dismissals": 1,
+    "strikeRate": 190,
+    "fours": 2,
+    "sixes": 1,
+    "dotBalls": 3
+  },
+  {
     "batterId": "df5a6881",
     "batterName": "Devon Conway",
     "bowlerId": "ce794613",
@@ -88513,21 +88843,6 @@
     "fours": 2,
     "sixes": 1,
     "dotBalls": 2
-  },
-  {
-    "batterId": "235c2bb6",
-    "batterName": "Heinrich Klaasen",
-    "bowlerId": "2f9d0389",
-    "bowlerName": "Lockie Ferguson",
-    "matches": 1,
-    "innings": 1,
-    "runs": 19,
-    "balls": 11,
-    "dismissals": 1,
-    "strikeRate": 172.73,
-    "fours": 1,
-    "sixes": 2,
-    "dotBalls": 3
   },
   {
     "batterId": "e1d1b294",
@@ -89428,6 +89743,21 @@
     "fours": 0,
     "sixes": 1,
     "dotBalls": 11
+  },
+  {
+    "batterId": "5b8c830e",
+    "batterName": "Krunal Pandya",
+    "bowlerId": "f9e6e7ef",
+    "bowlerName": "Shahbaz Ahmed",
+    "matches": 3,
+    "innings": 3,
+    "runs": 19,
+    "balls": 18,
+    "dismissals": 0,
+    "strikeRate": 105.56,
+    "fours": 1,
+    "sixes": 1,
+    "dotBalls": 8
   },
   {
     "batterId": "6b71e6cf",
@@ -91063,21 +91393,6 @@
     "fours": 0,
     "sixes": 1,
     "dotBalls": 2
-  },
-  {
-    "batterId": "919a3be2",
-    "batterName": "Rishabh Pant",
-    "bowlerId": "b8527c3d",
-    "bowlerName": "Rasikh Salam",
-    "matches": 2,
-    "innings": 2,
-    "runs": 19,
-    "balls": 6,
-    "dismissals": 0,
-    "strikeRate": 316.67,
-    "fours": 1,
-    "sixes": 2,
-    "dotBalls": 1
   },
   {
     "batterId": "919a3be2",
@@ -96587,6 +96902,21 @@
   {
     "batterId": "3241e3fd",
     "batterName": "Nicholas Pooran",
+    "bowlerId": "b8527c3d",
+    "bowlerName": "Rasikh Salam",
+    "matches": 2,
+    "innings": 2,
+    "runs": 18,
+    "balls": 13,
+    "dismissals": 1,
+    "strikeRate": 138.46,
+    "fours": 3,
+    "sixes": 0,
+    "dotBalls": 4
+  },
+  {
+    "batterId": "3241e3fd",
+    "batterName": "Nicholas Pooran",
     "bowlerId": "9ca68676",
     "bowlerName": "AM Ghazanfar",
     "matches": 1,
@@ -97697,6 +98027,21 @@
   {
     "batterId": "45a43fe2",
     "batterName": "Ruturaj Gaikwad",
+    "bowlerId": "3fb19989",
+    "bowlerName": "MA Starc",
+    "matches": 3,
+    "innings": 3,
+    "runs": 18,
+    "balls": 18,
+    "dismissals": 1,
+    "strikeRate": 100,
+    "fours": 3,
+    "sixes": 0,
+    "dotBalls": 10
+  },
+  {
+    "batterId": "45a43fe2",
+    "batterName": "Ruturaj Gaikwad",
     "bowlerId": "025c4400",
     "bowlerName": "MJ Suthar",
     "matches": 1,
@@ -97948,6 +98293,21 @@
     "fours": 3,
     "sixes": 0,
     "dotBalls": 0
+  },
+  {
+    "batterId": "a4cc73aa",
+    "batterName": "Sanju Samson",
+    "bowlerId": "3fb19989",
+    "bowlerName": "MA Starc",
+    "matches": 4,
+    "innings": 4,
+    "runs": 18,
+    "balls": 20,
+    "dismissals": 0,
+    "strikeRate": 90,
+    "fours": 2,
+    "sixes": 0,
+    "dotBalls": 8
   },
   {
     "batterId": "709b0bac",
@@ -98965,6 +99325,21 @@
     "balls": 9,
     "dismissals": 0,
     "strikeRate": 200,
+    "fours": 2,
+    "sixes": 1,
+    "dotBalls": 2
+  },
+  {
+    "batterId": "f1f99156",
+    "batterName": "Tim David",
+    "bowlerId": "13fc5c6d",
+    "bowlerName": "DS Rathi",
+    "matches": 2,
+    "innings": 2,
+    "runs": 18,
+    "balls": 8,
+    "dismissals": 0,
+    "strikeRate": 225,
     "fours": 2,
     "sixes": 1,
     "dotBalls": 2
@@ -100918,6 +101293,21 @@
     "fours": 2,
     "sixes": 1,
     "dotBalls": 4
+  },
+  {
+    "batterId": "fe366f34",
+    "batterName": "C Connolly",
+    "bowlerId": "280fff14",
+    "bowlerName": "Sakib Hussain",
+    "matches": 1,
+    "innings": 1,
+    "runs": 17,
+    "balls": 12,
+    "dismissals": 0,
+    "strikeRate": 141.67,
+    "fours": 2,
+    "sixes": 0,
+    "dotBalls": 3
   },
   {
     "batterId": "eaa76d3c",
@@ -103093,6 +103483,21 @@
     "fours": 2,
     "sixes": 1,
     "dotBalls": 0
+  },
+  {
+    "batterId": "b17e2f24",
+    "batterName": "KL Rahul",
+    "bowlerId": "4d7f517e",
+    "bowlerName": "AJ Hosein",
+    "matches": 2,
+    "innings": 2,
+    "runs": 17,
+    "balls": 11,
+    "dismissals": 1,
+    "strikeRate": 154.55,
+    "fours": 2,
+    "sixes": 1,
+    "dotBalls": 5
   },
   {
     "batterId": "39f01cdb",
@@ -106710,6 +107115,21 @@
     "dotBalls": 3
   },
   {
+    "batterId": "f1f99156",
+    "batterName": "Tim David",
+    "bowlerId": "b1ad996b",
+    "bowlerName": "MP Yadav",
+    "matches": 1,
+    "innings": 1,
+    "runs": 17,
+    "balls": 6,
+    "dismissals": 0,
+    "strikeRate": 283.33,
+    "fours": 1,
+    "sixes": 2,
+    "dotBalls": 2
+  },
+  {
     "batterId": "aaa1b522",
     "batterName": "TL Suman",
     "bowlerId": "98ae73b1",
@@ -106999,15 +107419,15 @@
     "batterName": "Virat Kohli",
     "bowlerId": "80b2fb19",
     "bowlerName": "Prince Yadav",
-    "matches": 1,
-    "innings": 1,
+    "matches": 2,
+    "innings": 2,
     "runs": 17,
-    "balls": 7,
-    "dismissals": 0,
-    "strikeRate": 242.86,
+    "balls": 9,
+    "dismissals": 1,
+    "strikeRate": 188.89,
     "fours": 4,
     "sixes": 0,
-    "dotBalls": 2
+    "dotBalls": 4
   },
   {
     "batterId": "ba607b88",
@@ -109950,36 +110370,6 @@
     "dotBalls": 5
   },
   {
-    "batterId": "235c2bb6",
-    "batterName": "Heinrich Klaasen",
-    "bowlerId": "54e52590",
-    "bowlerName": "Vijaykumar Vyshak",
-    "matches": 2,
-    "innings": 2,
-    "runs": 16,
-    "balls": 9,
-    "dismissals": 0,
-    "strikeRate": 177.78,
-    "fours": 1,
-    "sixes": 1,
-    "dotBalls": 2
-  },
-  {
-    "batterId": "235c2bb6",
-    "batterName": "Heinrich Klaasen",
-    "bowlerId": "244048f6",
-    "bowlerName": "Arshdeep Singh",
-    "matches": 3,
-    "innings": 3,
-    "runs": 16,
-    "balls": 14,
-    "dismissals": 0,
-    "strikeRate": 114.29,
-    "fours": 1,
-    "sixes": 0,
-    "dotBalls": 2
-  },
-  {
     "batterId": "e1d1b294",
     "batterName": "HH Gibbs",
     "bowlerId": "66b30f71",
@@ -111167,6 +111557,21 @@
   {
     "batterId": "d9273ee7",
     "batterName": "Marcus Stoinis",
+    "bowlerId": "280fff14",
+    "bowlerName": "Sakib Hussain",
+    "matches": 1,
+    "innings": 1,
+    "runs": 16,
+    "balls": 6,
+    "dismissals": 0,
+    "strikeRate": 266.67,
+    "fours": 2,
+    "sixes": 1,
+    "dotBalls": 2
+  },
+  {
+    "batterId": "d9273ee7",
+    "batterName": "Marcus Stoinis",
     "bowlerId": "e342e5fb",
     "bowlerName": "CR Brathwaite",
     "matches": 1,
@@ -111328,21 +111733,6 @@
     "fours": 2,
     "sixes": 0,
     "dotBalls": 11
-  },
-  {
-    "batterId": "3d8feaf8",
-    "batterName": "Mitchell Marsh",
-    "bowlerId": "5b8c830e",
-    "bowlerName": "Krunal Pandya",
-    "matches": 3,
-    "innings": 3,
-    "runs": 16,
-    "balls": 10,
-    "dismissals": 1,
-    "strikeRate": 160,
-    "fours": 1,
-    "sixes": 1,
-    "dotBalls": 2
   },
   {
     "batterId": "3d8feaf8",
@@ -114480,6 +114870,21 @@
     "dotBalls": 0
   },
   {
+    "batterId": "f1f99156",
+    "batterName": "Tim David",
+    "bowlerId": "f9e6e7ef",
+    "bowlerName": "Shahbaz Ahmed",
+    "matches": 1,
+    "innings": 1,
+    "runs": 16,
+    "balls": 7,
+    "dismissals": 1,
+    "strikeRate": 228.57,
+    "fours": 2,
+    "sixes": 1,
+    "dotBalls": 2
+  },
+  {
     "batterId": "aaa1b522",
     "batterName": "TL Suman",
     "bowlerId": "3d7e087f",
@@ -114519,21 +114924,6 @@
     "runs": 16,
     "balls": 6,
     "dismissals": 1,
-    "strikeRate": 266.67,
-    "fours": 2,
-    "sixes": 1,
-    "dotBalls": 1
-  },
-  {
-    "batterId": "12b610c2",
-    "batterName": "Travis Head",
-    "bowlerId": "81c36ee9",
-    "bowlerName": "M Jansen",
-    "matches": 2,
-    "innings": 2,
-    "runs": 16,
-    "balls": 6,
-    "dismissals": 0,
     "strikeRate": 266.67,
     "fours": 2,
     "sixes": 1,
@@ -119627,21 +120017,6 @@
   {
     "batterId": "3d8feaf8",
     "batterName": "Mitchell Marsh",
-    "bowlerId": "03806cf8",
-    "bowlerName": "Josh Hazlewood",
-    "matches": 3,
-    "innings": 3,
-    "runs": 15,
-    "balls": 14,
-    "dismissals": 0,
-    "strikeRate": 107.14,
-    "fours": 1,
-    "sixes": 1,
-    "dotBalls": 7
-  },
-  {
-    "batterId": "3d8feaf8",
-    "batterName": "Mitchell Marsh",
     "bowlerId": "4d7f517e",
     "bowlerName": "AJ Hosein",
     "matches": 1,
@@ -119668,21 +120043,6 @@
     "fours": 0,
     "sixes": 2,
     "dotBalls": 3
-  },
-  {
-    "batterId": "3d8feaf8",
-    "batterName": "Mitchell Marsh",
-    "bowlerId": "9440ef41",
-    "bowlerName": "Suyash Sharma",
-    "matches": 2,
-    "innings": 2,
-    "runs": 15,
-    "balls": 10,
-    "dismissals": 0,
-    "strikeRate": 150,
-    "fours": 1,
-    "sixes": 1,
-    "dotBalls": 2
   },
   {
     "batterId": "3d8feaf8",
@@ -120478,6 +120838,21 @@
     "fours": 2,
     "sixes": 1,
     "dotBalls": 1
+  },
+  {
+    "batterId": "8ee36b18",
+    "batterName": "P Nissanka",
+    "bowlerId": "4d7f517e",
+    "bowlerName": "AJ Hosein",
+    "matches": 2,
+    "innings": 2,
+    "runs": 15,
+    "balls": 16,
+    "dismissals": 0,
+    "strikeRate": 93.75,
+    "fours": 3,
+    "sixes": 0,
+    "dotBalls": 9
   },
   {
     "batterId": "8ee36b18",
@@ -123812,6 +124187,21 @@
   {
     "batterId": "85b3fab2",
     "batterName": "Tristan Stubbs",
+    "bowlerId": "765a4731",
+    "bowlerName": "Mukesh Choudhary",
+    "matches": 3,
+    "innings": 3,
+    "runs": 15,
+    "balls": 10,
+    "dismissals": 1,
+    "strikeRate": 150,
+    "fours": 1,
+    "sixes": 1,
+    "dotBalls": 3
+  },
+  {
+    "batterId": "85b3fab2",
+    "batterName": "Tristan Stubbs",
     "bowlerId": "ee1b6c27",
     "bowlerName": "N Thushara",
     "matches": 1,
@@ -123823,6 +124213,21 @@
     "fours": 1,
     "sixes": 1,
     "dotBalls": 0
+  },
+  {
+    "batterId": "85b3fab2",
+    "batterName": "Tristan Stubbs",
+    "bowlerId": "efc04be7",
+    "bowlerName": "Noor Ahmad",
+    "matches": 2,
+    "innings": 2,
+    "runs": 15,
+    "balls": 14,
+    "dismissals": 0,
+    "strikeRate": 107.14,
+    "fours": 1,
+    "sixes": 0,
+    "dotBalls": 3
   },
   {
     "batterId": "46a9bea1",
@@ -123883,6 +124288,21 @@
     "fours": 2,
     "sixes": 1,
     "dotBalls": 9
+  },
+  {
+    "batterId": "cf59b3f0",
+    "batterName": "Urvil Patel",
+    "bowlerId": "f834dcfc",
+    "bowlerName": "L Ngidi",
+    "matches": 1,
+    "innings": 1,
+    "runs": 15,
+    "balls": 5,
+    "dismissals": 0,
+    "strikeRate": 300,
+    "fours": 0,
+    "sixes": 2,
+    "dotBalls": 1
   },
   {
     "batterId": "331ea488",
@@ -127618,21 +128038,6 @@
     "fours": 1,
     "sixes": 0,
     "dotBalls": 4
-  },
-  {
-    "batterId": "235c2bb6",
-    "batterName": "Heinrich Klaasen",
-    "bowlerId": "81c36ee9",
-    "bowlerName": "M Jansen",
-    "matches": 1,
-    "innings": 1,
-    "runs": 14,
-    "balls": 10,
-    "dismissals": 0,
-    "strikeRate": 140,
-    "fours": 0,
-    "sixes": 1,
-    "dotBalls": 2
   },
   {
     "batterId": "235c2bb6",
@@ -135150,6 +135555,21 @@
     "dotBalls": 0
   },
   {
+    "batterId": "84d9c311",
+    "batterName": "Ashutosh Sharma",
+    "bowlerId": "fcc21ace",
+    "bowlerName": "A Kamboj",
+    "matches": 1,
+    "innings": 1,
+    "runs": 13,
+    "balls": 4,
+    "dismissals": 0,
+    "strikeRate": 325,
+    "fours": 0,
+    "sixes": 2,
+    "dotBalls": 1
+  },
+  {
     "batterId": "1ac746c8",
     "batterName": "Atharva Taide",
     "bowlerId": "2cffab74",
@@ -136513,6 +136933,21 @@
     "fours": 1,
     "sixes": 0,
     "dotBalls": 6
+  },
+  {
+    "batterId": "2c25d4f5",
+    "batterName": "Devdutt Padikkal",
+    "bowlerId": "13fc5c6d",
+    "bowlerName": "DS Rathi",
+    "matches": 2,
+    "innings": 2,
+    "runs": 13,
+    "balls": 10,
+    "dismissals": 0,
+    "strikeRate": 130,
+    "fours": 1,
+    "sixes": 0,
+    "dotBalls": 1
   },
   {
     "batterId": "df5a6881",
@@ -139275,21 +139710,6 @@
     "dotBalls": 3
   },
   {
-    "batterId": "5b8c830e",
-    "batterName": "Krunal Pandya",
-    "bowlerId": "f9e6e7ef",
-    "bowlerName": "Shahbaz Ahmed",
-    "matches": 2,
-    "innings": 2,
-    "runs": 13,
-    "balls": 11,
-    "dismissals": 0,
-    "strikeRate": 118.18,
-    "fours": 0,
-    "sixes": 1,
-    "dotBalls": 4
-  },
-  {
     "batterId": "6b71e6cf",
     "batterName": "Kumar Sangakkara",
     "bowlerId": "0d232ffd",
@@ -140942,21 +141362,6 @@
   {
     "batterId": "3241e3fd",
     "batterName": "Nicholas Pooran",
-    "bowlerId": "2e81a32d",
-    "bowlerName": "Bhuvneshwar Kumar",
-    "matches": 3,
-    "innings": 3,
-    "runs": 13,
-    "balls": 8,
-    "dismissals": 0,
-    "strikeRate": 162.5,
-    "fours": 2,
-    "sixes": 0,
-    "dotBalls": 1
-  },
-  {
-    "batterId": "3241e3fd",
-    "batterName": "Nicholas Pooran",
     "bowlerId": "ee1b6c27",
     "bowlerName": "N Thushara",
     "matches": 3,
@@ -141043,6 +141448,21 @@
     "fours": 0,
     "sixes": 2,
     "dotBalls": 6
+  },
+  {
+    "batterId": "fb2d1dda",
+    "batterName": "Nitish Rana",
+    "bowlerId": "fcc21ace",
+    "bowlerName": "A Kamboj",
+    "matches": 2,
+    "innings": 2,
+    "runs": 13,
+    "balls": 10,
+    "dismissals": 0,
+    "strikeRate": 130,
+    "fours": 2,
+    "sixes": 0,
+    "dotBalls": 3
   },
   {
     "batterId": "fb2d1dda",
@@ -150255,6 +150675,21 @@
     "dotBalls": 2
   },
   {
+    "batterId": "7b679de5",
+    "batterName": "Kartik Sharma",
+    "bowlerId": "ce794613",
+    "bowlerName": "T Natarajan",
+    "matches": 1,
+    "innings": 1,
+    "runs": 12,
+    "balls": 7,
+    "dismissals": 0,
+    "strikeRate": 171.43,
+    "fours": 1,
+    "sixes": 1,
+    "dotBalls": 3
+  },
+  {
     "batterId": "944533a5",
     "batterName": "Karun Nair",
     "bowlerId": "4c5d73db",
@@ -150522,21 +150957,6 @@
     "strikeRate": 171.43,
     "fours": 2,
     "sixes": 0,
-    "dotBalls": 1
-  },
-  {
-    "batterId": "b17e2f24",
-    "batterName": "KL Rahul",
-    "bowlerId": "4d7f517e",
-    "bowlerName": "AJ Hosein",
-    "matches": 1,
-    "innings": 1,
-    "runs": 12,
-    "balls": 5,
-    "dismissals": 0,
-    "strikeRate": 240,
-    "fours": 1,
-    "sixes": 1,
     "dotBalls": 1
   },
   {
@@ -152805,6 +153225,21 @@
     "dotBalls": 5
   },
   {
+    "batterId": "fb2d1dda",
+    "batterName": "Nitish Rana",
+    "bowlerId": "efc04be7",
+    "bowlerName": "Noor Ahmad",
+    "matches": 2,
+    "innings": 2,
+    "runs": 12,
+    "balls": 9,
+    "dismissals": 1,
+    "strikeRate": 133.33,
+    "fours": 2,
+    "sixes": 0,
+    "dotBalls": 3
+  },
+  {
     "batterId": "a2870fb7",
     "batterName": "NK Patel",
     "bowlerId": "034b4b7d",
@@ -153388,6 +153823,21 @@
     "fours": 1,
     "sixes": 1,
     "dotBalls": 0
+  },
+  {
+    "batterId": "b5797845",
+    "batterName": "Priyansh Arya",
+    "bowlerId": "ded9240e",
+    "bowlerName": "Pat Cummins",
+    "matches": 2,
+    "innings": 2,
+    "runs": 12,
+    "balls": 7,
+    "dismissals": 1,
+    "strikeRate": 171.43,
+    "fours": 1,
+    "sixes": 1,
+    "dotBalls": 3
   },
   {
     "batterId": "b5797845",
@@ -154678,21 +155128,6 @@
     "fours": 1,
     "sixes": 0,
     "dotBalls": 2
-  },
-  {
-    "batterId": "45a43fe2",
-    "batterName": "Ruturaj Gaikwad",
-    "bowlerId": "3fb19989",
-    "bowlerName": "MA Starc",
-    "matches": 2,
-    "innings": 2,
-    "runs": 12,
-    "balls": 12,
-    "dismissals": 1,
-    "strikeRate": 100,
-    "fours": 2,
-    "sixes": 0,
-    "dotBalls": 7
   },
   {
     "batterId": "e66732f8",
@@ -156583,21 +157018,6 @@
     "fours": 1,
     "sixes": 1,
     "dotBalls": 0
-  },
-  {
-    "batterId": "f1f99156",
-    "batterName": "Tim David",
-    "bowlerId": "13fc5c6d",
-    "bowlerName": "DS Rathi",
-    "matches": 1,
-    "innings": 1,
-    "runs": 12,
-    "balls": 5,
-    "dismissals": 0,
-    "strikeRate": 240,
-    "fours": 1,
-    "sixes": 1,
-    "dotBalls": 2
   },
   {
     "batterId": "12b610c2",
@@ -165947,21 +166367,6 @@
   {
     "batterId": "b5797845",
     "batterName": "Priyansh Arya",
-    "bowlerId": "ded9240e",
-    "bowlerName": "Pat Cummins",
-    "matches": 1,
-    "innings": 1,
-    "runs": 11,
-    "balls": 4,
-    "dismissals": 0,
-    "strikeRate": 275,
-    "fours": 1,
-    "sixes": 1,
-    "dotBalls": 1
-  },
-  {
-    "batterId": "b5797845",
-    "batterName": "Priyansh Arya",
     "bowlerId": "9d430b40",
     "bowlerName": "Sunil Narine",
     "matches": 1,
@@ -167790,6 +168195,21 @@
     "dotBalls": 2
   },
   {
+    "batterId": "f89d3b11",
+    "batterName": "Sameer Rizvi",
+    "bowlerId": "765a4731",
+    "bowlerName": "Mukesh Choudhary",
+    "matches": 2,
+    "innings": 2,
+    "runs": 11,
+    "balls": 8,
+    "dismissals": 0,
+    "strikeRate": 137.5,
+    "fours": 0,
+    "sixes": 1,
+    "dotBalls": 2
+  },
+  {
     "batterId": "a4cc73aa",
     "batterName": "Sanju Samson",
     "bowlerId": "33a364a6",
@@ -168223,6 +168643,21 @@
     "fours": 0,
     "sixes": 1,
     "dotBalls": 0
+  },
+  {
+    "batterId": "26989d80",
+    "batterName": "Shashank Singh",
+    "bowlerId": "ded9240e",
+    "bowlerName": "Pat Cummins",
+    "matches": 2,
+    "innings": 2,
+    "runs": 11,
+    "balls": 6,
+    "dismissals": 0,
+    "strikeRate": 183.33,
+    "fours": 2,
+    "sixes": 0,
+    "dotBalls": 1
   },
   {
     "batterId": "26989d80",
@@ -177017,6 +177452,21 @@
   {
     "batterId": "b17e2f24",
     "batterName": "KL Rahul",
+    "bowlerId": "fcc21ace",
+    "bowlerName": "A Kamboj",
+    "matches": 3,
+    "innings": 3,
+    "runs": 10,
+    "balls": 10,
+    "dismissals": 0,
+    "strikeRate": 100,
+    "fours": 1,
+    "sixes": 0,
+    "dotBalls": 3
+  },
+  {
+    "batterId": "b17e2f24",
+    "batterName": "KL Rahul",
     "bowlerId": "5750bcb4",
     "bowlerName": "E Malinga",
     "matches": 2,
@@ -179625,6 +180075,21 @@
     "dotBalls": 2
   },
   {
+    "batterId": "8ee36b18",
+    "batterName": "P Nissanka",
+    "bowlerId": "765a4731",
+    "bowlerName": "Mukesh Choudhary",
+    "matches": 1,
+    "innings": 1,
+    "runs": 10,
+    "balls": 8,
+    "dismissals": 1,
+    "strikeRate": 125,
+    "fours": 1,
+    "sixes": 1,
+    "dotBalls": 6
+  },
+  {
     "batterId": "b5da6c24",
     "batterName": "Parthiv Patel",
     "bowlerId": "dddca1d6",
@@ -180762,6 +181227,21 @@
     "strikeRate": 142.86,
     "fours": 1,
     "sixes": 0,
+    "dotBalls": 1
+  },
+  {
+    "batterId": "c740ea83",
+    "batterName": "Rajat Patidar",
+    "bowlerId": "80b2fb19",
+    "bowlerName": "Prince Yadav",
+    "matches": 2,
+    "innings": 2,
+    "runs": 10,
+    "balls": 6,
+    "dismissals": 1,
+    "strikeRate": 166.67,
+    "fours": 0,
+    "sixes": 1,
     "dotBalls": 1
   },
   {
@@ -181963,6 +182443,21 @@
     "fours": 2,
     "sixes": 0,
     "dotBalls": 3
+  },
+  {
+    "batterId": "f89d3b11",
+    "batterName": "Sameer Rizvi",
+    "bowlerId": "efc04be7",
+    "bowlerName": "Noor Ahmad",
+    "matches": 2,
+    "innings": 2,
+    "runs": 10,
+    "balls": 5,
+    "dismissals": 0,
+    "strikeRate": 200,
+    "fours": 0,
+    "sixes": 1,
+    "dotBalls": 0
   },
   {
     "batterId": "f89d3b11",
@@ -184292,21 +184787,6 @@
   {
     "batterId": "85b3fab2",
     "batterName": "Tristan Stubbs",
-    "bowlerId": "765a4731",
-    "bowlerName": "Mukesh Choudhary",
-    "matches": 2,
-    "innings": 2,
-    "runs": 10,
-    "balls": 5,
-    "dismissals": 1,
-    "strikeRate": 200,
-    "fours": 1,
-    "sixes": 1,
-    "dotBalls": 3
-  },
-  {
-    "batterId": "85b3fab2",
-    "batterName": "Tristan Stubbs",
     "bowlerId": "df064e1a",
     "bowlerName": "Ravi Bishnoi",
     "matches": 3,
@@ -184348,6 +184828,21 @@
     "fours": 1,
     "sixes": 0,
     "dotBalls": 1
+  },
+  {
+    "batterId": "85b3fab2",
+    "batterName": "Tristan Stubbs",
+    "bowlerId": "fcc21ace",
+    "bowlerName": "A Kamboj",
+    "matches": 2,
+    "innings": 2,
+    "runs": 10,
+    "balls": 6,
+    "dismissals": 0,
+    "strikeRate": 166.67,
+    "fours": 2,
+    "sixes": 0,
+    "dotBalls": 2
   },
   {
     "batterId": "0c94f480",
@@ -186120,6 +186615,21 @@
     "dotBalls": 1
   },
   {
+    "batterId": "6a26221c",
+    "batterName": "Aiden Markram",
+    "bowlerId": "b8527c3d",
+    "bowlerName": "Rasikh Salam",
+    "matches": 2,
+    "innings": 2,
+    "runs": 9,
+    "balls": 5,
+    "dismissals": 1,
+    "strikeRate": 180,
+    "fours": 0,
+    "sixes": 1,
+    "dotBalls": 1
+  },
+  {
     "batterId": "29e95537",
     "batterName": "Ajinkya Rahane",
     "bowlerId": "94d7f855",
@@ -187078,6 +187588,21 @@
     "fours": 0,
     "sixes": 1,
     "dotBalls": 1
+  },
+  {
+    "batterId": "84d9c311",
+    "batterName": "Ashutosh Sharma",
+    "bowlerId": "59559bc2",
+    "bowlerName": "J Overton",
+    "matches": 2,
+    "innings": 2,
+    "runs": 9,
+    "balls": 4,
+    "dismissals": 0,
+    "strikeRate": 225,
+    "fours": 0,
+    "sixes": 1,
+    "dotBalls": 0
   },
   {
     "batterId": "1ac746c8",
@@ -191713,6 +192238,21 @@
     "fours": 1,
     "sixes": 0,
     "dotBalls": 1
+  },
+  {
+    "batterId": "7b679de5",
+    "batterName": "Kartik Sharma",
+    "bowlerId": "8d2c70ad",
+    "bowlerName": "Kuldeep Yadav",
+    "matches": 1,
+    "innings": 1,
+    "runs": 9,
+    "balls": 9,
+    "dismissals": 0,
+    "strikeRate": 100,
+    "fours": 0,
+    "sixes": 1,
+    "dotBalls": 5
   },
   {
     "batterId": "944533a5",
@@ -200205,21 +200745,6 @@
     "dotBalls": 1
   },
   {
-    "batterId": "85b3fab2",
-    "batterName": "Tristan Stubbs",
-    "bowlerId": "fcc21ace",
-    "bowlerName": "A Kamboj",
-    "matches": 1,
-    "innings": 1,
-    "runs": 9,
-    "balls": 5,
-    "dismissals": 0,
-    "strikeRate": 180,
-    "fours": 2,
-    "sixes": 0,
-    "dotBalls": 2
-  },
-  {
     "batterId": "46a9bea1",
     "batterName": "TU Deshpande",
     "bowlerId": "5750bcb4",
@@ -201630,6 +202155,21 @@
     "dotBalls": 0
   },
   {
+    "batterId": "2d140b79",
+    "batterName": "AA Kulkarni",
+    "bowlerId": "9440ef41",
+    "bowlerName": "Suyash Sharma",
+    "matches": 1,
+    "innings": 1,
+    "runs": 8,
+    "balls": 7,
+    "dismissals": 0,
+    "strikeRate": 114.29,
+    "fours": 1,
+    "sixes": 0,
+    "dotBalls": 2
+  },
+  {
     "batterId": "b8d490fd",
     "batterName": "Aaron Finch",
     "bowlerId": "4329fbb5",
@@ -202393,21 +202933,6 @@
     "fours": 1,
     "sixes": 0,
     "dotBalls": 2
-  },
-  {
-    "batterId": "6a26221c",
-    "batterName": "Aiden Markram",
-    "bowlerId": "b8527c3d",
-    "bowlerName": "Rasikh Salam",
-    "matches": 1,
-    "innings": 1,
-    "runs": 8,
-    "balls": 4,
-    "dismissals": 1,
-    "strikeRate": 200,
-    "fours": 0,
-    "sixes": 1,
-    "dotBalls": 1
   },
   {
     "batterId": "29e95537",
@@ -203239,21 +203764,6 @@
     "batterName": "Ashutosh Sharma",
     "bowlerId": "f9e6e7ef",
     "bowlerName": "Shahbaz Ahmed",
-    "matches": 1,
-    "innings": 1,
-    "runs": 8,
-    "balls": 3,
-    "dismissals": 0,
-    "strikeRate": 266.67,
-    "fours": 0,
-    "sixes": 1,
-    "dotBalls": 0
-  },
-  {
-    "batterId": "84d9c311",
-    "batterName": "Ashutosh Sharma",
-    "bowlerId": "59559bc2",
-    "bowlerName": "J Overton",
     "matches": 1,
     "innings": 1,
     "runs": 8,
@@ -208935,6 +209445,21 @@
     "dotBalls": 2
   },
   {
+    "batterId": "7b679de5",
+    "batterName": "Kartik Sharma",
+    "bowlerId": "3fb19989",
+    "bowlerName": "MA Starc",
+    "matches": 1,
+    "innings": 1,
+    "runs": 8,
+    "balls": 5,
+    "dismissals": 0,
+    "strikeRate": 160,
+    "fours": 1,
+    "sixes": 0,
+    "dotBalls": 1
+  },
+  {
     "batterId": "944533a5",
     "batterName": "Karun Nair",
     "bowlerId": "ffe699c0",
@@ -209308,21 +209833,6 @@
     "fours": 1,
     "sixes": 0,
     "dotBalls": 1
-  },
-  {
-    "batterId": "b17e2f24",
-    "batterName": "KL Rahul",
-    "bowlerId": "fcc21ace",
-    "bowlerName": "A Kamboj",
-    "matches": 2,
-    "innings": 2,
-    "runs": 8,
-    "balls": 7,
-    "dismissals": 0,
-    "strikeRate": 114.29,
-    "fours": 1,
-    "sixes": 0,
-    "dotBalls": 2
   },
   {
     "batterId": "b17e2f24",
@@ -210223,6 +210733,21 @@
     "fours": 0,
     "sixes": 1,
     "dotBalls": 2
+  },
+  {
+    "batterId": "81c36ee9",
+    "batterName": "M Jansen",
+    "bowlerId": "25228673",
+    "bowlerName": "Harsh Dubey",
+    "matches": 1,
+    "innings": 1,
+    "runs": 8,
+    "balls": 3,
+    "dismissals": 0,
+    "strikeRate": 266.67,
+    "fours": 0,
+    "sixes": 1,
+    "dotBalls": 0
   },
   {
     "batterId": "b970a03f",
@@ -212625,6 +213150,21 @@
     "dotBalls": 1
   },
   {
+    "batterId": "aad0c365",
+    "batterName": "Nithish Kumar Reddy",
+    "bowlerId": "81c36ee9",
+    "bowlerName": "M Jansen",
+    "matches": 1,
+    "innings": 1,
+    "runs": 8,
+    "balls": 3,
+    "dismissals": 0,
+    "strikeRate": 266.67,
+    "fours": 0,
+    "sixes": 1,
+    "dotBalls": 0
+  },
+  {
     "batterId": "fb2d1dda",
     "batterName": "Nitish Rana",
     "bowlerId": "acee4cc4",
@@ -214108,6 +214648,51 @@
     "fours": 0,
     "sixes": 1,
     "dotBalls": 0
+  },
+  {
+    "batterId": "c5aef772",
+    "batterName": "R Shepherd",
+    "bowlerId": "80b2fb19",
+    "bowlerName": "Prince Yadav",
+    "matches": 2,
+    "innings": 2,
+    "runs": 8,
+    "balls": 5,
+    "dismissals": 0,
+    "strikeRate": 160,
+    "fours": 0,
+    "sixes": 1,
+    "dotBalls": 1
+  },
+  {
+    "batterId": "c5aef772",
+    "batterName": "R Shepherd",
+    "bowlerId": "13fc5c6d",
+    "bowlerName": "DS Rathi",
+    "matches": 2,
+    "innings": 2,
+    "runs": 8,
+    "balls": 6,
+    "dismissals": 0,
+    "strikeRate": 133.33,
+    "fours": 1,
+    "sixes": 0,
+    "dotBalls": 1
+  },
+  {
+    "batterId": "c5aef772",
+    "batterName": "R Shepherd",
+    "bowlerId": "f9e6e7ef",
+    "bowlerName": "Shahbaz Ahmed",
+    "matches": 1,
+    "innings": 1,
+    "runs": 8,
+    "balls": 3,
+    "dismissals": 0,
+    "strikeRate": 266.67,
+    "fours": 2,
+    "sixes": 0,
+    "dotBalls": 1
   },
   {
     "batterId": "39a2dfa8",
@@ -215848,21 +216433,6 @@
     "fours": 0,
     "sixes": 1,
     "dotBalls": 3
-  },
-  {
-    "batterId": "f89d3b11",
-    "batterName": "Sameer Rizvi",
-    "bowlerId": "efc04be7",
-    "bowlerName": "Noor Ahmad",
-    "matches": 1,
-    "innings": 1,
-    "runs": 8,
-    "balls": 3,
-    "dismissals": 0,
-    "strikeRate": 266.67,
-    "fours": 0,
-    "sixes": 1,
-    "dotBalls": 0
   },
   {
     "batterId": "f89d3b11",
@@ -220275,6 +220845,21 @@
     "dotBalls": 0
   },
   {
+    "batterId": "2d140b79",
+    "batterName": "AA Kulkarni",
+    "bowlerId": "2e81a32d",
+    "bowlerName": "Bhuvneshwar Kumar",
+    "matches": 1,
+    "innings": 1,
+    "runs": 7,
+    "balls": 9,
+    "dismissals": 0,
+    "strikeRate": 77.78,
+    "fours": 0,
+    "sixes": 0,
+    "dotBalls": 5
+  },
+  {
     "batterId": "b69e69ed",
     "batterName": "AA Noffke",
     "bowlerId": "725529bc",
@@ -223213,21 +223798,6 @@
     "fours": 1,
     "sixes": 0,
     "dotBalls": 2
-  },
-  {
-    "batterId": "fe366f34",
-    "batterName": "C Connolly",
-    "bowlerId": "7b44eb3e",
-    "bowlerName": "Shivang Kumar",
-    "matches": 1,
-    "innings": 1,
-    "runs": 7,
-    "balls": 7,
-    "dismissals": 1,
-    "strikeRate": 100,
-    "fours": 1,
-    "sixes": 0,
-    "dotBalls": 3
   },
   {
     "batterId": "94d7f855",
@@ -226712,21 +227282,6 @@
   {
     "batterId": "752f7486",
     "batterName": "Ishan Kishan",
-    "bowlerId": "2f9d0389",
-    "bowlerName": "Lockie Ferguson",
-    "matches": 2,
-    "innings": 2,
-    "runs": 7,
-    "balls": 7,
-    "dismissals": 1,
-    "strikeRate": 100,
-    "fours": 1,
-    "sixes": 0,
-    "dotBalls": 2
-  },
-  {
-    "batterId": "752f7486",
-    "batterName": "Ishan Kishan",
     "bowlerId": "b0946605",
     "bowlerName": "AS Joseph",
     "matches": 1,
@@ -228223,6 +228778,21 @@
     "fours": 1,
     "sixes": 0,
     "dotBalls": 1
+  },
+  {
+    "batterId": "944533a5",
+    "batterName": "Karun Nair",
+    "bowlerId": "fcc21ace",
+    "bowlerName": "A Kamboj",
+    "matches": 1,
+    "innings": 1,
+    "runs": 7,
+    "balls": 5,
+    "dismissals": 0,
+    "strikeRate": 140,
+    "fours": 1,
+    "sixes": 0,
+    "dotBalls": 2
   },
   {
     "batterId": "944533a5",
@@ -232262,6 +232832,21 @@
   {
     "batterId": "aad0c365",
     "batterName": "Nithish Kumar Reddy",
+    "bowlerId": "244048f6",
+    "bowlerName": "Arshdeep Singh",
+    "matches": 3,
+    "innings": 3,
+    "runs": 7,
+    "balls": 8,
+    "dismissals": 1,
+    "strikeRate": 87.5,
+    "fours": 1,
+    "sixes": 0,
+    "dotBalls": 4
+  },
+  {
+    "batterId": "aad0c365",
+    "batterName": "Nithish Kumar Reddy",
     "bowlerId": "3fb19989",
     "bowlerName": "MA Starc",
     "matches": 3,
@@ -232380,6 +232965,21 @@
     "dotBalls": 1
   },
   {
+    "batterId": "aad0c365",
+    "batterName": "Nithish Kumar Reddy",
+    "bowlerId": "2f9d0389",
+    "bowlerName": "Lockie Ferguson",
+    "matches": 1,
+    "innings": 1,
+    "runs": 7,
+    "balls": 2,
+    "dismissals": 0,
+    "strikeRate": 350,
+    "fours": 0,
+    "sixes": 1,
+    "dotBalls": 0
+  },
+  {
     "batterId": "fb2d1dda",
     "batterName": "Nitish Rana",
     "bowlerId": "cc1e8c68",
@@ -232438,21 +233038,6 @@
     "fours": 1,
     "sixes": 0,
     "dotBalls": 3
-  },
-  {
-    "batterId": "fb2d1dda",
-    "batterName": "Nitish Rana",
-    "bowlerId": "fcc21ace",
-    "bowlerName": "A Kamboj",
-    "matches": 1,
-    "innings": 1,
-    "runs": 7,
-    "balls": 6,
-    "dismissals": 0,
-    "strikeRate": 116.67,
-    "fours": 1,
-    "sixes": 0,
-    "dotBalls": 2
   },
   {
     "batterId": "a2870fb7",
@@ -233329,15 +233914,15 @@
     "batterName": "Prabhsimran Singh",
     "bowlerId": "aad0c365",
     "bowlerName": "Nithish Kumar Reddy",
-    "matches": 1,
-    "innings": 1,
+    "matches": 2,
+    "innings": 2,
     "runs": 7,
-    "balls": 2,
-    "dismissals": 0,
-    "strikeRate": 350,
+    "balls": 3,
+    "dismissals": 1,
+    "strikeRate": 233.33,
     "fours": 0,
     "sixes": 1,
-    "dotBalls": 0
+    "dotBalls": 1
   },
   {
     "batterId": "e938e1bc",
@@ -234343,21 +234928,6 @@
     "fours": 1,
     "sixes": 0,
     "dotBalls": 1
-  },
-  {
-    "batterId": "c740ea83",
-    "batterName": "Rajat Patidar",
-    "bowlerId": "13fc5c6d",
-    "bowlerName": "DS Rathi",
-    "matches": 2,
-    "innings": 2,
-    "runs": 7,
-    "balls": 4,
-    "dismissals": 0,
-    "strikeRate": 175,
-    "fours": 1,
-    "sixes": 0,
-    "dotBalls": 0
   },
   {
     "batterId": "c740ea83",
@@ -237088,21 +237658,6 @@
     "fours": 0,
     "sixes": 1,
     "dotBalls": 3
-  },
-  {
-    "batterId": "26989d80",
-    "batterName": "Shashank Singh",
-    "bowlerId": "ded9240e",
-    "bowlerName": "Pat Cummins",
-    "matches": 1,
-    "innings": 1,
-    "runs": 7,
-    "balls": 4,
-    "dismissals": 0,
-    "strikeRate": 175,
-    "fours": 1,
-    "sixes": 0,
-    "dotBalls": 0
   },
   {
     "batterId": "26989d80",
@@ -247637,21 +248192,6 @@
   {
     "batterId": "752f7486",
     "batterName": "Ishan Kishan",
-    "bowlerId": "54e52590",
-    "bowlerName": "Vijaykumar Vyshak",
-    "matches": 2,
-    "innings": 2,
-    "runs": 6,
-    "balls": 3,
-    "dismissals": 0,
-    "strikeRate": 200,
-    "fours": 1,
-    "sixes": 0,
-    "dotBalls": 0
-  },
-  {
-    "batterId": "752f7486",
-    "batterName": "Ishan Kishan",
     "bowlerId": "a1d95bd8",
     "bowlerName": "LB Williams",
     "matches": 1,
@@ -249253,6 +249793,36 @@
     "fours": 1,
     "sixes": 0,
     "dotBalls": 0
+  },
+  {
+    "batterId": "7b679de5",
+    "batterName": "Kartik Sharma",
+    "bowlerId": "2e171977",
+    "bowlerName": "Axar Patel",
+    "matches": 1,
+    "innings": 1,
+    "runs": 6,
+    "balls": 6,
+    "dismissals": 0,
+    "strikeRate": 100,
+    "fours": 1,
+    "sixes": 0,
+    "dotBalls": 3
+  },
+  {
+    "batterId": "7b679de5",
+    "batterName": "Kartik Sharma",
+    "bowlerId": "f834dcfc",
+    "bowlerName": "L Ngidi",
+    "matches": 1,
+    "innings": 1,
+    "runs": 6,
+    "balls": 4,
+    "dismissals": 0,
+    "strikeRate": 150,
+    "fours": 1,
+    "sixes": 0,
+    "dotBalls": 1
   },
   {
     "batterId": "5d2eea49",
@@ -251687,6 +252257,36 @@
   {
     "batterId": "d9273ee7",
     "batterName": "Marcus Stoinis",
+    "bowlerId": "5750bcb4",
+    "bowlerName": "E Malinga",
+    "matches": 1,
+    "innings": 1,
+    "runs": 6,
+    "balls": 4,
+    "dismissals": 0,
+    "strikeRate": 150,
+    "fours": 0,
+    "sixes": 1,
+    "dotBalls": 3
+  },
+  {
+    "batterId": "d9273ee7",
+    "batterName": "Marcus Stoinis",
+    "bowlerId": "7b44eb3e",
+    "bowlerName": "Shivang Kumar",
+    "matches": 1,
+    "innings": 1,
+    "runs": 6,
+    "balls": 4,
+    "dismissals": 1,
+    "strikeRate": 150,
+    "fours": 1,
+    "sixes": 0,
+    "dotBalls": 2
+  },
+  {
+    "batterId": "d9273ee7",
+    "batterName": "Marcus Stoinis",
     "bowlerId": "91a4a398",
     "bowlerName": "Zaheer Khan",
     "matches": 1,
@@ -253605,21 +254205,6 @@
     "dotBalls": 3
   },
   {
-    "batterId": "fb2d1dda",
-    "batterName": "Nitish Rana",
-    "bowlerId": "efc04be7",
-    "bowlerName": "Noor Ahmad",
-    "matches": 1,
-    "innings": 1,
-    "runs": 6,
-    "balls": 4,
-    "dismissals": 0,
-    "strikeRate": 150,
-    "fours": 1,
-    "sixes": 0,
-    "dotBalls": 1
-  },
-  {
     "batterId": "a2870fb7",
     "batterName": "NK Patel",
     "bowlerId": "5fa06777",
@@ -253843,21 +254428,6 @@
     "fours": 1,
     "sixes": 0,
     "dotBalls": 3
-  },
-  {
-    "batterId": "8ee36b18",
-    "batterName": "P Nissanka",
-    "bowlerId": "4d7f517e",
-    "bowlerName": "AJ Hosein",
-    "matches": 1,
-    "innings": 1,
-    "runs": 6,
-    "balls": 9,
-    "dismissals": 0,
-    "strikeRate": 66.67,
-    "fours": 1,
-    "sixes": 0,
-    "dotBalls": 5
   },
   {
     "batterId": "8ee36b18",
@@ -255514,15 +256084,15 @@
     "batterName": "Rajat Patidar",
     "bowlerId": "f9e6e7ef",
     "bowlerName": "Shahbaz Ahmed",
-    "matches": 1,
-    "innings": 1,
+    "matches": 2,
+    "innings": 2,
     "runs": 6,
-    "balls": 3,
-    "dismissals": 0,
-    "strikeRate": 200,
+    "balls": 4,
+    "dismissals": 1,
+    "strikeRate": 150,
     "fours": 1,
     "sixes": 0,
-    "dotBalls": 0
+    "dotBalls": 1
   },
   {
     "batterId": "c740ea83",
@@ -255537,21 +256107,6 @@
     "strikeRate": 150,
     "fours": 1,
     "sixes": 0,
-    "dotBalls": 1
-  },
-  {
-    "batterId": "c740ea83",
-    "batterName": "Rajat Patidar",
-    "bowlerId": "80b2fb19",
-    "bowlerName": "Prince Yadav",
-    "matches": 1,
-    "innings": 1,
-    "runs": 6,
-    "balls": 2,
-    "dismissals": 1,
-    "strikeRate": 300,
-    "fours": 0,
-    "sixes": 1,
     "dotBalls": 1
   },
   {
@@ -261392,21 +261947,6 @@
   {
     "batterId": "85b3fab2",
     "batterName": "Tristan Stubbs",
-    "bowlerId": "efc04be7",
-    "bowlerName": "Noor Ahmad",
-    "matches": 1,
-    "innings": 1,
-    "runs": 6,
-    "balls": 8,
-    "dismissals": 0,
-    "strikeRate": 75,
-    "fours": 0,
-    "sixes": 0,
-    "dotBalls": 2
-  },
-  {
-    "batterId": "85b3fab2",
-    "batterName": "Tristan Stubbs",
     "bowlerId": "280fff14",
     "bowlerName": "Sakib Hussain",
     "matches": 1,
@@ -266606,6 +267146,21 @@
     "dismissals": 1,
     "strikeRate": 166.67,
     "fours": 1,
+    "sixes": 0,
+    "dotBalls": 1
+  },
+  {
+    "batterId": "fe366f34",
+    "batterName": "C Connolly",
+    "bowlerId": "aad0c365",
+    "bowlerName": "Nithish Kumar Reddy",
+    "matches": 2,
+    "innings": 2,
+    "runs": 5,
+    "balls": 6,
+    "dismissals": 0,
+    "strikeRate": 83.33,
+    "fours": 0,
     "sixes": 0,
     "dotBalls": 1
   },
@@ -272672,6 +273227,21 @@
   {
     "batterId": "944533a5",
     "batterName": "Karun Nair",
+    "bowlerId": "efc04be7",
+    "bowlerName": "Noor Ahmad",
+    "matches": 1,
+    "innings": 1,
+    "runs": 5,
+    "balls": 4,
+    "dismissals": 1,
+    "strikeRate": 125,
+    "fours": 1,
+    "sixes": 0,
+    "dotBalls": 2
+  },
+  {
+    "batterId": "944533a5",
+    "batterName": "Karun Nair",
     "bowlerId": "24d94623",
     "bowlerName": "Ankit Sharma",
     "matches": 1,
@@ -273208,6 +273778,21 @@
     "fours": 1,
     "sixes": 0,
     "dotBalls": 1
+  },
+  {
+    "batterId": "5b8c830e",
+    "batterName": "Krunal Pandya",
+    "bowlerId": "80b2fb19",
+    "bowlerName": "Prince Yadav",
+    "matches": 1,
+    "innings": 1,
+    "runs": 5,
+    "balls": 2,
+    "dismissals": 0,
+    "strikeRate": 250,
+    "fours": 1,
+    "sixes": 0,
+    "dotBalls": 0
   },
   {
     "batterId": "5b8c830e",
@@ -273943,6 +274528,21 @@
     "fours": 0,
     "sixes": 0,
     "dotBalls": 6
+  },
+  {
+    "batterId": "81c36ee9",
+    "batterName": "M Jansen",
+    "bowlerId": "ded9240e",
+    "bowlerName": "Pat Cummins",
+    "matches": 2,
+    "innings": 2,
+    "runs": 5,
+    "balls": 5,
+    "dismissals": 0,
+    "strikeRate": 100,
+    "fours": 0,
+    "sixes": 0,
+    "dotBalls": 0
   },
   {
     "batterId": "81c36ee9",
@@ -278762,21 +279362,6 @@
   {
     "batterId": "c740ea83",
     "batterName": "Rajat Patidar",
-    "bowlerId": "b1ad996b",
-    "bowlerName": "MP Yadav",
-    "matches": 1,
-    "innings": 1,
-    "runs": 5,
-    "balls": 6,
-    "dismissals": 1,
-    "strikeRate": 83.33,
-    "fours": 1,
-    "sixes": 0,
-    "dotBalls": 4
-  },
-  {
-    "batterId": "c740ea83",
-    "batterName": "Rajat Patidar",
     "bowlerId": "ded9240e",
     "bowlerName": "Pat Cummins",
     "matches": 2,
@@ -280888,6 +281473,21 @@
     "fours": 0,
     "sixes": 0,
     "dotBalls": 2
+  },
+  {
+    "batterId": "f89d3b11",
+    "batterName": "Sameer Rizvi",
+    "bowlerId": "cc61ee8f",
+    "bowlerName": "Gurjapneet Singh",
+    "matches": 2,
+    "innings": 2,
+    "runs": 5,
+    "balls": 5,
+    "dismissals": 0,
+    "strikeRate": 100,
+    "fours": 0,
+    "sixes": 0,
+    "dotBalls": 0
   },
   {
     "batterId": "ce820073",
@@ -284533,6 +285133,21 @@
     "fours": 0,
     "sixes": 0,
     "dotBalls": 1
+  },
+  {
+    "batterId": "85b3fab2",
+    "batterName": "Tristan Stubbs",
+    "bowlerId": "59559bc2",
+    "bowlerName": "J Overton",
+    "matches": 2,
+    "innings": 2,
+    "runs": 5,
+    "balls": 10,
+    "dismissals": 2,
+    "strikeRate": 50,
+    "fours": 0,
+    "sixes": 0,
+    "dotBalls": 5
   },
   {
     "batterId": "46a9bea1",
@@ -290702,32 +291317,17 @@
   {
     "batterId": "2c25d4f5",
     "batterName": "Devdutt Padikkal",
-    "bowlerId": "80b2fb19",
-    "bowlerName": "Prince Yadav",
+    "bowlerId": "b1ad996b",
+    "bowlerName": "MP Yadav",
     "matches": 1,
     "innings": 1,
     "runs": 4,
-    "balls": 2,
+    "balls": 5,
     "dismissals": 0,
-    "strikeRate": 200,
-    "fours": 1,
-    "sixes": 0,
-    "dotBalls": 1
-  },
-  {
-    "batterId": "2c25d4f5",
-    "batterName": "Devdutt Padikkal",
-    "bowlerId": "13fc5c6d",
-    "bowlerName": "DS Rathi",
-    "matches": 1,
-    "innings": 1,
-    "runs": 4,
-    "balls": 4,
-    "dismissals": 0,
-    "strikeRate": 100,
+    "strikeRate": 80,
     "fours": 0,
     "sixes": 0,
-    "dotBalls": 0
+    "dotBalls": 1
   },
   {
     "batterId": "df5a6881",
@@ -293835,6 +294435,21 @@
     "dotBalls": 5
   },
   {
+    "batterId": "3c55c703",
+    "batterName": "JG Bethell",
+    "bowlerId": "8cf9814c",
+    "bowlerName": "Mohammed Shami",
+    "matches": 1,
+    "innings": 1,
+    "runs": 4,
+    "balls": 5,
+    "dismissals": 1,
+    "strikeRate": 80,
+    "fours": 1,
+    "sixes": 0,
+    "dotBalls": 3
+  },
+  {
     "batterId": "800d2d97",
     "batterName": "Jitesh Sharma",
     "bowlerId": "798cc28e",
@@ -295277,6 +295892,21 @@
   {
     "batterId": "5b8c830e",
     "batterName": "Krunal Pandya",
+    "bowlerId": "13fc5c6d",
+    "bowlerName": "DS Rathi",
+    "matches": 1,
+    "innings": 1,
+    "runs": 4,
+    "balls": 4,
+    "dismissals": 0,
+    "strikeRate": 100,
+    "fours": 0,
+    "sixes": 0,
+    "dotBalls": 0
+  },
+  {
+    "batterId": "5b8c830e",
+    "batterName": "Krunal Pandya",
     "bowlerId": "edb3d4f8",
     "bowlerName": "KC Cariappa",
     "matches": 1,
@@ -296263,6 +296893,21 @@
     "fours": 0,
     "sixes": 0,
     "dotBalls": 3
+  },
+  {
+    "batterId": "81c36ee9",
+    "batterName": "M Jansen",
+    "bowlerId": "280fff14",
+    "bowlerName": "Sakib Hussain",
+    "matches": 1,
+    "innings": 1,
+    "runs": 4,
+    "balls": 6,
+    "dismissals": 0,
+    "strikeRate": 66.67,
+    "fours": 0,
+    "sixes": 0,
+    "dotBalls": 2
   },
   {
     "batterId": "d84378a4",
@@ -303178,21 +303823,6 @@
     "fours": 1,
     "sixes": 0,
     "dotBalls": 3
-  },
-  {
-    "batterId": "f89d3b11",
-    "batterName": "Sameer Rizvi",
-    "bowlerId": "fcc21ace",
-    "bowlerName": "A Kamboj",
-    "matches": 1,
-    "innings": 1,
-    "runs": 4,
-    "balls": 3,
-    "dismissals": 0,
-    "strikeRate": 133.33,
-    "fours": 1,
-    "sixes": 0,
-    "dotBalls": 2
   },
   {
     "batterId": "f89d3b11",
@@ -318615,6 +319245,21 @@
     "dotBalls": 2
   },
   {
+    "batterId": "81c36ee9",
+    "batterName": "M Jansen",
+    "bowlerId": "5750bcb4",
+    "bowlerName": "E Malinga",
+    "matches": 1,
+    "innings": 1,
+    "runs": 3,
+    "balls": 3,
+    "dismissals": 0,
+    "strikeRate": 100,
+    "fours": 0,
+    "sixes": 0,
+    "dotBalls": 0
+  },
+  {
     "batterId": "d84378a4",
     "batterName": "M Kaif",
     "bowlerId": "c654af19",
@@ -320005,21 +320650,6 @@
     "balls": 3,
     "dismissals": 0,
     "strikeRate": 100,
-    "fours": 0,
-    "sixes": 0,
-    "dotBalls": 1
-  },
-  {
-    "batterId": "3d8feaf8",
-    "batterName": "Mitchell Marsh",
-    "bowlerId": "b8527c3d",
-    "bowlerName": "Rasikh Salam",
-    "matches": 1,
-    "innings": 1,
-    "runs": 3,
-    "balls": 4,
-    "dismissals": 0,
-    "strikeRate": 75,
     "fours": 0,
     "sixes": 0,
     "dotBalls": 1
@@ -321480,6 +322110,21 @@
     "dotBalls": 3
   },
   {
+    "batterId": "3241e3fd",
+    "batterName": "Nicholas Pooran",
+    "bowlerId": "03806cf8",
+    "bowlerName": "Josh Hazlewood",
+    "matches": 2,
+    "innings": 2,
+    "runs": 3,
+    "balls": 6,
+    "dismissals": 1,
+    "strikeRate": 50,
+    "fours": 0,
+    "sixes": 0,
+    "dotBalls": 3
+  },
+  {
     "batterId": "aad0c365",
     "batterName": "Nithish Kumar Reddy",
     "bowlerId": "acdc62f5",
@@ -321568,6 +322213,21 @@
     "fours": 0,
     "sixes": 0,
     "dotBalls": 4
+  },
+  {
+    "batterId": "fb2d1dda",
+    "batterName": "Nitish Rana",
+    "bowlerId": "cc61ee8f",
+    "bowlerName": "Gurjapneet Singh",
+    "matches": 1,
+    "innings": 1,
+    "runs": 3,
+    "balls": 3,
+    "dismissals": 0,
+    "strikeRate": 100,
+    "fours": 0,
+    "sixes": 0,
+    "dotBalls": 0
   },
   {
     "batterId": "44afbf2d",
@@ -325697,6 +326357,21 @@
   {
     "batterId": "f89d3b11",
     "batterName": "Sameer Rizvi",
+    "bowlerId": "59559bc2",
+    "bowlerName": "J Overton",
+    "matches": 2,
+    "innings": 2,
+    "runs": 3,
+    "balls": 7,
+    "dismissals": 1,
+    "strikeRate": 42.86,
+    "fours": 0,
+    "sixes": 0,
+    "dotBalls": 4
+  },
+  {
+    "batterId": "f89d3b11",
+    "batterName": "Sameer Rizvi",
     "bowlerId": "5750bcb4",
     "bowlerName": "E Malinga",
     "matches": 1,
@@ -325843,21 +326518,6 @@
     "fours": 0,
     "sixes": 0,
     "dotBalls": 2
-  },
-  {
-    "batterId": "a4cc73aa",
-    "batterName": "Sanju Samson",
-    "bowlerId": "3fb19989",
-    "bowlerName": "MA Starc",
-    "matches": 3,
-    "innings": 3,
-    "runs": 3,
-    "balls": 7,
-    "dismissals": 0,
-    "strikeRate": 42.86,
-    "fours": 0,
-    "sixes": 0,
-    "dotBalls": 3
   },
   {
     "batterId": "a4cc73aa",
@@ -328560,6 +329220,21 @@
     "dotBalls": 0
   },
   {
+    "batterId": "970ddd24",
+    "batterName": "Suryansh Shedge",
+    "bowlerId": "aad0c365",
+    "bowlerName": "Nithish Kumar Reddy",
+    "matches": 1,
+    "innings": 1,
+    "runs": 3,
+    "balls": 4,
+    "dismissals": 0,
+    "strikeRate": 75,
+    "fours": 0,
+    "sixes": 0,
+    "dotBalls": 1
+  },
+  {
     "batterId": "c16d4035",
     "batterName": "SW Billings",
     "bowlerId": "4c5d73db",
@@ -329083,21 +329758,6 @@
     "fours": 0,
     "sixes": 0,
     "dotBalls": 2
-  },
-  {
-    "batterId": "85b3fab2",
-    "batterName": "Tristan Stubbs",
-    "bowlerId": "59559bc2",
-    "bowlerName": "J Overton",
-    "matches": 1,
-    "innings": 1,
-    "runs": 3,
-    "balls": 7,
-    "dismissals": 1,
-    "strikeRate": 42.86,
-    "fours": 0,
-    "sixes": 0,
-    "dotBalls": 4
   },
   {
     "batterId": "46a9bea1",
@@ -331468,6 +332128,21 @@
     "fours": 0,
     "sixes": 0,
     "dotBalls": 1
+  },
+  {
+    "batterId": "2d140b79",
+    "batterName": "AA Kulkarni",
+    "bowlerId": "5b8c830e",
+    "bowlerName": "Krunal Pandya",
+    "matches": 1,
+    "innings": 1,
+    "runs": 2,
+    "balls": 7,
+    "dismissals": 1,
+    "strikeRate": 28.57,
+    "fours": 0,
+    "sixes": 0,
+    "dotBalls": 5
   },
   {
     "batterId": "b69e69ed",
@@ -334982,6 +335657,21 @@
   {
     "batterId": "2e171977",
     "batterName": "Axar Patel",
+    "bowlerId": "cc61ee8f",
+    "bowlerName": "Gurjapneet Singh",
+    "matches": 2,
+    "innings": 2,
+    "runs": 2,
+    "balls": 6,
+    "dismissals": 2,
+    "strikeRate": 33.33,
+    "fours": 0,
+    "sixes": 0,
+    "dotBalls": 4
+  },
+  {
+    "batterId": "2e171977",
+    "batterName": "Axar Patel",
     "bowlerId": "280fff14",
     "bowlerName": "Sakib Hussain",
     "matches": 1,
@@ -336486,36 +337176,6 @@
     "bowlerName": "Umesh Yadav",
     "matches": 2,
     "innings": 2,
-    "runs": 2,
-    "balls": 2,
-    "dismissals": 0,
-    "strikeRate": 100,
-    "fours": 0,
-    "sixes": 0,
-    "dotBalls": 0
-  },
-  {
-    "batterId": "fe366f34",
-    "batterName": "C Connolly",
-    "bowlerId": "25228673",
-    "bowlerName": "Harsh Dubey",
-    "matches": 1,
-    "innings": 1,
-    "runs": 2,
-    "balls": 3,
-    "dismissals": 0,
-    "strikeRate": 66.67,
-    "fours": 0,
-    "sixes": 0,
-    "dotBalls": 1
-  },
-  {
-    "batterId": "fe366f34",
-    "batterName": "C Connolly",
-    "bowlerId": "aad0c365",
-    "bowlerName": "Nithish Kumar Reddy",
-    "matches": 1,
-    "innings": 1,
     "runs": 2,
     "balls": 2,
     "dismissals": 0,
@@ -359704,15 +360364,15 @@
     "batterName": "Ruturaj Gaikwad",
     "bowlerId": "f834dcfc",
     "bowlerName": "L Ngidi",
-    "matches": 1,
-    "innings": 1,
+    "matches": 2,
+    "innings": 2,
     "runs": 2,
-    "balls": 2,
-    "dismissals": 0,
-    "strikeRate": 100,
+    "balls": 5,
+    "dismissals": 1,
+    "strikeRate": 40,
     "fours": 0,
     "sixes": 0,
-    "dotBalls": 0
+    "dotBalls": 2
   },
   {
     "batterId": "45a43fe2",
@@ -360538,6 +361198,21 @@
     "fours": 0,
     "sixes": 0,
     "dotBalls": 2
+  },
+  {
+    "batterId": "f89d3b11",
+    "batterName": "Sameer Rizvi",
+    "bowlerId": "4d7f517e",
+    "bowlerName": "AJ Hosein",
+    "matches": 1,
+    "innings": 1,
+    "runs": 2,
+    "balls": 2,
+    "dismissals": 0,
+    "strikeRate": 100,
+    "fours": 0,
+    "sixes": 0,
+    "dotBalls": 0
   },
   {
     "batterId": "ce820073",
@@ -365400,6 +366075,21 @@
     "dotBalls": 0
   },
   {
+    "batterId": "970ddd24",
+    "batterName": "Suryansh Shedge",
+    "bowlerId": "25228673",
+    "bowlerName": "Harsh Dubey",
+    "matches": 1,
+    "innings": 1,
+    "runs": 2,
+    "balls": 2,
+    "dismissals": 0,
+    "strikeRate": 100,
+    "fours": 0,
+    "sixes": 0,
+    "dotBalls": 0
+  },
+  {
     "batterId": "c16d4035",
     "batterName": "SW Billings",
     "bowlerId": "acee4cc4",
@@ -366002,6 +366692,21 @@
   {
     "batterId": "f1f99156",
     "batterName": "Tim David",
+    "bowlerId": "80b2fb19",
+    "bowlerName": "Prince Yadav",
+    "matches": 2,
+    "innings": 2,
+    "runs": 2,
+    "balls": 3,
+    "dismissals": 0,
+    "strikeRate": 66.67,
+    "fours": 0,
+    "sixes": 0,
+    "dotBalls": 1
+  },
+  {
+    "batterId": "f1f99156",
+    "batterName": "Tim David",
     "bowlerId": "025c4400",
     "bowlerName": "MJ Suthar",
     "matches": 1,
@@ -366465,6 +367170,21 @@
     "dotBalls": 0
   },
   {
+    "batterId": "85b3fab2",
+    "batterName": "Tristan Stubbs",
+    "bowlerId": "4d7f517e",
+    "bowlerName": "AJ Hosein",
+    "matches": 1,
+    "innings": 1,
+    "runs": 2,
+    "balls": 4,
+    "dismissals": 0,
+    "strikeRate": 50,
+    "fours": 0,
+    "sixes": 0,
+    "dotBalls": 2
+  },
+  {
     "batterId": "46a9bea1",
     "batterName": "TU Deshpande",
     "bowlerId": "ce820073",
@@ -366823,6 +367543,21 @@
     "fours": 0,
     "sixes": 0,
     "dotBalls": 1
+  },
+  {
+    "batterId": "cf59b3f0",
+    "batterName": "Urvil Patel",
+    "bowlerId": "2e171977",
+    "bowlerName": "Axar Patel",
+    "matches": 1,
+    "innings": 1,
+    "runs": 2,
+    "balls": 4,
+    "dismissals": 1,
+    "strikeRate": 50,
+    "fours": 0,
+    "sixes": 0,
+    "dotBalls": 2
   },
   {
     "batterId": "331ea488",
@@ -389100,6 +389835,21 @@
     "dotBalls": 1
   },
   {
+    "batterId": "800d2d97",
+    "batterName": "Jitesh Sharma",
+    "bowlerId": "80b2fb19",
+    "bowlerName": "Prince Yadav",
+    "matches": 2,
+    "innings": 2,
+    "runs": 1,
+    "balls": 4,
+    "dismissals": 2,
+    "strikeRate": 25,
+    "fours": 0,
+    "sixes": 0,
+    "dotBalls": 3
+  },
+  {
     "batterId": "d1c36f5c",
     "batterName": "JJ Roy",
     "bowlerId": "9d430b40",
@@ -391348,6 +392098,21 @@
     "fours": 0,
     "sixes": 0,
     "dotBalls": 2
+  },
+  {
+    "batterId": "944533a5",
+    "batterName": "Karun Nair",
+    "bowlerId": "4d7f517e",
+    "bowlerName": "AJ Hosein",
+    "matches": 1,
+    "innings": 1,
+    "runs": 1,
+    "balls": 4,
+    "dismissals": 0,
+    "strikeRate": 25,
+    "fours": 0,
+    "sixes": 0,
+    "dotBalls": 3
   },
   {
     "batterId": "944533a5",
@@ -394975,21 +395740,6 @@
     "balls": 1,
     "dismissals": 0,
     "strikeRate": 100,
-    "fours": 0,
-    "sixes": 0,
-    "dotBalls": 0
-  },
-  {
-    "batterId": "81c36ee9",
-    "batterName": "M Jansen",
-    "bowlerId": "ded9240e",
-    "bowlerName": "Pat Cummins",
-    "matches": 1,
-    "innings": 1,
-    "runs": 1,
-    "balls": 2,
-    "dismissals": 0,
-    "strikeRate": 50,
     "fours": 0,
     "sixes": 0,
     "dotBalls": 0
@@ -402345,21 +403095,6 @@
     "dotBalls": 1
   },
   {
-    "batterId": "3241e3fd",
-    "batterName": "Nicholas Pooran",
-    "bowlerId": "b8527c3d",
-    "bowlerName": "Rasikh Salam",
-    "matches": 1,
-    "innings": 1,
-    "runs": 1,
-    "balls": 4,
-    "dismissals": 0,
-    "strikeRate": 25,
-    "fours": 0,
-    "sixes": 0,
-    "dotBalls": 3
-  },
-  {
     "batterId": "aad0c365",
     "batterName": "Nithish Kumar Reddy",
     "bowlerId": "bb351c23",
@@ -402424,6 +403159,21 @@
     "batterName": "Nithish Kumar Reddy",
     "bowlerId": "d45c29b1",
     "bowlerName": "Ashwani Kumar",
+    "matches": 1,
+    "innings": 1,
+    "runs": 1,
+    "balls": 1,
+    "dismissals": 0,
+    "strikeRate": 100,
+    "fours": 0,
+    "sixes": 0,
+    "dotBalls": 0
+  },
+  {
+    "batterId": "aad0c365",
+    "batterName": "Nithish Kumar Reddy",
+    "bowlerId": "54e52590",
+    "bowlerName": "Vijaykumar Vyshak",
     "matches": 1,
     "innings": 1,
     "runs": 1,
@@ -407522,36 +408272,6 @@
   {
     "batterId": "c5aef772",
     "batterName": "R Shepherd",
-    "bowlerId": "80b2fb19",
-    "bowlerName": "Prince Yadav",
-    "matches": 1,
-    "innings": 1,
-    "runs": 1,
-    "balls": 1,
-    "dismissals": 0,
-    "strikeRate": 100,
-    "fours": 0,
-    "sixes": 0,
-    "dotBalls": 0
-  },
-  {
-    "batterId": "c5aef772",
-    "batterName": "R Shepherd",
-    "bowlerId": "13fc5c6d",
-    "bowlerName": "DS Rathi",
-    "matches": 1,
-    "innings": 1,
-    "runs": 1,
-    "balls": 1,
-    "dismissals": 0,
-    "strikeRate": 100,
-    "fours": 0,
-    "sixes": 0,
-    "dotBalls": 0
-  },
-  {
-    "batterId": "c5aef772",
-    "batterName": "R Shepherd",
     "bowlerId": "2e171977",
     "bowlerName": "Axar Patel",
     "matches": 1,
@@ -407569,6 +408289,21 @@
     "batterName": "R Shepherd",
     "bowlerId": "12314277",
     "bowlerName": "Arshad Khan",
+    "matches": 1,
+    "innings": 1,
+    "runs": 1,
+    "balls": 3,
+    "dismissals": 0,
+    "strikeRate": 33.33,
+    "fours": 0,
+    "sixes": 0,
+    "dotBalls": 2
+  },
+  {
+    "batterId": "c5aef772",
+    "batterName": "R Shepherd",
+    "bowlerId": "8cf9814c",
+    "bowlerName": "Mohammed Shami",
     "matches": 1,
     "innings": 1,
     "runs": 1,
@@ -413578,51 +414313,6 @@
     "fours": 0,
     "sixes": 0,
     "dotBalls": 1
-  },
-  {
-    "batterId": "f89d3b11",
-    "batterName": "Sameer Rizvi",
-    "bowlerId": "765a4731",
-    "bowlerName": "Mukesh Choudhary",
-    "matches": 1,
-    "innings": 1,
-    "runs": 1,
-    "balls": 1,
-    "dismissals": 0,
-    "strikeRate": 100,
-    "fours": 0,
-    "sixes": 0,
-    "dotBalls": 0
-  },
-  {
-    "batterId": "f89d3b11",
-    "batterName": "Sameer Rizvi",
-    "bowlerId": "cc61ee8f",
-    "bowlerName": "Gurjapneet Singh",
-    "matches": 1,
-    "innings": 1,
-    "runs": 1,
-    "balls": 1,
-    "dismissals": 0,
-    "strikeRate": 100,
-    "fours": 0,
-    "sixes": 0,
-    "dotBalls": 0
-  },
-  {
-    "batterId": "f89d3b11",
-    "batterName": "Sameer Rizvi",
-    "bowlerId": "59559bc2",
-    "bowlerName": "J Overton",
-    "matches": 1,
-    "innings": 1,
-    "runs": 1,
-    "balls": 5,
-    "dismissals": 1,
-    "strikeRate": 20,
-    "fours": 0,
-    "sixes": 0,
-    "dotBalls": 4
   },
   {
     "batterId": "ce820073",
@@ -420660,21 +421350,6 @@
     "dotBalls": 0
   },
   {
-    "batterId": "f1f99156",
-    "batterName": "Tim David",
-    "bowlerId": "80b2fb19",
-    "bowlerName": "Prince Yadav",
-    "matches": 1,
-    "innings": 1,
-    "runs": 1,
-    "balls": 2,
-    "dismissals": 0,
-    "strikeRate": 50,
-    "fours": 0,
-    "sixes": 0,
-    "dotBalls": 1
-  },
-  {
     "batterId": "e86754b2",
     "batterName": "TK Curran",
     "bowlerId": "4329fbb5",
@@ -422788,6 +423463,21 @@
     "fours": 0,
     "sixes": 0,
     "dotBalls": 1
+  },
+  {
+    "batterId": "54e52590",
+    "batterName": "Vijaykumar Vyshak",
+    "bowlerId": "7b44eb3e",
+    "bowlerName": "Shivang Kumar",
+    "matches": 1,
+    "innings": 1,
+    "runs": 1,
+    "balls": 1,
+    "dismissals": 0,
+    "strikeRate": 100,
+    "fours": 0,
+    "sixes": 0,
+    "dotBalls": 0
   },
   {
     "batterId": "ba607b88",
@@ -426330,6 +427020,21 @@
     "dotBalls": 1
   },
   {
+    "batterId": "2d140b79",
+    "batterName": "AA Kulkarni",
+    "bowlerId": "b8527c3d",
+    "bowlerName": "Rasikh Salam",
+    "matches": 1,
+    "innings": 1,
+    "runs": 0,
+    "balls": 1,
+    "dismissals": 0,
+    "strikeRate": 0,
+    "fours": 0,
+    "sixes": 0,
+    "dotBalls": 1
+  },
+  {
     "batterId": "b8d490fd",
     "batterName": "Aaron Finch",
     "bowlerId": "56ab442f",
@@ -429769,21 +430474,6 @@
     "batterName": "Axar Patel",
     "bowlerId": "8d92a2c3",
     "bowlerName": "MA Wood",
-    "matches": 1,
-    "innings": 1,
-    "runs": 0,
-    "balls": 1,
-    "dismissals": 1,
-    "strikeRate": 0,
-    "fours": 0,
-    "sixes": 0,
-    "dotBalls": 1
-  },
-  {
-    "batterId": "2e171977",
-    "batterName": "Axar Patel",
-    "bowlerId": "cc61ee8f",
-    "bowlerName": "Gurjapneet Singh",
     "matches": 1,
     "innings": 1,
     "runs": 0,
@@ -438045,21 +438735,6 @@
     "dotBalls": 1
   },
   {
-    "batterId": "800d2d97",
-    "batterName": "Jitesh Sharma",
-    "bowlerId": "80b2fb19",
-    "bowlerName": "Prince Yadav",
-    "matches": 1,
-    "innings": 1,
-    "runs": 0,
-    "balls": 1,
-    "dismissals": 1,
-    "strikeRate": 0,
-    "fours": 0,
-    "sixes": 0,
-    "dotBalls": 1
-  },
-  {
     "batterId": "d1c36f5c",
     "batterName": "JJ Roy",
     "bowlerId": "51a3c5ef",
@@ -441493,6 +442168,21 @@
     "fours": 0,
     "sixes": 0,
     "dotBalls": 3
+  },
+  {
+    "batterId": "81c36ee9",
+    "batterName": "M Jansen",
+    "bowlerId": "7b44eb3e",
+    "bowlerName": "Shivang Kumar",
+    "matches": 1,
+    "innings": 1,
+    "runs": 0,
+    "balls": 1,
+    "dismissals": 1,
+    "strikeRate": 0,
+    "fours": 0,
+    "sixes": 0,
+    "dotBalls": 1
   },
   {
     "batterId": "d84378a4",
@@ -446535,36 +447225,6 @@
     "dotBalls": 2
   },
   {
-    "batterId": "3241e3fd",
-    "batterName": "Nicholas Pooran",
-    "bowlerId": "03806cf8",
-    "bowlerName": "Josh Hazlewood",
-    "matches": 1,
-    "innings": 1,
-    "runs": 0,
-    "balls": 3,
-    "dismissals": 1,
-    "strikeRate": 0,
-    "fours": 0,
-    "sixes": 0,
-    "dotBalls": 3
-  },
-  {
-    "batterId": "aad0c365",
-    "batterName": "Nithish Kumar Reddy",
-    "bowlerId": "244048f6",
-    "bowlerName": "Arshdeep Singh",
-    "matches": 2,
-    "innings": 2,
-    "runs": 0,
-    "balls": 4,
-    "dismissals": 1,
-    "strikeRate": 0,
-    "fours": 0,
-    "sixes": 0,
-    "dotBalls": 4
-  },
-  {
     "batterId": "aad0c365",
     "batterName": "Nithish Kumar Reddy",
     "bowlerId": "7210d461",
@@ -446709,6 +447369,21 @@
     "runs": 0,
     "balls": 1,
     "dismissals": 1,
+    "strikeRate": 0,
+    "fours": 0,
+    "sixes": 0,
+    "dotBalls": 1
+  },
+  {
+    "batterId": "fb2d1dda",
+    "batterName": "Nitish Rana",
+    "bowlerId": "4d7f517e",
+    "bowlerName": "AJ Hosein",
+    "matches": 1,
+    "innings": 1,
+    "runs": 0,
+    "balls": 1,
+    "dismissals": 0,
     "strikeRate": 0,
     "fours": 0,
     "sixes": 0,
@@ -454275,6 +454950,21 @@
     "dotBalls": 2
   },
   {
+    "batterId": "26989d80",
+    "batterName": "Shashank Singh",
+    "bowlerId": "280fff14",
+    "bowlerName": "Sakib Hussain",
+    "matches": 1,
+    "innings": 1,
+    "runs": 0,
+    "balls": 1,
+    "dismissals": 1,
+    "strikeRate": 0,
+    "fours": 0,
+    "sixes": 0,
+    "dotBalls": 1
+  },
+  {
     "batterId": "508a1ea7",
     "batterName": "Shaun Marsh",
     "bowlerId": "7c7d63a2",
@@ -457099,6 +457789,21 @@
     "batterName": "Suryansh Shedge",
     "bowlerId": "a2f46292",
     "bowlerName": "Khaleel Ahmed",
+    "matches": 1,
+    "innings": 1,
+    "runs": 0,
+    "balls": 2,
+    "dismissals": 1,
+    "strikeRate": 0,
+    "fours": 0,
+    "sixes": 0,
+    "dotBalls": 2
+  },
+  {
+    "batterId": "970ddd24",
+    "batterName": "Suryansh Shedge",
+    "bowlerId": "ded9240e",
+    "bowlerName": "Pat Cummins",
     "matches": 1,
     "innings": 1,
     "runs": 0,
