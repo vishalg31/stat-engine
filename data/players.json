@@ -2174,6 +2174,20 @@
     "primaryRole": "bowler"
   },
   {
+    "playerId": "e1b9f3a9",
+    "displayName": "BJ Dwarshuis",
+    "knownNames": [
+      "BJ Dwarshuis"
+    ],
+    "teams": [
+      "PBKS"
+    ],
+    "activeYears": [
+      2026
+    ],
+    "primaryRole": "bowler"
+  },
+  {
     "playerId": "b0c772ee",
     "displayName": "BJ Haddin",
     "knownNames": [
@@ -7120,9 +7134,10 @@
       "DC"
     ],
     "activeYears": [
-      2025
+      2025,
+      2026
     ],
-    "primaryRole": "batter"
+    "primaryRole": "all_rounder"
   },
   {
     "playerId": "00ea847a",
@@ -9441,7 +9456,7 @@
     "activeYears": [
       2026
     ],
-    "primaryRole": "bowler"
+    "primaryRole": "all_rounder"
   },
   {
     "playerId": "0aadc906",
@@ -9910,7 +9925,8 @@
     "activeYears": [
       2022,
       2024,
-      2025
+      2025,
+      2026
     ],
     "primaryRole": "bowler"
   },
@@ -12540,6 +12556,20 @@
     "primaryRole": "batter"
   },
   {
+    "playerId": "11061889",
+    "displayName": "SR Dubey",
+    "knownNames": [
+      "SR Dubey"
+    ],
+    "teams": [
+      "KKR"
+    ],
+    "activeYears": [
+      2026
+    ],
+    "primaryRole": "bowler"
+  },
+  {
     "playerId": "b51f72a5",
     "displayName": "SS Agarwal",
     "knownNames": [
@@ -14069,7 +14099,7 @@
       2025,
       2026
     ],
-    "primaryRole": "bowler"
+    "primaryRole": "all_rounder"
   },
   {
     "playerId": "3a60e0b5",
@@ -14314,7 +14344,8 @@
     "activeYears": [
       2023,
       2024,
-      2025
+      2025,
+      2026
     ],
     "primaryRole": "bowler"
   },
