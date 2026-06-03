@@ -713,13 +713,15 @@
     "teams": [
       "CSK",
       "MI",
-      "RCB"
+      "RCB",
+      "RR"
     ],
     "activeYears": [
       2016,
       2017,
       2021,
-      2022
+      2022,
+      2026
     ],
     "primaryRole": "bowler"
   },
@@ -894,7 +896,8 @@
     "activeYears": [
       2021,
       2023,
-      2025
+      2025,
+      2026
     ],
     "primaryRole": "bowler"
   },
@@ -1424,11 +1427,13 @@
       "Arjun Tendulkar"
     ],
     "teams": [
+      "LSG",
       "MI"
     ],
     "activeYears": [
       2023,
-      2024
+      2024,
+      2026
     ],
     "primaryRole": "all_rounder"
   },
@@ -1827,7 +1832,8 @@
     ],
     "activeYears": [
       2024,
-      2025
+      2025,
+      2026
     ],
     "primaryRole": "bowler"
   },
@@ -2383,7 +2389,7 @@
       2025,
       2026
     ],
-    "primaryRole": "all_rounder"
+    "primaryRole": "bowler"
   },
   {
     "playerId": "fe366f34",
@@ -5717,7 +5723,8 @@
       2018,
       2019,
       2023,
-      2025
+      2025,
+      2026
     ],
     "primaryRole": "bowler"
   },
@@ -7409,13 +7416,15 @@
       "Matheesha Pathirana"
     ],
     "teams": [
-      "CSK"
+      "CSK",
+      "KKR"
     ],
     "activeYears": [
       2022,
       2023,
       2024,
-      2025
+      2025,
+      2026
     ],
     "primaryRole": "bowler"
   },
@@ -9456,7 +9465,7 @@
     "activeYears": [
       2026
     ],
-    "primaryRole": "all_rounder"
+    "primaryRole": "bowler"
   },
   {
     "playerId": "0aadc906",
@@ -10106,7 +10115,7 @@
       2025,
       2026
     ],
-    "primaryRole": "batter"
+    "primaryRole": "all_rounder"
   },
   {
     "playerId": "7c390b03",
@@ -10326,6 +10335,20 @@
       2026
     ],
     "primaryRole": "bowler"
+  },
+  {
+    "playerId": "548516a6",
+    "displayName": "Ravi Singh",
+    "knownNames": [
+      "Ravi Singh"
+    ],
+    "teams": [
+      "RR"
+    ],
+    "activeYears": [
+      2026
+    ],
+    "primaryRole": "batter"
   },
   {
     "playerId": "495d42a5",
@@ -11050,7 +11073,8 @@
     "playerId": "d7423da1",
     "displayName": "S Arora",
     "knownNames": [
-      "S Arora"
+      "S Arora",
+      "Salil Arora"
     ],
     "teams": [
       "SRH"
@@ -11807,12 +11831,14 @@
       "SH Johnson"
     ],
     "teams": [
+      "CSK",
       "GT",
       "KKR"
     ],
     "activeYears": [
       2024,
-      2025
+      2025,
+      2026
     ],
     "primaryRole": "bowler"
   },
@@ -12567,7 +12593,7 @@
     "activeYears": [
       2026
     ],
-    "primaryRole": "bowler"
+    "primaryRole": "all_rounder"
   },
   {
     "playerId": "b51f72a5",
@@ -12596,6 +12622,20 @@
       2020
     ],
     "primaryRole": "bowler"
+  },
+  {
+    "playerId": "92500ad5",
+    "displayName": "SS Mishra",
+    "knownNames": [
+      "SS Mishra"
+    ],
+    "teams": [
+      "RR"
+    ],
+    "activeYears": [
+      2026
+    ],
+    "primaryRole": "all_rounder"
   },
   {
     "playerId": "0af3426f",
@@ -13006,6 +13046,20 @@
     "primaryRole": "batter"
   },
   {
+    "playerId": "f12fe2a1",
+    "displayName": "T Dahiya",
+    "knownNames": [
+      "T Dahiya"
+    ],
+    "teams": [
+      "KKR"
+    ],
+    "activeYears": [
+      2026
+    ],
+    "primaryRole": "batter"
+  },
+  {
     "playerId": "0a4ebc61",
     "displayName": "T Henderson",
     "knownNames": [
@@ -13128,6 +13182,20 @@
     "activeYears": [
       2009,
       2010
+    ],
+    "primaryRole": "bowler"
+  },
+  {
+    "playerId": "51ec3919",
+    "displayName": "T Vijay",
+    "knownNames": [
+      "T Vijay"
+    ],
+    "teams": [
+      "DC"
+    ],
+    "activeYears": [
+      2026
     ],
     "primaryRole": "bowler"
   },
@@ -13880,11 +13948,13 @@
     ],
     "teams": [
       "MI",
+      "PBKS",
       "RCB"
     ],
     "activeYears": [
       2017,
-      2023
+      2023,
+      2026
     ],
     "primaryRole": "batter"
   },
