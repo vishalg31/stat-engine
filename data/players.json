@@ -3016,7 +3016,6 @@
       2017,
       2018,
       2019,
-      2020,
       2021,
       2022,
       2023,
@@ -4266,7 +4265,6 @@
       2013,
       2015,
       2016,
-      2017,
       2019,
       2020
     ],
@@ -4370,6 +4368,20 @@
     "primaryRole": "all_rounder"
   },
   {
+    "playerId": "0bf15e52",
+    "displayName": "Harmeet Singh",
+    "knownNames": [
+      "Harmeet Singh"
+    ],
+    "teams": [
+      "RR"
+    ],
+    "activeYears": [
+      2013
+    ],
+    "primaryRole": "bowler"
+  },
+  {
     "playerId": "2a72fd4f",
     "displayName": "Harmeet Singh",
     "knownNames": [
@@ -4384,20 +4396,6 @@
       2010,
       2011,
       2012,
-      2013
-    ],
-    "primaryRole": "bowler"
-  },
-  {
-    "playerId": "0bf15e52",
-    "displayName": "Harmeet Singh",
-    "knownNames": [
-      "Harmeet Singh"
-    ],
-    "teams": [
-      "RR"
-    ],
-    "activeYears": [
       2013
     ],
     "primaryRole": "bowler"
@@ -4430,12 +4428,10 @@
       "Harpreet Singh"
     ],
     "teams": [
-      "KKR",
       "PBKS",
       "PWI"
     ],
     "activeYears": [
-      2010,
       2011,
       2012,
       2023,
@@ -4596,7 +4592,6 @@
       "LSG"
     ],
     "activeYears": [
-      2025,
       2026
     ],
     "primaryRole": "batter"
@@ -5892,7 +5887,6 @@
       2020,
       2021,
       2022,
-      2023,
       2024
     ],
     "primaryRole": "batter"
@@ -6002,7 +5996,6 @@
     "activeYears": [
       2010,
       2011,
-      2012,
       2013
     ],
     "primaryRole": "batter"
@@ -6051,20 +6044,6 @@
       2020,
       2021,
       2023
-    ],
-    "primaryRole": "batter"
-  },
-  {
-    "playerId": "62e07f92",
-    "displayName": "KH Devdhar",
-    "knownNames": [
-      "KH Devdhar"
-    ],
-    "teams": [
-      "DEC"
-    ],
-    "activeYears": [
-      2011
     ],
     "primaryRole": "batter"
   },
@@ -7012,7 +6991,6 @@
       "PWI"
     ],
     "activeYears": [
-      2008,
       2009,
       2010,
       2011,
@@ -7293,7 +7271,6 @@
       2013,
       2014,
       2015,
-      2016,
       2017,
       2018,
       2019,
@@ -7459,20 +7436,6 @@
       2024
     ],
     "primaryRole": "bowler"
-  },
-  {
-    "playerId": "2b801189",
-    "displayName": "Mayank Rawat",
-    "knownNames": [
-      "Mayank Rawat"
-    ],
-    "teams": [
-      "MI"
-    ],
-    "activeYears": [
-      2026
-    ],
-    "primaryRole": "batter"
   },
   {
     "playerId": "86ae8ef2",
@@ -8980,22 +8943,7 @@
       "RR"
     ],
     "activeYears": [
-      2018,
-      2019
-    ],
-    "primaryRole": "batter"
-  },
-  {
-    "playerId": "eaa90ab4",
-    "displayName": "P Dharmani",
-    "knownNames": [
-      "P Dharmani"
-    ],
-    "teams": [
-      "PBKS"
-    ],
-    "activeYears": [
-      2008
+      2018
     ],
     "primaryRole": "batter"
   },
@@ -10989,20 +10937,6 @@
     "primaryRole": "batter"
   },
   {
-    "playerId": "c9d33ef5",
-    "displayName": "RV Pawar",
-    "knownNames": [
-      "RV Pawar"
-    ],
-    "teams": [
-      "MI"
-    ],
-    "activeYears": [
-      2008
-    ],
-    "primaryRole": "batter"
-  },
-  {
     "playerId": "67af6f81",
     "displayName": "RW Price",
     "knownNames": [
@@ -11314,7 +11248,6 @@
     "activeYears": [
       2008,
       2009,
-      2010,
       2011
     ],
     "primaryRole": "batter"
@@ -11425,15 +11358,13 @@
     ],
     "teams": [
       "RCB",
-      "RR",
-      "SRH"
+      "RR"
     ],
     "activeYears": [
       2013,
       2016,
       2017,
-      2021,
-      2025
+      2021
     ],
     "primaryRole": "batter"
   },
@@ -13104,20 +13035,6 @@
     "primaryRole": "batter"
   },
   {
-    "playerId": "c9cac448",
-    "displayName": "T Mishra",
-    "knownNames": [
-      "T Mishra"
-    ],
-    "teams": [
-      "DEC"
-    ],
-    "activeYears": [
-      2012
-    ],
-    "primaryRole": "batter"
-  },
-  {
     "playerId": "ce794613",
     "displayName": "T Natarajan",
     "knownNames": [
@@ -14349,7 +14266,6 @@
       2010,
       2011,
       2012,
-      2013,
       2014
     ],
     "primaryRole": "all_rounder"
