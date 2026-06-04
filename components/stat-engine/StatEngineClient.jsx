@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { buildBattle } from "@/lib/stat-engine/battleEngine";
 import { filterDataset } from "@/lib/stat-engine/filterEngine";
 import { getFieldsForContext } from "@/lib/stat-engine/fieldRegistry";
@@ -880,6 +880,19 @@ export default function StatEngineClient({
   const [battleMode, setBattleMode] = useState("batterVsBowler");
   const [yearCompareMode, setYearCompareMode] = useState("singlePlayer");
 
+  // Lazy datasets — null means not yet fetched.
+  const [lazyMatchupStats, setLazyMatchupStats] = useState(null);
+  const [isMatchupLoading, setIsMatchupLoading] = useState(false);
+  const [lazyBattingInnings, setLazyBattingInnings] = useState(null);
+  const [isBattingInningsLoading, setIsBattingInningsLoading] = useState(false);
+  const [lazyBowlingInnings, setLazyBowlingInnings] = useState(null);
+  const [isBowlingInningsLoading, setIsBowlingInningsLoading] = useState(false);
+
+  // Refs prevent double-fetching if the triggering state changes rapidly.
+  const matchupFetchedRef = useRef(false);
+  const battingFetchedRef = useRef(false);
+  const bowlingFetchedRef = useRef(false);
+
   useEffect(() => {
     if (players.length > 0) {
       return undefined;
@@ -892,7 +905,7 @@ export default function StatEngineClient({
         setIsLoadingDatasets(true);
         setDataLoadError("");
 
-        const datasetKeys = ["players", "career", "season", "teamSeason", "phase", "matchup", "battingInnings", "bowlingInnings"];
+        const datasetKeys = ["players", "career", "season", "teamSeason", "phase"];
         const responses = await Promise.all(
           datasetKeys.map((key) => fetch(`/stat-engine/api/stat-engine-data/${key}`).then((response) => {
             if (!response.ok) {
@@ -912,10 +925,7 @@ export default function StatEngineClient({
           careerStats: responses[1],
           seasonStats: responses[2],
           teamSeasonStats: responses[3],
-          phaseStats: responses[4],
-          matchupStats: responses[5],
-          battingInningsStats: responses[6],
-          bowlingInningsStats: responses[7]
+          phaseStats: responses[4]
         });
       } catch {
         if (!isMounted) {
@@ -937,14 +947,57 @@ export default function StatEngineClient({
     };
   }, [players.length]);
 
+  // Lazy load matchup_stats when the user enters Battle Mode (Batter vs Bowler).
+  useEffect(() => {
+    if (activeSection !== "battle" || battleMode !== "batterVsBowler") return;
+    if (matchupFetchedRef.current) return;
+    matchupFetchedRef.current = true;
+
+    setIsMatchupLoading(true);
+    fetch("/stat-engine/api/stat-engine-data/matchup")
+      .then((r) => (r.ok ? r.json() : Promise.reject()))
+      .then((data) => setLazyMatchupStats(Array.isArray(data) ? data : []))
+      .catch(() => setLazyMatchupStats([]))
+      .finally(() => setIsMatchupLoading(false));
+  }, [activeSection, battleMode]);
+
+  // Lazy load batting_innings when the user selects Best Batting Innings metric.
+  // Uses guidedQuery.metric (state) not guidedMetricConfig (declared later in function body).
+  useEffect(() => {
+    if (guidedQuery.metric !== "bestBattingFigure") return;
+    if (battingFetchedRef.current) return;
+    battingFetchedRef.current = true;
+
+    setIsBattingInningsLoading(true);
+    fetch("/stat-engine/api/stat-engine-data/battingInnings")
+      .then((r) => (r.ok ? r.json() : Promise.reject()))
+      .then((data) => setLazyBattingInnings(Array.isArray(data) ? data : []))
+      .catch(() => setLazyBattingInnings([]))
+      .finally(() => setIsBattingInningsLoading(false));
+  }, [guidedQuery.metric]);
+
+  // Lazy load bowling_innings when the user selects Best Bowling Innings metric.
+  useEffect(() => {
+    if (guidedQuery.metric !== "bestBowlingFigure") return;
+    if (bowlingFetchedRef.current) return;
+    bowlingFetchedRef.current = true;
+
+    setIsBowlingInningsLoading(true);
+    fetch("/stat-engine/api/stat-engine-data/bowlingInnings")
+      .then((r) => (r.ok ? r.json() : Promise.reject()))
+      .then((data) => setLazyBowlingInnings(Array.isArray(data) ? data : []))
+      .catch(() => setLazyBowlingInnings([]))
+      .finally(() => setIsBowlingInningsLoading(false));
+  }, [guidedQuery.metric]);
+
   const resolvedPlayers = loadedDatasets?.players || players;
   const resolvedCareerStats = loadedDatasets?.careerStats || careerStats;
   const resolvedSeasonStats = loadedDatasets?.seasonStats || seasonStats;
   const resolvedTeamSeasonStats = loadedDatasets?.teamSeasonStats || teamSeasonStats;
   const resolvedPhaseStats = loadedDatasets?.phaseStats || phaseStats;
-  const resolvedMatchupStats = loadedDatasets?.matchupStats || matchupStats;
-  const resolvedBattingInningsStats = loadedDatasets?.battingInningsStats || battingInningsStats;
-  const resolvedBowlingInningsStats = loadedDatasets?.bowlingInningsStats || bowlingInningsStats;
+  const resolvedMatchupStats = lazyMatchupStats ?? matchupStats;
+  const resolvedBattingInningsStats = lazyBattingInnings ?? battingInningsStats;
+  const resolvedBowlingInningsStats = lazyBowlingInnings ?? bowlingInningsStats;
 
   const batters = resolvedPlayers.filter((player) => player.primaryRole !== "bowler");
   const bowlers = resolvedPlayers.filter((player) => player.primaryRole !== "batter");
@@ -1470,28 +1523,43 @@ export default function StatEngineClient({
             </SectionCard>
 
             <SectionCard eyebrow="Results" title={askPreview}>
-              <ResultsGrid
-                context={askContext}
-                records={askResults}
-                preferredSort={askPreferredSort}
-                roleProfileOverride={askRoleProfileOverride}
-              />
+              {(isBattingInningsLoading && guidedQuery.metric === "bestBattingFigure") ||
+               (isBowlingInningsLoading && guidedQuery.metric === "bestBowlingFigure") ? (
+                <div className="flex items-center justify-center py-12 text-sm text-slate-400">
+                  Loading innings data...
+                </div>
+              ) : (
+                <ResultsGrid
+                  context={askContext}
+                  records={askResults}
+                  preferredSort={askPreferredSort}
+                  roleProfileOverride={askRoleProfileOverride}
+                />
+              )}
             </SectionCard>
           </div>
         ) : null}
 
         {activeSection === "battle" ? (
-          <BattlePanel
-            mode={battleMode}
-            onModeChange={handleBattleModeChange}
-            yearCompareMode={yearCompareMode}
-            yearCompareTabs={yearCompareTabs}
-            onYearCompareModeChange={setYearCompareMode}
-            selectorConfig={selectorConfig}
-            battle={battle}
-            battlePresets={battlePresets}
-            onApplyBattlePreset={applyBattlePreset}
-          />
+          isMatchupLoading && battleMode === "batterVsBowler" ? (
+            <SectionCard eyebrow="Battle Mode" title="Loading head-to-head records">
+              <div className="flex items-center justify-center py-12 text-sm text-slate-400">
+                Loading matchup data...
+              </div>
+            </SectionCard>
+          ) : (
+            <BattlePanel
+              mode={battleMode}
+              onModeChange={handleBattleModeChange}
+              yearCompareMode={yearCompareMode}
+              yearCompareTabs={yearCompareTabs}
+              onYearCompareModeChange={setYearCompareMode}
+              selectorConfig={selectorConfig}
+              battle={battle}
+              battlePresets={battlePresets}
+              onApplyBattlePreset={applyBattlePreset}
+            />
+          )
         ) : null}
       </div>
     </main>
